@@ -1,0 +1,11 @@
+---
+.title = "Homepage",
+.date = @date("1990-01-01T00:00:00"),
+.author = "Sample Author",
+.layout = "index.shtml",
+.draft = false,
+--- 
+
+Zig Days are single day, in person events dedicated to collaborative programming and socialization in order to inspire you to make Software You Can Love. [Learn more about this event format.](/about/)
+
+NOTE: this website is still under construction

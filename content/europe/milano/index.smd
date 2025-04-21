@@ -1,0 +1,18 @@
+---
+.title = "Milano",
+.date = @date("2025-05-17T00:00:00"),
+.author = "Sample Author",
+.layout = "location.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}],
+.custom = {
+  "locale": "it-IT",
+  "nation": "Italy",
+  "latitude": "9.182259875747453",
+  "longitude": "45.47144087581948",
+}
+--- 
+

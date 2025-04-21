@@ -1,0 +1,16 @@
+---
+.title = "Become a Zig Day Organizer",
+.date = @date("1990-01-01T00:00:00"),
+.author = "Sample Author",
+.layout = "page.shtml",
+.draft = false,
+--- 
+
+Zig Day is not the only "meetup" with a full day, collaborative, in person format, and you don't need permission from us (or anybody else) to start your own event of this kind.
+
+What makes a full day, collaborative, in person programming event a Zig Day is the focus on two main topics: **applied systems thinking** and **focusing on creating Software You Can Love**, as understood by the Zig community.
+
+If you have been in the Zig community for long enough to appreciate these two cultural values, then ping Loris at `loris@zig.day` to start the process.
+
+
+

@@ -1,0 +1,14 @@
+Site {
+    .title = "Zig Day",
+    .host_url = "https://zig.day",
+    .content_dir_path = "content",
+    .layouts_dir_path = "layouts",
+    .assets_dir_path = "assets",
+    .static_assets = [
+        "Temml.woff2",
+        "leaflet.js.map",
+        "images/marker-icon.png",
+        "images/marker-icon-2x.png",
+        "images/marker-shadow.png",
+    ],
+}

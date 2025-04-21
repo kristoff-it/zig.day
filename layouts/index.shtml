@@ -1,0 +1,57 @@
+<extend template="base.shtml">
+<head id="head">
+  <style>
+    .cities {
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+    }
+
+    #map {
+      height: 300px;
+    }
+  </style>
+  <link rel="stylesheet" href="$site.asset('leaflet.css').link()">
+  <script src="$site.asset('leaflet.js').link()"></script>
+  <noscript>
+    <style>
+      #map {
+        display: none;
+      }
+    </style>
+  </noscript>
+</head>
+<body id="body">
+  <div :html="$page.content()"></div>
+  <div id="map"></div>
+  <div :loop="$site.pages('europe')">
+    <h2 :text="$loop.it.title"></h2>
+    <div class="cities" :loop="$loop.it.subpages()">
+      <a
+        href="$loop.it.link()"
+        data-latitude="$loop.it.custom.get('latitude')"
+        data-longitude="$loop.it.custom.get('longitude')"
+        :text="$loop.it.title"
+      ></a>
+    </div>
+  </div>
+  <footer>
+    No Zig Day near you?
+    <a href="$site.page('organizer').link()">Become a Zig Day Organizer</a>
+  </footer>
+  <script>
+    var map = L.map('map').setView([35, 0], 1);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 10,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }
+        ).addTo(map);
+    
+    const locations = document.querySelectorAll('.cities > a');
+    for (let idx = locations.length - 1; idx >=0; idx -= 1) {
+      const e = locations[idx];
+      let marker = L.marker([e.dataset.longitude, e.dataset.latitude]).addTo(map);
+      marker.bindPopup(e.outerHTML);
+    }
+  </script>
+</body>

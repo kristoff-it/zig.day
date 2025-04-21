@@ -1,0 +1,59 @@
+<extend template="base.shtml">
+<head id="head">
+  <style>
+    .event {
+      border: 2px solid #ddd;
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body id="body">
+  <hgroup>
+    <h2 :text="$page.parentSection().title"></h2>
+    <h1 :text="$page.title"></h1>
+  </hgroup>
+  <img src="$page.asset('banner.png').link()" height=200  style="width:auto;">
+  <h2>About</h2>
+  <div :html="$page.content()" lang="$page.custom.get('locale')"></div>
+  <div>
+    <h2>Upcoming Event</h2>
+    <ctx :if="$page.subpages().len.eq(0)">
+      <i>No events have been scheduled yet.</i>
+    </ctx>
+    <ctx :if="$page.subpages().first?()">
+      <ctx :if="$if.date.lt($build.generated)">
+        <i>No upcoming events.</i>
+      </ctx>
+      <ctx :if="$if.date.lt($build.generated).not()">
+        <div class="event">
+          <span :text="$if.date.format('Monday 2nd of January')"></span><br>
+          <span :text="$if.custom.get('address')"></span><br>
+          <a href="$if.link()">See all details.</a>
+        </div>
+      </ctx>
+    </ctx>
+  </div>
+  <div>
+    <h2>Get Notified</h2>
+    <p>
+      To know when a new event is scheduled you can follow the
+      <a href="$page.alternative('rss').link()">dedicated RSS feed</a>
+      or subscribe for email notifications.
+      <a href="$site.page('email-faq').link()">Email FAQ.</a>
+    </p>
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/ZigDay"
+      method="post"
+      class="embeddable-buttondown-form flex"
+    >
+      <input type="hidden" name="tag" value="$page.link()">
+      <input type="email" name="email" id="bd-email" placeholder="your@email.com" style="padding-left: 5px;"><input type="submit" value="Subscribe">
+    </form>
+  </div>
+  <div>
+    <h2>Past Events</h2>
+    <ul :loop="$page.subpages()">
+      <li><a href="$loop.it.link()" :text="$loop.it.date.format('Jan, 2nd 2006')"></a></li>
+    </ul>
+  </div>
+</body>

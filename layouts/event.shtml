@@ -1,0 +1,52 @@
+<extend template="base.shtml">
+<head id="head">
+  <style>
+    #map {
+      height: 300px;
+    }
+  </style>
+  <link rel="stylesheet" href="$site.asset('leaflet.css').link()">
+  <script src="$site.asset('leaflet.js').link()"></script>
+  <noscript>
+    <style>
+      #map {
+        display: none;
+      }
+    </style>
+  </noscript>
+</head>
+<body id="body">
+  <h3>
+    <a href="$page.parentSection().link()" :text="$page.parentSection().title"></a>
+    >
+    <span :text="$page.date.format('2006/01/02')"></span>
+  </h3>
+  <div
+    id="map"
+    data-longitude="$page.custom.get('longitude')"
+    data-latitude="$page.custom.get('latitude')"
+    data-address="$page.custom.get('address')"
+  ></div>
+  <script>
+    const e = document.getElementById("map");
+    const long = e.dataset.longitude;
+    const lat = e.dataset.latitude;
+    const addr = e.dataset.address;
+    
+    var map = L.map('map').setView([long, lat], 17);
+    L.tileLayer(
+      'https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 20,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    let marker = L.marker([long, lat]).addTo(map);
+    marker.bindPopup(addr);
+  </script>
+  <h2>When</h2>
+  <p :text="$page.date.format('Monday 2nd of January 2006')"></p>
+  <h2>Where</h2>
+  <p :text="$page.custom.get('address')"></p>
+  <h2>About This Event</h2>
+  <div :html="$page.content()"></div>
+</body>

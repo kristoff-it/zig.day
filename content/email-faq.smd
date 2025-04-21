@@ -1,0 +1,29 @@
+---
+.title = "Email FAQs",
+.date = @date("1990-01-01T00:00:00"),
+.author = "Sample Author",
+.layout = "page.shtml",
+.draft = false,
+--- 
+
+## Who am I giving my email address to?
+
+The email notification system is owned by [Loris Cro](https://kristoff.it). We currently use [Buttondown](https://buttondown.com) to manage subscriptions and you will be able to unsubscribe whenever you want.
+
+
+## Will event organizers have access to my email address?
+
+No, event organizers will **not** be given your email address (nor any third party for that matter).
+
+Event organizers will be able to send you emails **exclusively** by posting new event entries on this website and will not be able to obtain any information about you through this website otherwise.
+
+Be aware that Zig Day organizers are allowed to setup their own external communication systems (meetup.com, chat groups, etc), and it's up to you and them to find a suitable compromise (note that event organizers will probably need a way to get RSVP confirmations).
+
+## What emails will I receive?
+
+You will receive three types of emails:
+
+- One email for each new event scheduled for the Zig Day(s) you signed up for.
+- Up to one email per year when a new [Software You Can Love](https://softwareyoucan.love) conference is scheduled.
+- (extremely rarely) Emails about site-wide changes that you need to be notified about, like for example if we were to switch away from Buttondown to something else, in order to give you access to the new unsubscribe link.
+

@@ -1,0 +1,25 @@
+---
+.title = "Event Format Guidelines",
+.date = @date("1990-01-01T00:00:00"),
+.author = "Sample Author",
+.layout = "page.shtml",
+.draft = false,
+--- 
+## Format
+You can learn more about this format in "[Zig Day: A suggestion for better Zig meetups](https://kristoff.it/blog/zig-day/)".
+
+## Guidelines
+1. **The main goal of a Zig Day is to inspire you to make [Software You Can Love](https://softwareyoucan.love)**.
+
+2. **Zig days are for collaboration and socialization**. Avoid working on code you can't collaborate on (e.g. because of its license) and try to have engaging conversations with other people. 
+
+3. **Software You Can Love is high quality software**, and the only way to make high quality software is to apply systems thinking. 
+	- [Making Systems Programming Accessible](https://www.youtube.com/watch?v=Qncdi-Fg0-I) - Andrew Kelley
+	- [A Systems-Minded Approach to Creating a Music Player Application](https://www.youtube.com/watch?v=SCLrNqc9jdE) - Andrew Kelley
+	- [Tiger Style](https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/TIGER_STYLE.md) - TigerBeetle
+    
+4. **Software You Can Love serves the end user**. Zig Days are a great opportunity to learn how to fight against user-hostile software.
+    - [You Should Play Secret Hitler](https://kristoff.it/blog/you-should-play-secret-hitler/) - Loris Cro
+    - [The Only Winning Move](https://www.youtube.com/watch?v=VJdDdqWmQtk) - Loris Cro
+    
+5. Lastly, [learn some Zig](https://ziglang.org/learn/). 
