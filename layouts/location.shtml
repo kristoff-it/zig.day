@@ -37,7 +37,7 @@
     <h2>Get Notified</h2>
     <p>
       To know when a new event is scheduled you can follow the
-      <a href="$page.alternative('rss').link()">dedicated RSS feed</a>
+      <a href="rss.xml">dedicated RSS feed</a>
       or subscribe for email notifications.
       <a href="$site.page('email-faq').link()">Email FAQ.</a>
     </p>
