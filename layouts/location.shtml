@@ -5,6 +5,11 @@
       border: 2px solid #ddd;
       padding: 5px 10px;
     }
+    #banner {
+      height: 250px;
+      width: auto;
+      align-self: flex-start;
+    }
   </style>
 </head>
 <body id="body">
@@ -12,7 +17,7 @@
     <h2 :text="$page.parentSection().title"></h2>
     <h1 :text="$page.title"></h1>
   </hgroup>
-  <img src="$page.asset('banner.png').link()" height=200  style="width:auto;">
+  <img id="banner" src="$page.asset('banner.png').link()">
   <h2>About</h2>
   <div :html="$page.content()" lang="$page.custom.get('locale')"></div>
   <div>
