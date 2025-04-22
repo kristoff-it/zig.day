@@ -27,9 +27,11 @@
     data-latitude="$page.custom.get('latitude')"
     data-address="$page.custom.get('address')"
   ></div>
-  <p>
-    <a href="$page.link().suffix('event.ics')">Add this event to your calendar</a>
-  </p>
+  <ctx :if="$page.parentSection().subpages().first?()">
+    <p :if="$if.link().eql($page.link()).and($page.date.gt($build.generated))">
+      <a href="../upcoming.ics">Add this event to your calendar</a>
+    </p>
+  </ctx>
   <script>
     const e = document.getElementById("map");
     const long = e.dataset.longitude;

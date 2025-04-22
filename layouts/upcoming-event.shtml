@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zig Day//Events Calendar//EN
+METHOD:PUBLISH<ctx :if="$page.subpages().first?()" tz="$page.custom.get('timezone')">
+BEGIN:VEVENT
+UID:<ctx :text="$if.date.format('2006_01_02').suffix('_', $page.parentSection().title, '_', $page.title)"></ctx>@zig.day
+DTSTAMP:<ctx :text="$build.generated.format('20060102T150405Z')"></ctx>
+DTSTART:<ctx :text="$if.date.in($ctx.tz).format('20060102T150405Z')"></ctx>
+DTEND:<ctx :text="$if.date.in($ctx.tz).format('20060102T150405Z')"></ctx>
+SUMMARY:Zig Day <ctx :text="$if.title"></ctx> #<ctx :text="$page.subpages().len.plus(-1)"></ctx>
+DESCRIPTION:https://zig.day/<ctx :text="$if.link()"></ctx>
+LOCATION:<ctx :text="$if.custom.get('address')"></ctx>
+SEQUENCE:<ctx :text="$if.custom.get('version')"></ctx>                      
+LAST-MODIFIED:<ctx :text="$build.generated.format('20060102T150405Z')"></ctx>
+END:VEVENT</ctx>
+END:VCALENDAR

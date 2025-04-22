@@ -35,7 +35,7 @@
           <span :text="$if.custom.get('address')"></span><br>
           <a href="$if.link()">See all details</a>
           -
-          <a href="$if.link().suffix('event.ics')">Add this event to your calendar</a>
+          <a href="upcoming.ics">Add this event to your calendar</a>
         </div>
       </ctx>
     </ctx>
