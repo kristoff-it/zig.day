@@ -1,0 +1,25 @@
+name: Test the website builds
+
+on: pull_request
+
+concurrency:
+  # Cancels pending runs when a PR gets updated.
+  group: ${{ github.head_ref || github.run_id }}-${{ github.actor }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Change if you need git info
+
+      - name: Setup Zine
+        uses: kristoff-it/setup-zine@v1
+        with:
+          version: v0.10.1
+
+      - name: Build
+        run: zine release
+
