@@ -3,10 +3,11 @@
 .date = @date("2025-05-17T09:30:00"),
 .author = "Sample Author",
 .layout = "event.shtml",
-// You **MUST** increase 'version' if you edit the date or the address of
-// this event.
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
 .custom = {
-  "version": 2,
+  "version": 3,
+  "duration": 9,
   "address": "Milano Luiss Hub for makers and students - Via Massimo D'Azeglio, 3", 
   "latitude": "9.18438462674739",
   "longitude": "45.48329239239466",
