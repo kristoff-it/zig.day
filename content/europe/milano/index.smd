@@ -11,6 +11,10 @@
     .name = "calendar",
     .layout = "calendar.shtml",
     .output = "events.ics",
+},{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
 }],
 .custom = {
   "locale": "it-IT",

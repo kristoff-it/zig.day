@@ -9,8 +9,8 @@ URL:https://zig.day/<ctx :text="$ctx.url"></ctx></ctx><ctx :loop="$page.subpages
 BEGIN:VEVENT
 UID:<ctx :text="$loop.it.date.format('2006_01_02').suffix('_', $page.parentSection().title, '_', $page.title)"></ctx>@zig.day
 DTSTAMP:<ctx :text="$build.generated.format('20060102T150405Z')"></ctx>
-DTSTART:<ctx :text="$loop.it.date.in($ctx.tz).format('20060102T150405Z')"></ctx>
-DTEND:<ctx :text="$loop.it.date.in($ctx.tz).format('20060102T150405Z')"></ctx>
+DTSTART:<ctx :text="$loop.it.date.format('20060102T150405')"></ctx>
+DTEND:<ctx :text="$loop.it.date.in($ctx.tz).format('20060102T150405')"></ctx>
 SUMMARY:Zig Day <ctx :text="$loop.it.title"></ctx> #<ctx :text="$loop.len.plus($loop.idx.div(-1))"></ctx>
 DESCRIPTION:https://zig.day/<ctx :text="$loop.it.link()"></ctx>
 LOCATION:<ctx :text="$loop.it.custom.get('address')"></ctx>
