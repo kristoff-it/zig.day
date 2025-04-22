@@ -7,10 +7,15 @@
     .name = "rss",
     .layout = "location.xml",
     .output = "rss.xml",
+}, {
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
 }],
 .custom = {
   "locale": "it-IT",
   "nation": "Italy",
+  "timezone": "Europe/Rome",
   "latitude": "9.182259875747453",
   "longitude": "45.47144087581948",
 }
