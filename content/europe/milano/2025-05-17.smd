@@ -1,13 +1,28 @@
 ---
 .title = "Milano",
-.date = @date("2025-05-17T00:00:00"),
+.date = @date("2025-05-17T09:30:00"),
 .author = "Sample Author",
 .layout = "event.shtml",
 .draft = false,
 .custom = {
-  "address": "Luiss Hub", 
+  "address": "Milano Luiss Hub for makers and students - Via Massimo D'Azeglio, 3", 
   "latitude": "9.18438462674739",
   "longitude": "45.48329239239466",
 }
---- 
-Lorem Ipsum
+---
+
+Thanks to the [codingbunker](https://www.codingbunker.it) community for providing the venue for this event!
+
+### Goals for the day
+
+* Free-form building software collaboratively
+* Learning a fun and intriguing thing about Zig
+* Sharing what was built and learnt with the participants
+
+All the attendees are encouraged to learn Zig if they are new to the language, or mentor newcomers if they are already proficient with the language.
+
+### RSVP
+
+Sign up to the event via [meetup.com](https://www.meetup.com/it-IT/coding-bunker/events/307353022).
+
+
