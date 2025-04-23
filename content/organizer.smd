@@ -6,11 +6,75 @@
 .draft = false,
 --- 
 
-Zig Day is not the only "meetup" with a full day, collaborative, in person format, and you don't need permission from us (or anybody else) to start your own event of this kind.
+Zig Day is not the only "meetup" with a collaborative in-person programming format, and you don't need permission from us (or anybody else) to start your own event of this kind.
 
-What makes a full day, collaborative, in person programming event a Zig Day is the focus on two main topics: **applied systems thinking** and **focusing on creating Software You Can Love**, as understood by the Zig community.
+What makes a collaborative in-person programming event a Zig Day is the focus on two main topics: **applied systems thinking** and **focusing on creating Software You Can Love**, as understood by the Zig community.
 
 If you have been in the Zig community for long enough to appreciate these two cultural values, then ping Loris at `loris@zig.day` to start the process.
 
+
+Here are some quick FAQs about how this works.
+
+
+## Who will own the new Zig Day? Is there any money involved?
+
+The ownership of the event is entirely yours, and of any co-organizer you might have.
+
+No money will exchange hands and if some day you decide to rebrand your event
+to something else, that's entirely up to you.
+
+
+## What are the requirements for branding an event Zig Day?
+For as long as your event brands itself as a Zig Day, you are
+expected to uphold the format guidelines, specifically when it comes to:
+
+1. The event must be primarily about collaborative in-person programming.
+2. The event must put emphasis on systems thinking and software you can love
+   (high quality, non user-hostile software, as a first approximation).
+
+If your event is a normal meetup where people listen to one or two talks and
+then go to a pub, that's not Zig Day. If your event is some kind of venture
+capital pitch building orgy, that's not a Zig Day.
+
+That said, within these limits you will still have a huge amount of flexibility
+to accommodate for your logistical situation and your own personal interests
+and preferences.
+
+For example even though it's cool to spend a full day doing collaborative
+programming, if you can only organize a half-day event, that's still fine.
+
+As another example, if you have a specific topic or theme that you want to weave
+into the event, you are welcome to do so (e.g. focus on gamedev or a 'ladies'
+Zig Day), as long as it's not in conflict with the format guidelines.
+
+## What services will zig.day provide me?
+
+When a Zig Day is listed on zig.day the organizers will be able to independently
+customize their event profile page and create new events.
+
+Your Zig Day will have a dedicated calendar (iCal) and RSS feed that will get
+updated whenever you create a new event. Additionally, users will be able to
+subscribe for email updates and will receive an email for every event.
+
+The event calendar also supports updating events in case of any last-minute
+change (well, not literally last *minute*, calendar applications usually update at
+best every few hours).
+
+In the future zig.day might introduce native support for RSVPing to events.
+
+## Am I allowed to collect attendees info externally from zig.day?
+
+Yes, you are free to create chat groups and whatnot. Note that we will **not**
+share with you email addresses of users who sign up for email updates on zig.day.
+
+You are also free to use any RSVP service you like, although you should be
+mindful of minimizing the number of services you require your attendees to sign
+up for.
+
+## Am I allowed to collect money from attendees?
+
+Yes, you are allowed, as long as the amount you ask is balanced in relation to
+expenses to run the event. It's entirely up to you to setup money collection in
+a way that is in compliance of your fiscal obligations.
 
 

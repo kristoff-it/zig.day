@@ -7,7 +7,7 @@ UID:<ctx :text="$if.date.format('2006_01_02').suffix('_', $page.parentSection().
 DTSTAMP:<ctx :text="$build.generated.format('20060102T150405Z')"></ctx>
 DTSTART:<ctx :text="$if.date.format('20060102T150405')"></ctx>
 DTEND:<ctx :text="$if.date.add($if.custom.get('duration'), 'hour').format('20060102T150405')"></ctx>
-SUMMARY:Zig Day <ctx :text="$if.title"></ctx> #<ctx :text="$page.subpages().len.plus(-1)"></ctx>
+SUMMARY:Zig Day <ctx :text="$if.title"></ctx> #<ctx :text="$page.link().basename()"></ctx>
 DESCRIPTION:https://zig.day/<ctx :text="$if.link()"></ctx>
 LOCATION:<ctx :text="$if.custom.get('address')"></ctx>
 SEQUENCE:<ctx :text="$if.custom.get('version')"></ctx>                      

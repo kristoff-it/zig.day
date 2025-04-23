@@ -8,7 +8,39 @@
     }
 
     #map {
-      height: 300px;
+      width: 100%;
+      aspect-ratio: 3 / 1;
+      view-transition-name: header;
+    }
+
+    h2 {
+      border-bottom: 2px solid;
+      padding: 5px 0;
+    }
+    .cities > a {
+      display:block;
+      background-color: #333;
+      padding: 10px;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+
+    .cities > a:hover {
+      background-color: #444;
+    }
+
+    .cities {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    footer {
+      text-align:right;
+    }
+
+    @view-transition {
+      navigation: auto;
     }
   </style>
   <link rel="stylesheet" href="$site.asset('leaflet.css').link()">

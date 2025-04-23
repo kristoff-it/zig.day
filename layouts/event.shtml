@@ -2,7 +2,110 @@
 <head id="head">
   <style>
     #map {
-      height: 300px;
+      width: 100%;
+      aspect-ratio: 3 / 1;
+      view-transition-name: header;
+    }
+
+    #event {
+      view-transition-name: event;
+      margin-top: 20px;
+      border: 2px solid #ddd;
+      padding: 5px;
+    }
+
+    #event > p {
+      margin: 0 5px;
+    }
+
+    #event-notes, #event-title {
+      background-color: #ddd;
+      color: black;
+      padding-left: 5px;
+    }
+
+    #event-title {
+      margin-top: 0;
+      background-color: #ffff99;
+      padding: 5px;
+      margin-bottom: 5px;
+    }
+
+
+    #event-details {
+      display: grid;
+      grid: 1fr 1fr;
+      margin: 0;
+    }
+
+    #event-details > dt {
+      grid-column: 1;
+      text-align:center;
+      font-size: 2rem;
+      padding: 10px 40px;
+      display: flex;
+      align-items: center;
+    }
+    
+    #event-details > dd {
+      grid-column: 2;
+      margin-left: 0;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+    }
+
+    #event-date, #event-address {
+      border-right: 1px dotted #aaa;
+    }
+ 
+    #event-date {
+      border-bottom: 1px solid white;
+    }
+
+    #event-date-details {
+      border-bottom: 1px solid white;
+      font-size: 1.6rem !important;
+    }
+
+    #event-buttons {
+      display:flex;
+      flex-direction:row;
+      gap: 5px;
+      justify-content:center;
+      margin-top: 5px;
+      text-transform: uppercase;
+      font-family: "Verdana", sans-serif;
+      font-weight: bold;
+    }
+
+    #event-buttons > a {
+      background-color: #555533;
+      padding: 5px 10px;
+      text-decoration: none;
+      text-align:center;
+      flex-grow: 1;
+    }
+    
+    #event-buttons > a:hover {
+      background-color: #888833;
+    }
+
+    #event-notes {
+      padding: 5px 10px;
+      margin-bottom: 0;
+    }
+
+    #notes {
+      border: 2px solid #ccc;
+      margin-top: 0;
+      padding: 5px 10px;
+    }
+
+
+    @view-transition {
+      navigation: auto;
     }
   </style>
   <link rel="stylesheet" href="$site.asset('leaflet.css').link()">
@@ -16,22 +119,21 @@
   </noscript>
 </head>
 <body id="body">
-  <h3>
-    <a href="$page.parentSection().link()" :text="$page.parentSection().title"></a>
-    >
-    <span :text="$page.date.format('2006/01/02')"></span>
-  </h3>
+  <hgroup>
+    <h3>
+      <a href="/" :text="$page.parentSection().parentSection().title"></a>
+      <span style="font-weight: 100;">></span>
+      <a href="$page.parentSection().link()" :text="$page.parentSection().title"></a>
+      <span style="font-weight: 100;">></span>
+      <span :text="$page.link().basename().prefix('#')"></span>
+    </h3>
+  </hgroup>
   <div
     id="map"
     data-longitude="$page.custom.get('longitude')"
     data-latitude="$page.custom.get('latitude')"
     data-address="$page.custom.get('address')"
   ></div>
-  <ctx :if="$page.parentSection().subpages().first?()">
-    <p :if="$if.link().eql($page.link()).and($page.date.gt($build.generated))">
-      <a href="../upcoming.ics">Add this event to your calendar</a>
-    </p>
-  </ctx>
   <script>
     const e = document.getElementById("map");
     const long = e.dataset.longitude;
@@ -48,10 +150,20 @@
     let marker = L.marker([long, lat]).addTo(map);
     marker.bindPopup(addr);
   </script>
-  <h2>When</h2>
-  <p :text="$page.date.format('Monday 2nd of January 2006')"></p>
-  <h2>Where</h2>
-  <p :text="$page.custom.get('address')"></p>
-  <h2>About This Event</h2>
-  <div :html="$page.content()"></div>
+  <div id="event">
+    <h3 id="event-title" :text="$page.link().basename().prefix('Zig Day ', $page.parentSection().title, ' #')"></h3>
+    <dl id="event-details">
+      <dt id="event-date">🕓</dt>
+      <dd id="event-date-details" :text="$page.date.format('Jan 2 (Monday)')"></dd>
+      <dt id="event-address">📍</dt>
+      <dd :text="$page.custom.get('address')"></dd>
+    </dl>
+    <ctx :if="$page.parentSection().subpages().first?()">
+      <div id="event-buttons" :if="$if.link().eql($page.link()).and($page.date.gt($build.generated))">
+        <a href="../upcoming.ics" download="$page.link().basename().suffix('.ics').prefix('Zig Day ', $page.parentSection().title, ' #')">Add this event to your calendar</a>
+      </div>
+    </ctx>
+  </div>
+  <h2 id="event-notes">Event Notes</h2>
+  <div id="notes" :html="$page.content()"></div>
 </body>

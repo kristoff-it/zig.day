@@ -24,6 +24,8 @@ html {
   flex-direction: row;
   justify-content: center;
   background-color: #111;
+  scrollbar-gutter: stable;
+  scrollbar-color: #CCCC49 #222;
 }
 
 body {

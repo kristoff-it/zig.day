@@ -6,20 +6,10 @@
     <title :text="$site.title"></title>
     <link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">
     <link type="text/css" rel="stylesheet" href="$site.asset('highlight.css').link()">
-    <!-- mathtex -->
-    <link type="text/css" rel="stylesheet" href="$site.asset('Temml-Local.css').link()">
-    <script defer src="$site.asset('temml.min.js').link()"></script>
-    <script defer src="$site.asset('render-mathtex.js').link()"></script>
-    <!-- /mathtex -->
     <super>
   </head>
   <body id="body">
     <h1 class="site-title" :text="$site.title"></h1>
-    <nav>
-      <a href="$site.page('').link()">Home</a>
-       &nbsp; • &nbsp;
-      <a href="$site.page('about').link()">Event Format Guidelines</a>
-    </nav>
     <super>
   </body>
 </html>

@@ -1,25 +1,124 @@
 <extend template="base.shtml">
 <head id="head">
   <style>
-    .event {
+    #event {
+      view-transition-name: event;
       border: 2px solid #ddd;
-      padding: 5px 10px;
+      padding: 5px;
     }
+
+    #event > p {
+      margin: 0 5px;
+    }
+    
     #banner {
-      height: 250px;
-      width: auto;
-      align-self: flex-start;
+      view-transition-name: header;
+      object-position: 50% 50%;
+      object-fit: cover;
+      aspect-ratio: 3 / 1;
+      width: 100%;
+    }
+
+    #event-details {
+      display: grid;
+      grid: 1fr 1fr;
+      margin: 0;
+    }
+
+    #event-details > dt {
+      grid-column: 1;
+      text-align:center;
+      font-size: 2rem;
+      padding: 10px 40px;
+      display: flex;
+      align-items: center;
+    }
+    
+    #event-details > dd {
+      grid-column: 2;
+      margin-left: 0;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+    }
+ 
+    #event-date, #event-address {
+      border-right: 1px dotted #aaa;
+    }
+ 
+    #event-date {
+      border-bottom: 1px solid white;
+    }
+
+    #event-date-details {
+      border-bottom: 1px solid white;
+      font-size: 1.6rem !important;
+    }
+
+
+    #notifs, #about {
+      background-color: #333;
+      margin: 20px 0;
+      padding: 10px;
+    }
+
+    #notifs h2, #title, #event-title {
+      margin-top: 0;
+      background-color: #ddd;
+      color: black;
+      padding-left: 5px;
+    }
+
+    #event-title {
+      background-color: #ffff99;
+      padding: 5px;
+      margin-bottom: 5px;
+    }
+
+    #event-buttons {
+      display:flex;
+      flex-direction:row;
+      gap: 5px;
+      justify-content:center;
+      margin-top: 5px;
+      text-transform: uppercase;
+      font-family: "Verdana", sans-serif;
+      font-weight: bold;
+    }
+
+    #event-buttons > a {
+      background-color: #555533;
+      padding: 5px 10px;
+      text-decoration: none;
+      text-align:center;
+      flex-grow: 1;
+    }
+    
+    #event-buttons > a:hover {
+      background-color: #888833;
+    }
+    
+    form {
+      display:flex;
+      justify-content:center;
+      zoom:1.5;
+    }
+
+    @view-transition {
+      navigation: auto;
     }
   </style>
 </head>
 <body id="body">
   <hgroup>
-    <h2 :text="$page.parentSection().title"></h2>
-    <h1 :text="$page.title"></h1>
+    <h3>
+      <a href="/" :text="$page.parentSection().title"></a>
+      <span style="font-weight: 100;">></span>
+      <span :text="$page.title"></span>
+    </h3>
   </hgroup>
   <img id="banner" src="$page.asset('banner.png').link()">
-  <h2>About</h2>
-  <div :html="$page.content()" lang="$page.custom.get('locale')"></div>
   <div>
     <h2>Upcoming Event</h2>
     <ctx :if="$page.subpages().len.eq(0)">
@@ -30,17 +129,22 @@
         <i>No upcoming events.</i>
       </ctx>
       <ctx :if="$if.date.lt($build.generated).not()">
-        <div class="event">
-          <span :text="$if.date.format('Monday 2nd of January')"></span><br>
-          <span :text="$if.custom.get('address')"></span><br>
-          <a href="$if.link()">See all details</a>
-          -
-          <a href="upcoming.ics">Add this event to your calendar</a>
+        <div id="event">
+          <h3 id="event-title" :text="$if.link().basename().prefix('Zig Day ', $page.title, ' #')"></h3>
+          <dl id="event-details">
+            <dt id="event-date">🕓</dt>
+            <dd id="event-date-details" :text="$if.date.format('Jan 2 (Monday)')"></dd>
+            <dt id="event-address">📍</dt>
+            <dd :text="$if.custom.get('address')"></dd>
+          </dl>
+          <div id="event-buttons">
+            <a href="$if.link()">See More Details</a>
+          </div>
         </div>
       </ctx>
     </ctx>
   </div>
-  <div>
+  <div id="notifs">
     <h2>Get Notified</h2>
     <p>
       To know when a new event is scheduled you can follow the
@@ -51,7 +155,6 @@
     <form
       action="https://buttondown.email/api/emails/embed-subscribe/ZigDay"
       method="post"
-      class="embeddable-buttondown-form flex"
     >
       <input type="hidden" name="tag" value="$page.link()">
       <input type="email" name="email" id="bd-email" placeholder="your@email.com" style="padding-left: 5px;"><input type="submit" value="Subscribe">
@@ -59,10 +162,14 @@
     <p>You can also
       <a href="$page.link().suffix('events.ics').prefix('webcal://zig.day/')">subscribe to the event calendar</a>, which will be updated automatically whenever a new event is scheduled.</p>
   </div>
+  <div id="about">
+    <h2 id="title">About</h2>
+    <div id="content" :html="$page.content()" lang="$page.custom.get('locale')"></div>
+  </div>
   <div>
     <h2>Past Events</h2>
     <ul :loop="$page.subpages()">
-      <li><a href="$loop.it.link()" :text="$loop.it.date.format('Jan, 2nd 2006')"></a></li>
+      <li><a href="$loop.it.link()" :text="$loop.it.date.format('2006-01-02')"></a></li>
     </ul>
   </div>
 </body>

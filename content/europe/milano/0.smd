@@ -6,8 +6,8 @@
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
-  "version": 3,
-  "duration": 9,
+  "version": 4,
+  "duration": 7,
   "address": "Milano Luiss Hub for makers and students - Via Massimo D'Azeglio, 3", 
   "latitude": "9.18438462674739",
   "longitude": "45.48329239239466",
