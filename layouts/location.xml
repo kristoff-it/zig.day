@@ -1,14 +1,14 @@
 <rss version="2.0">
   <channel>
-    <title :text="$page.parentSection().title.suffix('/', $page.title).prefix('Zig Day - ')"></title>
-    <details>Event feed for a local Zig Day</details>
+    <title :text="$page.title.prefix('Zig Day ')"></title>
+    <details>Upcoming events</details>
     <link :text="$site.host_url"></link>
     <generator>Zine -- https://zine-ssg.io</generator>
     <language :text="$page.custom.get('locale')"></language>
     <lastBuildDate :text="$build.generated.formatHTTP()"></lastBuildDate>
     <ctx :loop="$page.subpages()">
       <item>
-        <title><ctx :text="$loop.it.date.format('Jan 2')"></ctx> - <ctx :text="$loop.it.title"></ctx></title>
+        <title :text="$page.title.prefix('Zig Day ').suffix(' #', $loop.it.link().basename())"></title>
         <description :text="$loop.it.content()"></description>
         <link :text="$site.host_url.addPath($loop.it.link())"></link>
         <pubDate :text="$loop.it.date.formatHTTP()"></pubDate>

@@ -17,7 +17,7 @@
     .output = "upcoming.ics",
 }],
 .custom = {
-  "locale": "it-IT",
+  "locale": "en-US",
   "nation": "Italy",
   "timezone": "Europe/Rome",
   "latitude": "9.182259875747453",
