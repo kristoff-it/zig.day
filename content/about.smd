@@ -6,7 +6,10 @@
 .draft = false,
 --- 
 ## Format
+Zig Days are full-day, collaborative programming events.
+
 You can learn more about this format in "[Zig Day: A suggestion for better Zig meetups](https://kristoff.it/blog/zig-day/)".
+
 
 ## Guidelines
 1. **The main goal of a Zig Day is to inspire you to make [Software You Can Love](https://softwareyoucan.love)**.

@@ -32,6 +32,8 @@ expected to uphold the format guidelines, specifically when it comes to:
 2. The event must put emphasis on systems thinking and software you can love
    (high quality, non user-hostile software, as a first approximation).
 
+See [Event Format Guidelines](/about/).
+
 If your event is a normal meetup where people listen to one or two talks and
 then go to a pub, that's not Zig Day. If your event is some kind of venture
 capital pitch building orgy, that's not a Zig Day.
