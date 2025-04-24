@@ -173,7 +173,7 @@
       action="https://buttondown.email/api/emails/embed-subscribe/ZigDay"
       method="post"
     >
-      <input type="hidden" name="tag" value="$page.link()">
+      <input type="hidden" name="$page.link().prefix('metadata__')" value="True">
       <input type="email" name="email" id="bd-email" placeholder="your@email.com" style="padding-left: 5px;"><input type="submit" value="Subscribe">
     </form>
     <p>You can also
