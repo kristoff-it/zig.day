@@ -24,3 +24,42 @@
   "longitude": "45.5151347554047",
 }
 ---
+
+There are so many Zig users in Portland already, including the damn creator of
+the language, why are we not meeting up?!
+
+Let's start by having a Zig Day, following in the footsteps of [Zig Day
+Milano](/europe/milano/).
+
+The primary goal of Zig Day Portland is to make friends, collaborate with each
+other, and hone our software (and hardware!) engineering skills. Generally, that
+means working in pairs or groups to write some code and share it at the end of
+the day.
+
+Learning is the key: feel free to experiment on your own, asking around when in
+doubt; or sit down with someone else and contribute to an existing Zig project.
+
+There are no constraints for what to do during the Zig Day. If you're looking
+for inspiration, try to come up with ideas to strengthen our local community.
+Volunteer organizations and nonprofits often can use all the help they can get,
+including in our field of software.
+
+### What to expect
+
+Yours truly, [Andrew Kelley](https://andrewkelley.me/), with help from
+[independent game developer](https://gamesbymason.com/) and ZSF treasurer Mason
+Remaley, will organize and kick off the first Zig Day.
+
+We're thinking some time in July. After that we will be hoping to see if
+someone from the community would be interested in running these events,
+perhaps with a monthly cadence.
+
+We don't have a venue or any other details yet, but, a typical Zig Day in Portland
+would run as follows (times are approximate):
+
+- 09:30 - 10:00: gathering and chit-chat
+- 10:00 - 10:30: explain projects, form groups, setup workstations
+- 10:30 - 12:30: work on stuff together
+- 12:30 - 02:00: lunch break
+- 02:00 - 04:00: work on stuff together (continued)
+- 04:00 - 05:00: show others what you built and what you learnt
