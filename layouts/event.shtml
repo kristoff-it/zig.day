@@ -1,5 +1,13 @@
 <extend template="base.shtml">
 <head id="head">
+  <meta name="description" content="Zig Days are single-day collaborative programming events">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:description" content="Zig Days are single-day collaborative programming events">
+  <meta name="twitter:title" content="$page.link().basename().prefix('Zig Day ', $page.parentSection().title, ' #')">
+  <meta name="twitter:image" content="$site.host_url.addPath($page.parentSection().asset('banner.png').link())">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="$page.link().basename().prefix('Zig Day ', $page.parentSection().title, ' #')">
+  <meta property="og:image" content="$site.host_url.addPath($page.parentSection().asset('banner.png').link())">
   <style>
     #map {
       width: 100%;
