@@ -56,7 +56,7 @@
 <body id="body">
   <div :html="$page.content()"></div>
   <div id="map"></div>
-  <div :loop="$site.pages('usa', 'europe')">
+  <div :loop="$site.pages('canada', 'usa', 'europe')">
     <h2 :text="$loop.it.title"></h2>
     <div class="cities" :loop="$loop.it.subpages()">
       <a
