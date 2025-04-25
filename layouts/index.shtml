@@ -58,7 +58,7 @@
   <div id="map"></div>
   <div :loop="$site.pages('canada', 'usa', 'europe')">
     <h2 :text="$loop.it.title"></h2>
-    <div class="cities" :loop="$loop.it.subpages()">
+    <div class="cities" :loop="$loop.it.subpagesAlphabetic()">
       <a
         href="$loop.it.link()"
         data-latitude="$loop.it.custom.get('latitude')"

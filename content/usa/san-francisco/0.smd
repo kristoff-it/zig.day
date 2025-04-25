@@ -1,0 +1,18 @@
+---
+.title = "Portland (OR)",
+.date = @date("2025-05-17T09:30:00"),
+.author = "Sample Author",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 0,
+  "duration": 7,
+  "address": "", 
+  "latitude": "9.18438462674739",
+  "longitude": "45.48329239239466",
+},
+.draft = true,
+---
+
+Description goes here (how to RSVP, etc).

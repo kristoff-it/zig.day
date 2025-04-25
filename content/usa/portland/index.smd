@@ -1,5 +1,5 @@
 ---
-.title = "Portland (OR)",
+.title = "Portland, OR",
 .date = @date("2025-05-17T00:00:00"),
 .author = "Sample Author",
 .layout = "location.shtml",

@@ -1,0 +1,28 @@
+---
+.title = "San Francisco, CA",
+.date = @date("2025-05-17T00:00:00"),
+.author = "Sample Author",
+.layout = "location.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}, {
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
+},{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
+}],
+.custom = {
+  "locale": "en-US",
+  "nation": "USA",
+  "timezone": "America/Los_Angeles",
+  "latitude": "-122.41923979515059",
+  "longitude": "37.77928825889807",
+}
+---
+
+TODO
