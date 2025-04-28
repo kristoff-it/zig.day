@@ -78,11 +78,17 @@
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }
         ).addTo(map);
+
+        var ZeroIcon = L.icon({
+        iconUrl:
+          "images/zero.svg",
+        iconSize: [46, 46],
+      });
     
     const locations = document.querySelectorAll('.cities > a');
     for (let idx = locations.length - 1; idx >=0; idx -= 1) {
       const e = locations[idx];
-      let marker = L.marker([e.dataset.longitude, e.dataset.latitude]).addTo(map);
+      let marker = L.marker([e.dataset.longitude, e.dataset.latitude] ,{ icon: ZeroIcon }).addTo(map);
       marker.bindPopup(e.outerHTML);
     }
   </script>
