@@ -167,16 +167,16 @@
     <dl id="event-details">
       <dt id="event-date">🗓️</dt>
       <dd id="event-date-details">
-        <span :text="$page.date.format('Jan 2 (Monday)')">
+        <span :text="$page.custom.get('start').parseDate().format('Jan 2 (Monday)')">
         </span>
-        <span :text="$page.date.format('15:04 - ').suffix($page.date.add($page.custom.get('duration'), 'hour').format('15:04'))">
+        <span :text="$page.custom.get('start').parseDate().format('15:04 - ').suffix($page.custom.get('start').parseDate().add($page.custom.get('duration'), 'hour').format('15:04'))">
         </span>
       </dd>
       <dt id="event-address">📍</dt>
       <dd :text="$page.custom.get('address')"></dd>
     </dl>
     <ctx :if="$page.parentSection().subpages().first?()">
-      <div id="event-buttons" :if="$if.link().eql($page.link()).and($page.date.gt($build.generated))">
+      <div id="event-buttons" :if="$if.link().eql($page.link()).and($page.custom.get('start').parseDate().gt($build.generated))">
         <a href="../upcoming.ics" download="$page.link().basename().suffix('.ics').prefix('Zig Day ', $page.parentSection().title, ' #')">Add this event to your calendar</a>
       </div>
     </ctx>

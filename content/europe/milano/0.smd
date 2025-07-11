@@ -1,5 +1,6 @@
 ---
 .title = "Milano",
+// Announcement date
 .date = @date("2025-05-17T09:30:00"),
 .author = "Sample Author",
 .layout = "event.shtml",
@@ -7,6 +8,7 @@
 // address of this event.
 .custom = {
   "version": 4,
+  "start": "2025-05-17T09:30:00",
   "duration": 7,
   "address": "Milano Luiss Hub for makers and students - Via Massimo D'Azeglio, 3", 
   "latitude": "9.18438462674739",

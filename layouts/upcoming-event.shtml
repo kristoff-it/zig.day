@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//Zig Day//Events Calendar//EN
 METHOD:PUBLISH<ctx :if="$page.subpages().first?()" tz="$page.custom.get('timezone')">
 BEGIN:VEVENT
-UID:<ctx :text="$if.date.format('2006_01_02').suffix('_', $page.parentSection().title, '_', $page.title)"></ctx>@zig.day
+UID:<ctx :text="$if.custom.get('start').parseDate().format('2006_01_02').suffix('_', $page.parentSection().title, '_', $page.title)"></ctx>@zig.day
 DTSTAMP:<ctx :text="$build.generated.format('20060102T150405Z')"></ctx>
-DTSTART:<ctx :text="$if.date.format('20060102T150405')"></ctx>
-DTEND:<ctx :text="$if.date.add($if.custom.get('duration'), 'hour').format('20060102T150405')"></ctx>
+DTSTART:<ctx :text="$if.custom.get('start').parseDate().format('20060102T150405')"></ctx>
+DTEND:<ctx :text="$if.custom.get('start').parseDate().add($if.custom.get('duration'), 'hour').format('20060102T150405')"></ctx>
 SUMMARY:Zig Day <ctx :text="$if.title"></ctx> #<ctx :text="$page.link().basename()"></ctx>
 DESCRIPTION:https://zig.day/<ctx :text="$if.link()"></ctx>
 LOCATION:<ctx :text="$if.custom.get('address')"></ctx>

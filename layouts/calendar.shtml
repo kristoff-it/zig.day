@@ -7,10 +7,10 @@ X-PUBLISHED-TTL:P1D
 <ctx url="$page.link().suffix('events.ics')">SOURCE;VALUE=URI:https://zig.day/<ctx :text="$ctx.url"></ctx>
 URL:https://zig.day/<ctx :text="$ctx.url"></ctx></ctx><ctx :loop="$page.subpages()" tz="$page.custom.get('timezone')">
 BEGIN:VEVENT
-UID:<ctx :text="$loop.it.date.format('2006_01_02').suffix('_', $page.parentSection().title, '_', $page.title)"></ctx>@zig.day
+UID:<ctx :text="$loop.it.custom.get('start').parseDate().format('2006_01_02').suffix('_', $page.parentSection().title, '_', $page.title)"></ctx>@zig.day
 DTSTAMP:<ctx :text="$build.generated.format('20060102T150405Z')"></ctx>
-DTSTART:<ctx :text="$loop.it.date.format('20060102T150405')"></ctx>
-DTEND:<ctx :text="$loop.it.date.add($loop.it.custom.get('duration'), 'hour').format('20060102T150405')"></ctx>
+DTSTART:<ctx :text="$loop.it.custom.get('start').parseDate().format('20060102T150405')"></ctx>
+DTEND:<ctx :text="$loop.it.custom.get('start').parseDate().add($loop.it.custom.get('duration'), 'hour').format('20060102T150405')"></ctx>
 SUMMARY:Zig Day <ctx :text="$loop.it.title"></ctx> #<ctx :text="$loop.len.plus($loop.idx.div(-1))"></ctx>
 DESCRIPTION:https://zig.day/<ctx :text="$loop.it.link()"></ctx>
 LOCATION:<ctx :text="$loop.it.custom.get('address')"></ctx>

@@ -10,7 +10,7 @@
       <item>
         <title :text="$page.title.prefix('Zig Day ').suffix(' #', $loop.it.link().basename())"></title>
         <description>
-          <ctx :text="$site.asset('rss_header.html').bytes().fmt($page.title, $loop.it.link().basename(), $loop.it.date.format('Jan 2 (Monday)'), $loop.it.date.format('15:04 - ').suffix($loop.it.date.add($loop.it.custom.get('duration'), 'hour').format('15:04')), $loop.it.custom.get('address'))"></ctx>
+          <ctx :text="$site.asset('rss_header.html').bytes().fmt($page.title, $loop.it.link().basename(), $loop.it.custom.get('start').parseDate().format('Jan 2 (Monday)'), $loop.it.custom.get('start').parseDate().format('15:04 - ').suffix($loop.it.custom.get('start').parseDate().add($loop.it.custom.get('duration'), 'hour').format('15:04')), $loop.it.custom.get('address'))"></ctx>
           <ctx :text="$loop.it.content()"></ctx>
         </description>
         <link :text="$site.host_url.addPath($loop.it.link())"></link>
