@@ -18,5 +18,14 @@
         <guid :text="$site.host_url.addPath($loop.it.link())"></guid>
       </item>
     </ctx>
+      <item>
+        <title :text="$page.title.prefix('Zig Day ')"></title>
+        <description>
+          A new Zig Day is born!
+        </description>
+        <link :text="$site.host_url.addPath($page.link())"></link>
+        <pubDate :text="$page.date.formatHTTP()"></pubDate>
+        <guid :text="$site.host_url.addPath($page.link())"></guid>
+      </item>
   </channel>
 </rss>
