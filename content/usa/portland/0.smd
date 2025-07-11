@@ -14,7 +14,7 @@
   "latitude": "-122.68321567382061",
   "longitude": "45.51926598384529",
 },
-.draft = true,
+.draft = false,
 ---
 
 Hello everyone, I'm pleased to announce our first Zig Day, less than one month
