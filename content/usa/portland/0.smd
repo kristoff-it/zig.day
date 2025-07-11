@@ -1,18 +1,38 @@
 ---
 .title = "Portland (OR)",
-.date = @date("2025-05-17T09:30:00"),
-.author = "Sample Author",
+// Date and starting time of the event
+.date = @date("2025-08-02T10:00:00"),
+.author = "Andrew Kelley",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
-  "version": 0,
+  "version": 1,
   "duration": 7,
-  "address": "", 
-  "latitude": "9.18438462674739",
-  "longitude": "45.48329239239466",
+  "address": "801 SW 10th Ave, Portland, OR 97205", 
+  "latitude": "-122.68321567382061",
+  "longitude": "45.51926598384529",
 },
-.draft = true,
+.draft = false,
 ---
 
-Description goes here (how to RSVP, etc).
+Hello everyone, I'm pleased to announce our first Zig Day, less than one month
+away. We have 40 subscribers on the mailing list and we have booked a beautiful
+room in the Multinomah County Library (Central).
+
+What to bring:
+* A laptop and/or other hardware
+* An idea for something to work on that is open to collaboration from others,
+  or something you want to learn together.
+
+What to expect:
+* 10:00 - 10:30: gathering and chit-chat
+* 10:30 - 11:00: explain projects, form groups, setup workstations
+* 11:00 - 01:00: work on stuff together
+* 01:00 - 02:30: lunch break
+* 02:30 - 04:30: work on stuff together (continued)
+* 04:30 - 05:00: show others what you built and what you learnt
+
+In lieu of RSVPing, please make sure you are subscribed; we'll use the mailing
+list count as a rough estimate of attendees.
+
