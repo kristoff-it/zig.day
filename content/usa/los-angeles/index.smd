@@ -1,0 +1,28 @@
+---
+.title = "Los Angeles, CA",
+.date = @date("2025-07-21T00:00:00"),
+.author = "Sample Author",
+.layout = "location.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}, {
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
+},{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
+}],
+.custom = {
+  "locale": "en-US",
+  "nation": "USA",
+  "timezone": "America/Los_Angeles",
+  "longitude": "34.05386468556521",
+  "latitude": "-118.24145167526594",
+}
+---
+
+Organizer: Jeff Anderson (https://jeffa.me)

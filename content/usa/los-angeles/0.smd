@@ -1,0 +1,39 @@
+---
+.title = "",
+// Announcement date (NOT the event start date)
+.date = @date("2025-07-21T09:30:00"),
+.author = "Sample Author",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 0,
+  "start": "2025-07-26T10:00:00",
+  "duration": 7,
+  "address": "Malaga Cove Library, Tower Room 2400 Via Campesina, Palos Verdes Estates", 
+  "longitude": "33.798821804315516",
+  "latitude": "-118.3891979679423",
+},
+.draft = false,
+---
+
+
+## About:
+
+Make friends, collaborate, and learn. Join us for the first Zig day in LA.
+
+## What to expect:
+
+This is a low-stakes, warm-up zig day. The venue is fairly small with only a single large wooden table in it for 8 people. If there is a lot of interest (holler at me!), I can change the reservation to a larger room at the library (to accommodate 35 people), or switch libraries. We hope to have a monthly zig day LA.Water will be provided and maybe some donuts.
+
+## Schedule:
+
+- 10:00 AM - 10:30AM - room / workstation setup / chat
+- 10:30 AM - 11:00 AM - discuss projects, form groups, begin zig
+- 1:00 PM - 2:00 PM - go to local restaurant for bite to eat (there are a few within walking distance)
+- 2:00 PM - 4:15 PM - continue zig
+- 4:15 PM - 4:45 PM - discuss what you learned, show off
+- 4:45 PM - 5::00 PM - clean up
+
+## RSVP
+To RSVP vote on this Ziggit poll: https://ziggit.dev/t/zig-day-la-0/11023
