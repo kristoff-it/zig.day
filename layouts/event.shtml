@@ -119,6 +119,10 @@
     @view-transition {
       navigation: auto;
     }
+
+    img {
+      max-width: 100%;
+    }
   </style>
   <link rel="stylesheet" href="$site.asset('leaflet.css').link()">
   <script src="$site.asset('leaflet.js').link()"></script>
