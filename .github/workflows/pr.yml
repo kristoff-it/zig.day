@@ -36,3 +36,5 @@ jobs:
         uses: kristoff-it/codeowners-automerge@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          merge_method: 'squash'
