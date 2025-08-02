@@ -20,20 +20,80 @@
 
 ## About:
 
-Make friends, collaborate, and learn. Join us for the first Zig day in LA.
+Make friends, collaborate, and learn. Join us for the first Zig Day in LA.
 
 ## What to expect:
 
-This is a low-stakes, warm-up zig day. The venue is fairly small with only a single large wooden table in it for 8 people. If there is a lot of interest (holler at me!), I can change the reservation to a larger room at the library (to accommodate 35 people), or switch libraries. We hope to have a monthly zig day LA.Water will be provided and maybe some donuts.
+This is a low-stakes, warm-up zig day.
+The venue is fairly small with only a single large wooden table in it for 8 people.
+If there is a lot of interest (holler at me!),
+I can change the reservation to a larger room at the library (to accommodate 35 people),
+or switch libraries.
+We hope to have a monthly zig day LA. Water will be provided and maybe some donuts.
 
 ## Schedule:
 
 - 10:00 AM - 10:30AM - room / workstation setup / chat
 - 10:30 AM - 11:00 AM - discuss projects, form groups, begin zig
-- 1:00 PM - 2:00 PM - go to local restaurant for bite to eat (there are a few within walking distance)
+- 1:00 PM - 2:00 PM - go to local restaurant for bite to eat
 - 2:00 PM - 4:15 PM - continue zig
 - 4:15 PM - 4:45 PM - discuss what you learned, show off
 - 4:45 PM - 5::00 PM - clean up
 
 ## RSVP
+
 To RSVP vote on this Ziggit poll: https://ziggit.dev/t/zig-day-la-0/11023
+
+## Defer Report
+
+### Attendees
+
+- Jeff Anderson
+- Charlie Schoettle
+- Logan Langdon
+
+### Spotlights
+
+⚡ Charlie Schoettle
+
+Charlie made progress on a Zig library for parsing National Instruments TDMS files.
+He uses National Instruments DAQs on his college rocketry team,
+and he has grown frustrated with the performance of the existing python implementation.
+He shared how using the `mmap()` syscall on linux can offer performance advantages by reducing I/O operations.
+`mmap` maps file contents into the process' virtual address space,
+relying on the kernel to only page fault parts of the file into memory that are read.
+This often avoids reading the entire file off the disk when only small portions are required.
+Charlie demo'd some performance measurements using [poop](https://github.com/andrewrk/poop).
+
+⚡ Logan Langdon
+
+Logan worked on getting Zig back as a supported / example language
+for the [datastar framework](https://data-star.dev/), a tool for writing reactive web applications
+with the backend of your choice (including Zig). Using [http.zig](https://github.com/karlseguin/http.zig),
+Logan showed some sprites updating in his browser 
+from a zig [`std.Thread`](https://ziglang.org/documentation/master/std/#std.Thread).
+
+
+⚡ Jeff Anderson
+
+Jeff learned how to use a [Raspberry Pi Debug Probe](https://www.raspberrypi.com/documentation/microcontrollers/debug-probe.html)
+to flash the [Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html) microcontroller in his [Clockwork Pi PicoCalc](https://www.clockworkpi.com/picocalc) (without pressing the button and unplugging the cables!).
+Jeff also learned how to step through a zig program line-by-line in an on-chip debugger,
+and print text to the uart by overriding the `logFn` for `std.log`.
+Jeff demo'd using the [MicroZig](https://microzig.tech/) library to control the screen over SPI, turning it on and off.
+
+### Photos
+
+![Left to right: Jeff, Charlie, Logan](group-photo.jpg "group photo, 3 dudes standing in front of a library on a grass lawn")
+
+![Jeff's mess when installing the debug probe in his PicoCalc.](jeff-picocalc.jpg "mess of cables, circuit boards, and tools on a wooden table")
+
+### Cost
+
+|Description                 |Cost (USD)|Contributed By|
+|:---------------------------|---------:|-------------:|
+| Venue fee                  |  `70.00` |         Jeff |
+| Donuts / cleaning supplies |  `43.00` |         Jeff |
+| Total                      | `113.00` |            - |
+
+We try to keep the costs low, for a more sustainable event.
