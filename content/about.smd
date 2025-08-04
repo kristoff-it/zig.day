@@ -17,6 +17,7 @@ You can learn more about this format in "[Zig Day: A suggestion for better Zig m
 2. **Zig days are for collaboration and socialization**. Avoid working on code you can't collaborate on (e.g. because of its license) and try to have engaging conversations with other people. 
 
 3. **Software You Can Love is high quality software**, and the only way to make high quality software is to apply systems thinking. 
+    - [Hello Systems](https://www.youtube.com/watch?v=w9rkil0dotI) - Loris Cro
 	- [Making Systems Programming Accessible](https://www.youtube.com/watch?v=Qncdi-Fg0-I) - Andrew Kelley
 	- [A Systems-Minded Approach to Creating a Music Player Application](https://www.youtube.com/watch?v=SCLrNqc9jdE) - Andrew Kelley
 	- [Tiger Style](https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/TIGER_STYLE.md) - TigerBeetle
