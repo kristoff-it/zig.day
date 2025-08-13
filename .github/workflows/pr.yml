@@ -33,7 +33,7 @@ jobs:
       - name: Codeowners automerge check
         uses: kristoff-it/codeowners-automerge@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.AUTOMERGE_KEY }}
         with:
           merge_method: 'squash'
           collaborators_only: 'false'
