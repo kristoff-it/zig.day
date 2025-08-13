@@ -38,3 +38,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           merge_method: 'squash'
+          collaborators_only: 'false'
