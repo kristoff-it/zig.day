@@ -25,7 +25,6 @@ jobs:
   codeowners-automerge:
     runs-on: ubuntu-latest
     needs: zine-release-test
-    permissions: write-all
     steps:
       - uses: actions/checkout@v4
         with:
@@ -33,7 +32,6 @@ jobs:
       - name: Codeowners automerge check
         uses: kristoff-it/codeowners-automerge@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.AUTOMERGE_KEY }}
         with:
           merge_method: 'squash'
-          collaborators_only: 'false'
