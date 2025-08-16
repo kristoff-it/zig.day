@@ -1,0 +1,26 @@
+---
+.title = "Bristol",
+.date = @date("2025-08-06T00:00:00"),
+.author = "",
+.layout = "location.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}, {
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
+},{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
+}],
+.custom = {
+  "locale": "en-UK",
+  "timezone": "Europe/London",
+  "latitude": "-2.6025417797142683",
+  "longitude": "51.45233786328067",
+}
+---
+*Work in progress*
