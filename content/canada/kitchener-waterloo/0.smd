@@ -1,0 +1,18 @@
+---
+.title = "",
+.date = @date("2025-10-15T10:00:00"),
+.author = "",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 0,
+  "duration": 7,
+  "address": "35 Albert St, Waterloo, ON N2L 5E2, Canada", 
+  "latitude": "43.465989",
+  "longitude": "-80.524519",
+},
+.draft = true,
+---
+
+Description goes here (how to RSVP, etc).

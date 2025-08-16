@@ -1,7 +1,7 @@
 ---
-.title = "Portland, OR",
-.date = @date("2025-05-17T00:00:00"),
-.author = "Sample Author",
+.title = "Kitchener-Waterloo",
+.date = @date("2025-08-06T00:00:00"),
+.author = "",
 .layout = "location.shtml",
 .alternatives = [{
     .name = "rss",
@@ -17,19 +17,16 @@
     .output = "upcoming.ics",
 }],
 .custom = {
-  "locale": "en-US",
-  "timezone": "America/Los_Angeles",
-  "latitude": "-122.67854925051799",
-  "longitude": "45.5151347554047",
+  "locale": "en-CA",
+  "timezone": "America/Toronto",
+  "latitude": "-80.52014597609322",
+  "longitude": "43.463096919326425",
 }
 ---
 
-We have a surprisingly high number of Zig users in Portland, including yours
-truly, Andrew Kelley. Let's meet up!
+This event is inspired by [Zig Day Milano](/europe/milano/) and [Zig Day Portland](/usa/portland/).
 
-This event is inspired by [Zig Day Milano](/europe/milano/).
-
-The primary goal of Zig Day Portland is to make friends, collaborate with each
+The primary goal of Zig Day KW is to make friends, collaborate with each
 other, and hone our software (and hardware!) engineering skills. Generally, that
 means working in pairs or groups to write some code and share it at the end of
 the day.
@@ -46,15 +43,13 @@ This event is open to the public.
 
 ### What to expect
 
-[Andrew Kelley](https://andrewkelley.me/), with help from [independent game
-developer](https://gamesbymason.com/) and ZSF treasurer Mason Remaley, will
-organize and kick off the first Zig Day.
+Zig days in Kitchener-Waterloo are currently organized by
+[Kristófer Reykjalín](https://thorlaksson.com/).
 
-The first event has been announced. After that we will be hoping to see if
-someone from the community would be interested in running these events, perhaps
-with a monthly cadence.
+The first event has yet to be announced. Assuming there is interest, September
+or October 2025 are likely candidates.
 
-A typical Zig Day in Portland runs as follows (times are approximate):
+A typical Zig Day in Kitchener-Waterloo runs as follows (times are approximate):
 
 - 10:00 - 10:30: gathering and chit-chat
 - 10:30 - 11:00: explain projects, form groups, setup workstations
