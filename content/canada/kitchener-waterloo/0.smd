@@ -1,7 +1,7 @@
 ---
-.title = "Kitchener-Waterloo (Ontario, Canada)",
+.title = "",
 .date = @date("2025-10-15T10:00:00"),
-.author = "Kristófer Reykjalín",
+.author = "",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.

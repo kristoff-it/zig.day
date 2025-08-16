@@ -18,7 +18,6 @@
 }],
 .custom = {
   "locale": "en-US",
-  "nation": "USA",
   "timezone": "America/Los_Angeles",
   "latitude": "-122.67854925051799",
   "longitude": "45.5151347554047",

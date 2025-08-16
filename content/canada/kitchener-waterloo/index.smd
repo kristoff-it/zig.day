@@ -1,7 +1,7 @@
 ---
-.title = "Kitchener-Waterloo (Ontario)",
+.title = "Kitchener-Waterloo",
 .date = @date("2025-08-06T00:00:00"),
-.author = "Kristófer R.",
+.author = "",
 .layout = "location.shtml",
 .alternatives = [{
     .name = "rss",
@@ -19,8 +19,8 @@
 .custom = {
   "locale": "en-CA",
   "timezone": "America/Toronto",
-  "latitude": "-80.524519",
-  "longitude": "43.465989",
+  "latitude": "-80.52014597609322",
+  "longitude": "43.463096919326425",
 }
 ---
 
