@@ -1,6 +1,6 @@
 ---
 .title = "Bristol",
-.date = @date("2025-08-06T00:00:00"),
+.date = @date("2025-08-16T00:00:00"),
 .author = "",
 .layout = "location.shtml",
 .alternatives = [{
@@ -17,10 +17,43 @@
     .output = "upcoming.ics",
 }],
 .custom = {
-  "locale": "en-UK",
+  "locale": "en-GB",
   "timezone": "Europe/London",
   "latitude": "-2.6025417797142683",
   "longitude": "51.45233786328067",
 }
 ---
-*Work in progress*
+
+Zig users in England and the UK can seem sparse, so let's change that! This Zig Day exists to bring
+together the Zig community in the UK, helping up to hone our Zig and systems programming skills to
+create [Software You Can Love](https://softwareyoucan.love/).
+
+The format is the same as other Zig Day events: you can work on whatever you want throughout the
+day, but collaboration and discussion is encouraged, and the main goal is to learn something new.
+At the start of the event, we'll all introduce ourselves and explain what projects we're planning to
+work on. Don't worry if you don't have anything to bring -- there will be enough projects around the
+room that you'll definitely find something to get involved in!
+
+This event is beginner-friendly: if you don't know Zig, this could be a great place to get started!
+You'll be surrounded by Zig users who are already familiar with the language (including one member
+of the Zig core team), and can just use the day as an opportunity to learn about other projects if
+you don't know where to start. You could even come along having never done any systems programming
+just to learn the basics!
+
+### What to expect
+
+The first event is expected to happen some time in September, possibly in Bristol Central Library.
+We expect it to start at around 10:30 and end around 16:30 (the date is TBC) with a lunch break at
+around 13:00. All of these details are subject to change, so consider subscribing to email or RSS
+notifications to make sure you know when the event is organised.
+
+We're not yet sure how often we'd like to run these events. That's going to depend largely on the
+turnout at the first one, so do make sure to come along if you're interested!
+
+### Contacts
+
+This event is organised by:
+
+* Fran ([@fng97](https://github.com/fng97))
+* Matthew Lugg ([@mlugg](https://github.com/mlugg))
+* Silver ([@silversquirl](https://github.com/silversquirl))
