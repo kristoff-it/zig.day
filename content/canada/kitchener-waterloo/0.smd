@@ -1,5 +1,6 @@
 ---
 .title = "",
+// Announcement date
 .date = @date("2025-10-15T10:00:00"),
 .author = "",
 .layout = "event.shtml",
@@ -7,6 +8,7 @@
 // address of this event.
 .custom = {
   "version": 0,
+  "start": "2025-05-17T09:30:00",
   "duration": 7,
   "address": "35 Albert St, Waterloo, ON N2L 5E2, Canada", 
   "latitude": "43.465989",
@@ -14,5 +16,4 @@
 },
 .draft = true,
 ---
-
-Description goes here (how to RSVP, etc).
+How to find the place if not obvious, how to RSVP, etc.
