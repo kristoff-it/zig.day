@@ -1,0 +1,41 @@
+---
+.title = "Milano September",
+// Announcement date
+.date = @date("2025-08-25T09:30:00"),
+.author = "inge4pres",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 0,
+  "start": "2025-09-20T09:30:00",
+  "duration": 8,
+  "address": "Mollie - Corso Buenos Aires, 54", 
+  "latitude": "9.212323774108164",
+  "longitude": "45.48104346569988",
+}
+---
+
+Thanks [Mollie](https://www.mollie.com/) for providing the venue for this event! ![](Mollie.png "mollie logo")
+
+**We're delighted that Mollie is hosting us in their Milan office!**
+
+**Mollie is one of Europe’s fastest-growing fintechs, on a mission to make payments and money management effortless for every business in Europe.**
+
+### Goals for the day
+
+The primary goal is learning and sharing knowledge!
+You should be able to finish the day taking away a novel concept about Zig or systems programming.
+
+This can be done in various ways, here is a non-exhaustive list:
+
+* Free-form building software collaboratively
+* Discuss the recent 0.15.0 release breaking changes
+* Work in pair or mob on an existing Zig project
+* Explore the documentation and read the standard library source code
+
+All the attendees are encouraged to learn Zig if they are new to the language, or mentor newcomers if they are already proficient with the language.
+
+### RSVP
+
+Sign up to the event via [meetup.com](https://www.meetup.com/it-IT/coding-bunker/events/<TODO>).
