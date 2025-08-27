@@ -1,20 +1,28 @@
 ---
 .title = "",
 // Announcement date
-.date = @date("2025-07-11T22:10:00"),
+.date = @date("2025-08-27T23:00:00"),
 .author = "",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
   "version": 1,
-  "start": "2025-08-02T10:00:00",
+  "start": "2025-09-20T10:00:00",
   "duration": 7,
-  "address": "801 SW 10th Ave, Portland, OR 97205", 
-  "latitude": "-122.68321567382061",
-  "longitude": "45.51926598384529",
+  "address": "First Floor Meeting Room, Bristol Central Library, City Center, Bristol, BS1 5TL",
+  "latitude": "-2.6021254318679534",
+  "longitude": "51.45160476392022",
 },
-.draft = true,
 ---
 
-Description goes here (how to RSVP, etc).
+Our first Zig Day has been organised in Bristol Central Library. We have the First Floor Meeting Room from 10:00 until 17:00, and expect to start the
+event proper around 10:15 with a 1 hour lunch break around 13:00.
+
+As always, make sure to bring along a project if you can---something other people can ask questions about or help with!
+
+## RSVP
+
+For the first event, we're using Luma for RSVP. If you are planning to attend, please let us know at the following link so we know how many people to plan for:
+
+https://luma.com/sd4v1f0x
