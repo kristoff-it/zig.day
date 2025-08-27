@@ -1,16 +1,18 @@
 ---
 .title = "",
-.date = @date("2025-10-15T10:00:00"),
+// Announcement date
+.date = @date("2025-07-11T22:10:00"),
 .author = "",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
-  "version": 0,
+  "version": 1,
+  "start": "2025-08-02T10:00:00",
   "duration": 7,
-  "address": "35 Albert St, Waterloo, ON N2L 5E2, Canada", 
-  "latitude": "43.465989",
-  "longitude": "-80.524519",
+  "address": "801 SW 10th Ave, Portland, OR 97205", 
+  "latitude": "-122.68321567382061",
+  "longitude": "45.51926598384529",
 },
 .draft = true,
 ---
