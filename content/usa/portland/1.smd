@@ -1,0 +1,41 @@
+---
+.title = "Portland (OR)",
+// Announcement date
+.date = @date("2025-08-30T22:10:00"),
+.author = "Tristan Pemble",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 1,
+  "start": "2025-09-27T10:00:00",
+  "duration": 7,
+  "address": "801 SW 10th Ave, Portland, OR 97205",
+  "latitude": "-122.68321567382061",
+  "longitude": "45.51926598384529",
+},
+.draft = false,
+---
+
+I am thrilled to announce <em>Zig Day Portland: Off By #1</em>, which will be
+held the last Saturday of September the 27th. We have reserved the exact same
+beautiful room in the Multnomah County Library (Central).
+
+Community Room 1B is on the first floor. Wrap around to the left after going
+through the main entrance and passing the information desk.
+
+What to bring:
+* A laptop and/or other hardware
+* An idea for something to work on that is open to collaboration from others,
+  or something you want to learn together.
+
+What to expect:
+* 10:00 - 10:30: gathering and chit-chat
+* 10:30 - 11:00: explain projects, form groups, setup workstations
+* 11:00 - 01:00: work on stuff together
+* 01:00 - 02:30: lunch break
+* 02:30 - 04:30: work on stuff together (continued)
+* 04:30 - 05:00: show others what you built and what you learnt
+
+In lieu of RSVPing, please make sure you are subscribed; we'll use the mailing
+list count as a rough estimate of attendees.
