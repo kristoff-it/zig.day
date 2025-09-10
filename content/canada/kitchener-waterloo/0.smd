@@ -1,19 +1,41 @@
 ---
-.title = "",
+.title = "Zig Day KW - October 2025",
 // Announcement date
-.date = @date("2025-10-15T10:00:00"),
-.author = "",
+.date = @date("2025-09-11T00:00:00"),
+.author = "Kristófer R. <kristofer@thorlaksson.com>",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
   "version": 0,
-  "start": "2025-05-17T09:30:00",
+  "start": "2025-10-18T10:00:00",
   "duration": 7,
-  "address": "35 Albert St, Waterloo, ON N2L 5E2, Canada", 
-  "latitude": "43.465989",
-  "longitude": "-80.524519",
+  "address": "85 Queen Street North, Kitchener, ON N2H 2H1, Canada", 
+  "longitude": "43.452843",
+  "latitude": "-80.486296",
 },
-.draft = true,
+.draft = false,
 ---
-How to find the place if not obvious, how to RSVP, etc.
+Welcome to the first Zig Day KW!
+
+We're going to be meeting at the Kitchener Public Library (https://www.kpl.org/), at the Central Library location.
+The address is 85 Queen Street North, Kitchener, ON N2H 2H1, Canada.
+
+You can learn more about this particular branch of the KPL, including information on parking and transit options, here: https://www.kpl.org/your-library/locations-and-hours/central-library.
+
+The library has a café inside with a small selection of drinks and pastries.
+It's a 5-10 minute walk from downtown Kitchener where we'll be able to go to grab some lunch.
+
+The rough agenda is:
+
+- 10:00 - 10:30: gathering and chit-chat
+- 10:30 - 11:00: explain projects, form groups, setup workstations
+- 11:00 - 01:00: work on stuff together
+- 01:00 - 02:30: lunch break
+- 02:30 - 04:30: work on stuff together (continued)
+- 04:30 - 05:00: show others what you built and what you learnt
+
+No need to bring anything except yourself and your good cheer :) . And maybe a laptop, although the library does have computers available that people can use.
+
+The event is open to anyone interested in Zig, no matter their technical capabilities or familiarity with the language!
+
