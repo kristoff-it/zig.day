@@ -1,7 +1,7 @@
 ---
 .title = "Zig Day KW - October 2025",
 // Announcement date
-.date = @date("2025-09-20T00:00:00"),
+.date = @date("2025-09-11T00:00:00"),
 .author = "Kristófer R. <kristofer@thorlaksson.com>",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
@@ -11,8 +11,8 @@
   "start": "2025-10-18T10:00:00",
   "duration": 7,
   "address": "85 Queen Street North, Kitchener, ON N2H 2H1, Canada", 
-  "latitude": "43.465989",
-  "longitude": "-80.524519",
+  "longitude": "43.452843",
+  "latitude": "-80.486296",
 },
 .draft = false,
 ---
