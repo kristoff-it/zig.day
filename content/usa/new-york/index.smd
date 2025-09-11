@@ -1,0 +1,43 @@
+---
+.title = "New York City, NY",
+.date = @date("2025-09-10T00:00:00"),
+.author = "",
+.layout = "location.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}, {
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
+},{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
+}],
+.custom = {
+  "locale": "en-US",
+  "nation": "USA",
+  "timezone": "America/New_York",
+  "latitude": "-74.00576932377348",
+  "longitude": "40.71290448868698",
+}
+---
+
+Like all Zig Days, the main purpose of Zig Day NYC is to inspire you to make software you can love. We want to build community that feels good to collaborate and socialize with. Come to make friends, collaborate and hone software engineering skills. Generally that means working in pairs or groups to write code and share it at the end of the day.
+
+[The Recurse Center](https://www.recurse.com/about) is "the retreat where curious programmers recharge and grow.” They run a transformative 6- or 12-week retreat on a rolling basis year-round; anyone who wants to become a dramatically better programmer is welcome to apply!
+
+There are no constraints for what to do during the Zig Day. Inspired by [Zig Day Portland](https://zig.day/usa/portland/), if you’re looking for inspiration, try to come up with ideas to strengthen our local community. Volunteer organizations and nonprofits often can use all the help they can get, including with software.
+
+We hope to run Zig Days on a Saturday at the Recurse Center’s Brooklyn space on a quarterly cadence.
+
+A typical Zig Day in New York runs as follows (approximately):
+
+- 10:00 – 10:30: gathering, bagels, chit-chat
+- 10:30 – 11:00: explain projects, form groups, set up workstations
+- 11:00 – 01:00: work on stuff together
+- 01:00 – 02:30: lunch break
+- 02:30 – 04:30: work on stuff together (continued)
+- 04:30 – 05:00: show others what you made and what you learned
