@@ -1,20 +1,29 @@
 ---
 .title = "",
 // Announcement date
-.date = @date("2025-07-11T22:10:00"),
+.date = @date("2025-09-17T09:22:00"),
 .author = "",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event after it went live.
 .custom = {
   "version": 1,
-  "start": "2025-08-02T10:00:00",
+  "start": "2025-09-27T10:00:00",
   "duration": 7,
-  "address": "801 SW 10th Ave, Portland, OR 97205", 
-  "latitude": "-122.68321567382061",
-  "longitude": "45.51926598384529",
+  "address": "4th Floor 397 Bridge St Brooklyn, NY 11201", 
+  "longitude": "40.69134",
+  "latitude": "-73.98503",
 },
-.draft = true,
+.draft = false,
 ---
 
-Description goes here (how to RSVP, etc).
+Please RSVP via Luma [here](https://luma.com/4m3d331d)
+
+Approximate timeline:
+
+- 10:00 – 10:30: gathering, bagels, chit-chat
+- 10:30 – 11:00: explain projects, form groups, set up workstations
+- 11:00 – 13:00: work on stuff together
+- 13:00 – 14:30: lunch break
+- 14:30 – 16:30: work on stuff together (continued)
+- 16:30 – 17:00: show others what you made and what you learned
