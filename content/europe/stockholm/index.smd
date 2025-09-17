@@ -1,0 +1,97 @@
+---
+.title = "Stockholm",
+.date = @date("2025-09-17T00:00:00"),
+.author = "",
+.layout = "location.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}, {
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
+},{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
+}],
+.custom = {
+  "locale": "en-US",
+  "nation": "SE",
+  "timezone": "Europe/Stockholm",
+  "latitude": "18.055179151787495",
+  "longitude": "59.327804657859915",
+}
+---
+Feeling isolated in cold dark Sweden? Then let's meet!
+
+Zig Day Stockholm is structured to facilitate to enable local community — making
+friends, collaborating, and  helping you practice your craft in a social and
+meaningful way.
+
+You can work on your own project, pair up with others, and talk with like-minded
+individuals. The only real expectation is that you care about what you make and
+other people, be them a friend, a neighbor or a stranger.
+
+If you are beginner: don't be afraid to join. Lots of more experienced 
+folks like to meet motivated beginners, some enjoy to share theirs ideas than 
+they can work on and might be interested in giving you initial pointers.
+
+It's an environment where you can build software that you deeply care about, and
+meet people who also care.
+
+This event is open to the public.
+
+
+### What to build
+
+Any [Software You Can Love](https://softwareyoucan.love/), this might come in many forms, such as:
+
+- Improving accessibility in Linux.
+- Exploring ways to make static websites more [accessible](https://kristoff.it/blog/static-site-paradox/).
+- [STB-style](https://github.com/nothings/stb?tab=readme-ov-file#why-do-you-list-lines-of-code-its-a-terrible-metric) libraries, simple, hackable by a single person.
+- Visualization for your university material, making it easier for the next students to learn.
+- Bespoke needs of your Public Library.
+- Efficient software that doesn't waste users batteries and time.
+- Anything you are passionate about and you can imagine a better alternative.
+
+Don't feel limited by the suggestions provided above, these are inspire what
+kind of software is important but lack the social infrastructure to happen.
+
+It doesn't matter if it's a hard or an easy problem — and no need to care about
+"market share" — alternatives are important, and bespoke solutions are the
+strength of working as a community.
+
+When out of ideas, consider the needs of your communities, library or university
+— volunteer organizations and non-profits for example could always use a hand.
+
+Even building a small game as a gift for a friend is meaningful, or assisting
+your previous professor to improve  their class with software in a way a
+textbook can't.
+
+At the end of the day, you don't have to build anything "traditionally" useful,
+anything you deeply care about is useful.
+
+### What to expect
+
+Zig Day Stockholm is planned to happen on a Saturday and approximate the typical Zig Day as follows:
+
+- **10:00 ~ 10:30** : gathering and chit-chat.
+- **10:30 ~ 11:00** : explain projects, form groups, setup workstations.
+- **11:00 ~ 01:00** : work on stuff together.
+- **01:00 ~ 02:30** : lunch break.
+- **02:30 ~ 04:30** : work on stuff together (continued).
+- **04:30 ~ 05:00** : share what you built and what you learnt.
+
+Since this will be the first Zig Day Stockholm, location, cadence and seats are still not settled.
+
+### Organizers
+
+#### Karll Henning
+
+- **Email** : karll.henningg@gmail.com
+- **Discord** : @khskarl
+
+If you would like to help co-hosting, feel free to reach me out by email or on Discord.
+Feedback and suggestions for locations are also appreciated.  
