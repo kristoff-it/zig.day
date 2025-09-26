@@ -39,3 +39,30 @@ All the attendees are encouraged to learn Zig if they are new to the language, o
 ### RSVP
 
 Sign up to the event via [meetup.com](https://www.meetup.com/coding-bunker/events/310615246/).
+
+--- 
+
+### Spotlights
+
+The hottests topics discussed by the groups:
+
+* changes in the std library and std.Io in 0.15.1
+* C interop: bindings for Raylib, Vulcan and GLFW3
+* OS development
+* Zig release modes
+
+### Media
+
+Some pictures of the day and the video of the closing talks where attendees shared their findings throughout the day!
+
+![Mollie generosity](mollie-food.jpg "croissants and pizzas offered to us by Mollie in their beautiful offices")
+
+![Loris selfie](loris-selfie.jpeg "Loris Cro taking a selfie of the group during the closing talks session")
+
+![Programming Zig](group.jpeg "Group photo of attendees developing in the Mollie office")
+
+
+Video 
+```=html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K6ULgtdj1Yg?si=qJrGM5euZRCZpzWl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
