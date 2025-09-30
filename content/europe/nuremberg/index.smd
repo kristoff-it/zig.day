@@ -1,0 +1,84 @@
+---
+.title = "Nürnberg",
+.date = @date("2025-09-30T00:00:00"),
+.author = "",
+.layout = "location.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}, {
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
+},{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
+}],
+.custom = {
+  "locale": "en-US",
+  "nation": "DE",
+  "timezone": "Europe/Berlin",
+  "latitude": "11.077250699807033",
+  "longitude": "49.45545786575521",
+}
+---
+
+# Zig Day Nürnberg
+
+The german zig community is finally having its first official Zig Day and which city could be a better fit than our beautiful Nürnberg?
+
+Never heard of Nürnberg? 
+
+Nürnberg might be famous for medieval walls, tiny sausages, and gingerbread,  
+but let’s be honest: the real magic happens when a bunch of nerds gather around laptops.  
+
+The goal of this meetup is simple: bring IT folks together, exchange ideas, hack on projects, and prove that Nürnberg is more than just a Christmas market hotspot.  
+
+Work on your own project, pair up with someone new, or just hang out and talk shop.  
+
+Beginners are more than welcome. In fact, many experienced developers like to share their scars from fighting legacy code, and some even enjoy giving pointers to help you avoid their mistake (or repeat them more elegantly).  
+
+It’s about learning, building, and meeting people who care about technology — and about building software that *doesn’t* make you want to throw your laptop out of Nürnberg Castle’s window.  
+
+This event is open to the public. Bring your curiosity, your laptop, and maybe an appetite for pretzels and vegan bratwurst ( non-vegan options available on request ;-) ).  
+
+### What to build
+
+Anything you find exciting! Some ideas:  
+
+- Efficient software that doesn't waste users batteries and time.
+- Tools that make everyday developer life less painful.
+- A small game (bonus points if it runs on retro hardware).  
+- Side projects you’ve been meaning to finish (or start).  
+- Software that helps your local community, library, or just your cat.
+- Anything you are passionate about and you can imagine a better alternative.
+- Or simply contribute to something open source.
+
+No pressure: if all you do is fix a bug, improve docs, or learn one new keyboard shortcut, that’s still a win.  
+
+### What to expect
+
+A typical day might look like this (give or take a bratwurst break):  
+
+- 09:30 - 10:00: gathering and chit-chat
+- 10:00 - 10:30: explain projects, form groups, setup workstations
+- 10:30 - 12:30: build amazing stuff
+- 12:30 - 14:00: lunch break
+- 14:00 - 16:00: build amazing stuff (continued)
+- 16:00 - 17:00: show others what you built and what you learnt
+
+If you’re in or around Nuremberg and enjoy hacking with like-minded folks on software that might just make the world a bit better, come join us — you’ll feel right at home.
+
+### Organizers
+
+#### Jan Beelte (WeStack IT)
+
+- **Email** : jan.beelte@westack-it.eu
+- **Discord** : @janbeelte
+
+#### Jens Saalmüller 
+
+- **Email** : jens.saalmueller@gmx.de
+- **Discord** : @kaans5127
