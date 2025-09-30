@@ -1,95 +1,94 @@
 <extend template="base.shtml">
 <head id="head">
-  <style>
-    .cities {
-      display: flex;
-      flex-direction: row;
-      gap: 25px;
-    }
-
-    #map {
-      width: 100%;
-      aspect-ratio: 3 / 1;
-      view-transition-name: header;
-    }
-
-    h2 {
-      border-bottom: 2px solid;
-      padding: 5px 0;
-    }
-    .cities > a {
-      display:block;
-      background-color: #333;
-      padding: 10px;
-      text-decoration: none;
-      font-size: 1.2rem;
-    }
-
-    .cities > a:hover {
-      background-color: #444;
-    }
-
-    .cities {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-
-    footer {
-      text-align:right;
-    }
-
-    @view-transition {
-      navigation: auto;
-    }
-  </style>
-  <link rel="stylesheet" href="$site.asset('leaflet.css').link()">
-  <script src="$site.asset('leaflet.js').link()"></script>
-  <noscript>
-    <style>
-      #map {
-        display: none;
-      }
-    </style>
-  </noscript>
+	<style>
+		.cities {
+			display: flex;
+			flex-direction: row;
+			gap: 25px;
+		}
+		
+		#map {
+			width: 100%;
+			aspect-ratio: 3 / 1;
+			view-transition-name: header;
+		}
+		
+		h2 {
+			border-bottom: 2px solid;
+			padding: 5px 0;
+		}
+		.cities > a {
+			display:block;
+			background-color: #333;
+			padding: 10px;
+			text-decoration: none;
+			font-size: 1.2rem;
+		}
+		
+		.cities > a:hover {
+			background-color: #444;
+		}
+		
+		.cities {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		
+		footer {
+			text-align:right;
+		}
+		
+		@view-transition {
+			navigation: auto;
+		}
+	</style>
+	<link rel="stylesheet" href="$site.asset('leaflet.css').link()">
+	<script src="$site.asset('leaflet.js').link()"></script>
+	<noscript>
+		<style>
+		#map {
+		display: none;
+		}
+		</style>
+	</noscript>
 </head>
 <body id="body">
-  <div :html="$page.content()"></div>
-  <div id="map"></div>
-  <div :loop="$site.pages('canada', 'usa', 'europe')">
-    <h2 :text="$loop.it.title"></h2>
-    <div class="cities" :loop="$loop.it.subpagesAlphabetic()">
-      <a
-        href="$loop.it.link()"
-        data-latitude="$loop.it.custom.get('latitude')"
-        data-longitude="$loop.it.custom.get('longitude')"
-        :text="$loop.it.title"
-      ></a>
-    </div>
-  </div>
-  <footer>
-    No Zig Day near you?
-    <a href="$site.page('organizer').link()">Become a Zig Day Organizer</a>
-  </footer>
-  <script>
-    var map = L.map('map').setView([35, 0], 1);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 10,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }
-        ).addTo(map);
-
-        var ZeroIcon = L.icon({
-        iconUrl:
-          "images/zero.svg",
-        iconSize: [46, 46],
-      });
-    
-    const locations = document.querySelectorAll('.cities > a');
-    for (let idx = locations.length - 1; idx >=0; idx -= 1) {
-      const e = locations[idx];
-      let marker = L.marker([e.dataset.longitude, e.dataset.latitude] ,{ icon: ZeroIcon }).addTo(map);
-      marker.bindPopup(e.outerHTML);
-    }
-  </script>
+	<div :html="$page.content()"></div>
+	<div id="map"></div>
+	<div :loop="$site.pages('canada', 'usa', 'europe')">
+		<h2 :text="$loop.it.title"></h2>
+		<div class="cities" :loop="$loop.it.subpagesAlphabetic()">
+			<a href="$loop.it.link()"
+			   data-latitude="$loop.it.custom.get('latitude')"
+			   data-longitude="$loop.it.custom.get('longitude')"
+			   :text="$loop.it.title"
+			></a>
+		</div>
+	</div>
+	<footer>
+		No Zig Day near you?
+		<a href="$site.page('organizer').link()">Become a Zig Day Organizer</a>
+	</footer>
+	<script>
+		var map = L.map('map').setView([35, 0], 1);
+		L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			maxZoom: 10,
+			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+		}
+		).addTo(map);
+		
+		var ZeroIcon = L.icon({
+			iconUrl:
+			"images/zero.svg",
+			iconSize: [46, 46],
+			});
+			
+			const locations = document.querySelectorAll('.cities > a');
+			for (let idx = locations.length - 1; idx >=0; idx -= 1) {
+				const e = locations[idx];
+				let marker = L.marker([e.dataset.longitude, e.dataset.latitude] ,{ icon: ZeroIcon }).addTo(map);
+				marker.bindPopup(e.outerHTML);
+			}
+	</script>
 </body>

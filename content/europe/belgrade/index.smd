@@ -1,0 +1,50 @@
+---
+.title = "Београд (Belgrade)",
+.date = @date("2025-09-30T00:00:00"),
+.author = "",
+.layout = "location.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}, {
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
+},{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
+}],
+.custom = {
+  "locale": "en-US",
+  "nation": "DE",
+  "timezone": "Europe/Berlin",
+  "latitude": "20.46240630288894",
+  "longitude": "44.81059453835043",
+}
+---
+## Introduction
+Belgrade has been Zigging for a while now, the time has come to make it a day. Join a community of Zig lovers in the heart of the Balkans, whether you're a seasoned veteran, or a complete beginner. This is the time and place to share you're experiences, learn something new, and actually produce some code you can love.
+
+Get your laptops charged, coffees brewed, C++ and Rust hate comments revised, your Zig compilers compiled, and std's imported, because we start at 10:00, coding our way all the way trough 17:00.
+
+Become a part of the community on [Telegram](https://t.me/zig_day_belgrade).
+
+## Format
+At the start of each event, we'd like to introduce ourselves, in a circle, anonymous style. In a way everyone is equally awkward. Then we can freely discuss ideas, so participants can set some goals at the start of the day. Maybe it's some passion project of yours, maybe contributing to an open source project. Whatever floats your boat and can be compiled by Zig.
+
+We wouldn't like to keep things strict by defining a time schedule, because we agree that writing code is like making art. Sometimes it just comes out by itself, and other times not. You can't really force it.
+
+The event language is going to be dictated by the participants, though English would be preferred in a multilingual crowd. Try to make other people a part of the conversation as much as possible.
+
+All events are absolutely open for everyone, and free.
+
+## Event #0
+The details of the first event will be announced soon. It will be somewhere in November/December. The location will be also announced shortly, most probably being hosted by one of your friendly neighborhood hackerspaces.
+
+## Organizers  
+Alphabetically sorted, coincidentally also by height:
+- Marko - marko03kostic@protonmail.com
+- Nothke - nothke@gmail.com
+- Petar - txrpe@dmz.rs
