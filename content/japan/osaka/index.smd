@@ -1,0 +1,38 @@
+---
+.title = "大阪市 (Ōsaka)",
+.date = @date("2025-10-06T00:00:00"),
+.author = "",
+.layout = "location.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}, {
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
+},{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
+}],
+.custom = {
+  "locale": "en-US",
+  "nation": "JP",
+  "timezone": "Japan/Tokio",
+  "latitude": "135.5024994891254",
+  "longitude": "34.69400121186878",
+} 
+---
+ Zig Day Osaka is a welcoming, public, collaboration-first gathering for programmers and tinkerers across every stripe of nerddom.
+
+The venue is  (tentatively named) **Secret Shop Osaka**—a small collaboration space in Nishinari that I've been renovating in my free time to hopefully create a flexible workshop hub: tables for laptops and small hardware, fast Wi-Fi and power, projector/screen, basic audio, a light café counter, AC, a simple presentation stage even plenty of tools for hardware projects.
+
+Like other Zig Days, the emphasis is on making friends, pairing up, learning together, and sharing what you built at the end.
+
+I aim to host our **first meetup in the first half of November**, since the space is secured, I would like to attempt to make this a **monthly or every other month** event in the hopes off building a local community with a focus on building software (and hardware) you can love.
+
+Structure for the event hasn't been nailed down quite yet but expect the familiar flow:
+explain projects → form groups → collaborate → show & tell. 
+
+The event language is pretty much going to be decide by the participants, but English would be encouraged where possible. 
