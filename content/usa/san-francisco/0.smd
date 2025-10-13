@@ -1,20 +1,63 @@
 ---
 .title = "",
 // Announcement date
-.date = @date("2025-07-11T22:10:00"),
+.date = @date("2025-10-13T00:00:00"),
 .author = "",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
   "version": 1,
-  "start": "2025-08-02T10:00:00",
-  "duration": 7,
-  "address": "801 SW 10th Ave, Portland, OR 97205", 
-  "latitude": "-122.68321567382061",
-  "longitude": "45.51926598384529",
+  "start": "2025-10-18T10:00:00",
+  "duration": 5,
+  "address": "Shattuck Ave. and Aileen St., Oakland CA 94609",
+  "latitude": "-122.264849",
+  "longitude": "37.842648",
 },
-.draft = true,
+.draft = false,
 ---
 
-Description goes here (how to RSVP, etc).
+**See below for exact location**
+
+----
+
+This is a back-to-back dual event!
+
+## Zig Day
+
+📣 Calling all Bay Area Ziglings!
+
+**Zig Day San Francisco** is a casual meetup for anyone who uses Zig or is just curious about it.
+Come and meet people, collaborate on a project or two, and share your stuff with other Zig users.
+Having a project in mind is recommended but not required.
+
+Feel free to invite a +1, even if they are not a programmer.
+
+## Hype o'clock
+
+Immediately following Zig Day in the same venue is a game development-focused
+meetup called **Hype o'clock Game Dev & Tea Time**. We have a very friendly
+crowd made up of both regulars and newcomers.
+Attendees often share their projects and work together or solo — or just come
+to hang out.
+
+Anyone attending Zig Day is welcome to stay for this event. As the name
+implies, we often take a little break to have a cup of tea.
+
+## Location
+
+At the moment, Zig Day San Francisco is actually located in Oakland, just
+across the bay, accessible by BART or car.
+
+It takes place at a private residence, so please contact the organizer
+for exact location details. The map indicates the location's neighborhood.
+
+Email for location: **info@hypeoclock.org**
+
+## Schedule
+
+Note that there is a bit of overlap between the two events.
+
+* 10:00am - 3:00pm: Zig Day
+* 2:00pm - 7:00pm: Hype o'clock
+
