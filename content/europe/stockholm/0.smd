@@ -1,20 +1,48 @@
 ---
 .title = "",
 // Announcement date
-.date = @date("2025-07-11T22:10:00"),
+.date = @date("2025-10-17T22:10:00"),
 .author = "",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
   "version": 1,
-  "start": "2025-08-02T10:00:00",
+  "start": "2025-11-29T10:00:00",
   "duration": 7,
-  "address": "801 SW 10th Ave, Portland, OR 97205", 
-  "latitude": "-122.68321567382061",
-  "longitude": "45.51926598384529",
+  "address": "Sankt Eriksgatan 33, 112 39 Stockholm", 
+  "latitude": "18.031289280996834",
+  "longitude": "59.332845206655065",
 },
-.draft = true,
+.draft = false,
 ---
 
-Description goes here (how to RSVP, etc).
+**Welcome to the 1st Zig Day Stockholm!**
+
+We will meet at the [Kungsholmens Internationella Biblioteket](https://biblioteket.stockholm.se/bibliotek/kungsholmens-bibliotek-internationella-biblioteket), 
+at the Programrummet on the 2nd floor. 
+
+The library is located right next to the **Fridhemsplan** metro station, 
+you can take either the green line or the blue line going from T-Centralen to the northwest.
+
+The rough agenda is:
+
+- **10:00 ~ 10:30** : gathering and chit-chat.
+- **10:30 ~ 11:00** : explain projects, form groups, setup workstations.
+- **11:00 ~ 13:00** : work on stuff together.
+- **13:00 ~ 14:30** : lunch break.
+- **14:30 ~ 16:30** : work on stuff together (continued).
+- **16:30 ~ 16:45** : share what you built and what you learnt.
+
+To the staff's convenience we will leave 15 minutes before the library closes at 17:00.
+
+The event is open to anyone interested in Zig or writing software you can love, 
+no matter their technical capabilities or familiarity with the language!
+
+You only need to bring a laptop and yourself :).
+
+---
+
+**Sign up** to the event in the library's [event page](https://biblioteket.stockholm.se/evenemang/zigday-a-day-for-programmers-1).
+
+See you then!
