@@ -19,15 +19,15 @@
 .custom = {
   "locale": "en-US",
   "timezone": "Europe/Berlin",
-  "latitude": "52.201534159274665",
-  "longitude": "10.506136308508905",
+  "longitude": "52.26512188337779",
+  "latitude": "10.525847579981146",
 }
 ---
 
 Looking to meet and work with Zig and SYCL enthousiast in the greater Braunschweig area? 
 Look no further.
 
-After an unforseen delay we are starting a Zig Day Braunschweig with 
+After an unforeseen delay we are starting a Zig Day Braunschweig with 
 the first meeting scheduled for the 8th of November 2025.
 
 Primary goal of the Zig Day Braunschweig is
@@ -57,7 +57,7 @@ requiring quite a bit of time to reach,
 if you come by train from outside Braunschweig.
 
 Once established we will look for a more centrally located venue,
-that is more easy to reach and also when necessary to accomodate more people.
+that is more easy to reach and also when necessary to accommodate more people.
 
 A typical Zig Day in Braunschweig would run as follows (times are approximate):
 

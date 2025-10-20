@@ -11,8 +11,8 @@
   "start": "2025-11-08T09:30:00",
   "duration": 7,
   "address": "38124 Braunschweig(Leiferde), DE",
-  "latitude": "52.201534159274665",
-  "longitude": "10.506136308508905",
+  "longitude": "52.201534159274665",
+  "latitude": "10.506136308508905",
 },
 .draft = true,
 ---
