@@ -1,7 +1,7 @@
 <rss version="2.0">
   <channel>
     <title :text="$page.title.prefix('Zig Day ')"></title>
-    <details>Upcoming events</details>
+    <description>Upcoming events</description>
     <link :text="$site.host_url"></link>
     <generator>Zine -- https://zine-ssg.io</generator>
     <language :text="$page.custom.get('locale')"></language>
