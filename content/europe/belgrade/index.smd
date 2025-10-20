@@ -18,7 +18,7 @@
 }],
 .custom = {
   "locale": "en-US",
-  "nation": "DE",
+  "nation": "RS",
   "timezone": "Europe/Berlin",
   "latitude": "20.46240630288894",
   "longitude": "44.81059453835043",
@@ -32,7 +32,6 @@ Get your laptops charged, coffees brewed, C++ and Rust hate comments revised, yo
 Become a part of the community on [Telegram](https://t.me/zig_day_belgrade).
 
 ## Format
-At the start of each event, we'd like to introduce ourselves, in a circle, anonymous style. In a way everyone is equally awkward. Then we can freely discuss ideas, so participants can set some goals at the start of the day. Maybe it's some passion project of yours, maybe contributing to an open source project. Whatever floats your boat and can be compiled by Zig.
 
 We wouldn't like to keep things strict by defining a time schedule, because we agree that writing code is like making art. Sometimes it just comes out by itself, and other times not. You can't really force it.
 
@@ -40,11 +39,10 @@ The event language is going to be dictated by the participants, though English w
 
 All events are absolutely open for everyone, and free.
 
-## Event #0
-The details of the first event will be announced soon. It will be somewhere in November/December. The location will be also announced shortly, most probably being hosted by one of your friendly neighborhood hackerspaces.
-
 ## Organizers  
 Alphabetically sorted, coincidentally also by height:
-- Marko - marko03kostic@protonmail.com
-- Nothke - nothke@gmail.com
-- Petar - txrpe@dmz.rs
+- Marko
+- Nothke
+- Petar
+
+If you need any help or have suggestions, feel free to do reach out via our [Telegram chat](https://t.me/zig_day_belgrade).

@@ -1,20 +1,49 @@
 ---
 .title = "",
 // Announcement date
-.date = @date("2025-07-11T22:10:00"),
+.date = @date("2025-10-20T22:10:00"),
 .author = "",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
   "version": 1,
-  "start": "2025-08-02T10:00:00",
-  "duration": 7,
-  "address": "801 SW 10th Ave, Portland, OR 97205", 
-  "latitude": "-122.68321567382061",
-  "longitude": "45.51926598384529",
+  "start": "2025-11-22T10:00:00",
+  "duration": 8,
+  "address": "Masarikova 5, Palata Beograd 22nd floor, Belgrade, 11000", 
+  "latitude": "20.463540750087834",
+  "longitude": "44.80724069180623",
 },
-.draft = true,
 ---
 
-Description goes here (how to RSVP, etc).
+## Introduction
+Belgrade has been Zigging for a while now, the time has come to make it a day. Join a community of Zig lovers in the heart of the Balkans, whether you're a seasoned veteran, or a complete beginner. This is the time and place to share you're experiences, learn something new, and actually produce some code you can love.
+
+Get your laptops charged, coffees brewed, C++ and Rust hate comments revised, your Zig compilers compiled, and std's imported, because we start at 10:00, coding our way all the way trough 18:00.
+
+Become a part of the community on [Telegram](https://t.me/zig_day_belgrade).
+
+## Format
+We wouldn't like to keep things strict by defining a time schedule, because we agree that writing code is like making art. Sometimes it just comes out by itself, and other times not. You can't really force it.
+
+There will be a few short talks, but the emphasis of the event is on craftmanship, not passive listening.
+
+Be sure to bring your laptop. If you don't have a laptop, reach out via the Telegram chat, we can probably hook you up.
+
+The event language is going to be dictated by the participants, though English would be preferred in a multilingual crowd. Try to make other people a part of the conversation as much as possible.
+
+The event is absolutely open to everyone, and free.
+
+## Event specifics
+For our first ever event, we'd like to keep things as flexible as possible. Lets shape these series of events together!
+
+## Venue
+The venue is the 22nd floor of the Palata Beograd building (aka Beogradjanka). Obviously use the elevator, if you need any help feel free to ask the receptionist to help guide you to the 22nd floor.
+
+## Organizers
+Alphabetically sorted, coincidentally also by height:
+- Marko
+- Nothke
+- Petar
+
+If you need any help or have suggestions, feel free to reach out via our [Telegram chat](https://t.me/zig_day_belgrade).
