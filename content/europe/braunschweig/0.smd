@@ -1,0 +1,20 @@
+---
+.title = "",
+// Announcement date
+.date = @date("2025-10-20T08:29:59"),
+.author = "anthon.van.der.neut@ruamel.eu",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 0,
+  "start": "2025-11-08T09:30:00",
+  "duration": 7,
+  "address": "38124 Braunschweig(Leiferde), DE",
+  "latitude": "52.201534159274665",
+  "longitude": "10.506136308508905",
+},
+.draft = true,
+---
+
+Description goes here (how to RSVP, etc).

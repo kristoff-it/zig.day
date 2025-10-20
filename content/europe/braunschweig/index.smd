@@ -1,0 +1,104 @@
+---
+.title = "Braunschweig",
+.date = @date("2025-05-17T00:00:00"),
+.author = "Sample Author",
+.layout = "location.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}, {
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
+},{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
+}],
+.custom = {
+  "locale": "en-US",
+  "timezone": "Europe/Berlin",
+  "latitude": "52.201534159274665",
+  "longitude": "10.506136308508905",
+}
+---
+
+Looking to meet and work with Zig and SYCL enthousiast in the greater Braunschweig area? 
+Look no further.
+
+After an unforseen delay we are starting a Zig Day Braunschweig with 
+the first meeting scheduled for the 8th of November 2025.
+
+Primary goal of the Zig Day Braunschweig is
+to meet up with other people interested in Zig and 
+Software You Can Love (SYCL),
+to build something together,
+and share the experience.
+
+This means working with others (in pairs, a group),
+or on your own being able to ask for advice across
+the table when necessary.
+Spend the day writing some code and 
+share the result and what you learnt at the end of the day. 
+(But you probably already [knew that is the idea](/about))
+
+
+### What to expect
+
+We want to have a Zig Day with monthly or bi-monthly cadence.
+
+Initially this can (and will) be hosted at Anthon's home,
+where he can host 15-20 people.
+The location has WiFi, power (and wired ethernet if necessary).
+The downside of this location (in the far south of Braunschweig)
+is that it is not directly connected to the main station by public transport,
+requiring quite a bit of time to reach,
+if you come by train from outside Braunschweig.
+
+Once established we will look for a more centrally located venue,
+that is more easy to reach and also when necessary to accomodate more people.
+
+A typical Zig Day in Braunschweig would run as follows (times are approximate):
+
+- 09:30 - 10:00: gathering and chit-chat
+- 10:00 - 10:30: explain projects, form groups, setup workstations
+- 10:30 - 12:30: build amazing stuff
+- 12:30 - 14:00: lunch break (see next section)
+- 14:00 - 16:00: build some more amazing stuff
+- 16:00 - 17:00: show others what you built and what you learnt
+
+### Attending, food & drink, allergies
+
+Please contact Anthon, via the [email](mailto:zigday@ruamel.eu),
+if you are interested in attending Zig Day Braunschweig.
+
+Knowing how many will attend is necessary to provide and set up 
+enough tables and chairs (and provide food (see below)). 
+
+Please indicate how you will be travelling (to get instructions).
+If you are coming by car,
+and if you are willing to potentially pick up other attendees on the way
+(from the main train station, and/or the nearby bus or tram end-points),
+please indicate if so.
+In that case also let know if your contact information can be provided to those other
+attendees (to make sure everyone is at the same exit from the train station).
+If applicable, don't hide the fact that you are interested in helping out to organize the Zig Day. 
+
+There will be food for lunch (probably bread and/or breadrolls), so let me know if there 
+are restrictions on what you will/can eat (e.g. vegan). 
+There will be (carbonated) water, tea and coffee to drink. 
+Bring any sugary, fizzy, drink of your choice, if you need that to function properly,
+or any sweets/snacks food you cannot do without.
+
+The main occupant of the location is Coco, a cat. Most people that are mildly allergic to cats 
+have little or no problems with being in the house (she is half-bengal), but prepare as needed.
+
+### Contacts
+
+* Anthon van der Neut
+/ zigday@ruamel.eu
+(
+[SourceForge](https://sourceforge.net/u/anthon/profile)
+/ [GitHub](https://github.com/AvdN) 
+)
