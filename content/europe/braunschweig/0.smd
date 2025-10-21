@@ -1,7 +1,7 @@
 ---
 .title = "",
 // Announcement date
-.date = @date("2025-10-20T08:29:59"),
+.date = @date("2025-10-21T00:00:00"),
 .author = "anthon.van.der.neut@ruamel.eu",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
@@ -10,11 +10,20 @@
   "version": 0,
   "start": "2025-11-08T09:30:00",
   "duration": 7,
-  "address": "38124 Braunschweig(Leiferde), DE",
+  "address": "38124 Braunschweig (Leiferde), DE",
   "longitude": "52.201534159274665",
   "latitude": "10.506136308508905",
 },
-.draft = true,
+.draft = false,
 ---
 
-Description goes here (how to RSVP, etc).
+This is going to be the first Zig Day in Braunschweig.
+If you are new to the Zig Day concept, then read https://zig.day/about/
+
+If you want to attend, please email Anthon ( zigday@ruamel.eu ), so
+we know you are coming (and to get the exact address).
+
+Don't forget to read the full descripotion https://zig.day/europe/braunschweig/
+if you haven't already done so, and especially the section "Attending, Food & Drink, allergies".
+
+Hope to see you there! 
