@@ -35,3 +35,43 @@ All the attendees are encouraged to learn Zig if they are new to the language, o
 ### RSVP
 
 Sign up to the event via [meetup.com](https://www.meetup.com/coding-bunker/events/311152187/).
+
+--- 
+
+### Spotlights
+
+Andrew Kelley and the Zig core team joined us!
+
+Thanks Andrew, Veikka, Matthew, Mason and Jacob for sharing the day with us!
+
+The hottests topics discussed by the groups:
+
+* embedded development and MicroZig
+* testing via interfaces
+* JSON parsing
+* Games development
+
+### Media
+
+![Group](group.jpeg "group photo of all attendees with Zig creator and core team")
+
+![Andrew with Zig users](andrew_devs.jpeg "Andrew Kelley doing some dev with the folks")
+
+![Crafting embedded Zig](craft.jpeg "Jacob and Mattia developing on a microcontroller, Mirko from Zant")
+
+![Training](learning.jpeg "Loris making an introductory course to new Ziglers")
+
+![Focused](focus.jpeg "New Ziglers are busy experimenting")
+
+![The full room](hall.jpeg "The whole room full of poeple working on Zig projetcs")
+
+![Connecting](mason_matthew.jpeg "Mason and Matthew talking Zig to a C++ dev")
+
+![Stickers](stickers.jpeg "Mix of Zig-themed sticker for the attendees")
+
+
+Video of the closing talks where attendees shared their activities throughput the day.
+
+```=html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l_RT1js6bkA?si=xvYuRMMAYcJOtI8f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
