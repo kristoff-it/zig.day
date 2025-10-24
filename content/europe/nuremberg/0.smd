@@ -1,20 +1,63 @@
 ---
-.title = "",
+.title = "Nuremberg",
 // Announcement date
-.date = @date("2025-07-11T22:10:00"),
-.author = "",
+.date = @date("2025-10-24T10:00:00"),
+.author = "Jan Beelte",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
   "version": 1,
-  "start": "2025-08-02T10:00:00",
-  "duration": 7,
-  "address": "801 SW 10th Ave, Portland, OR 97205", 
-  "latitude": "-122.68321567382061",
-  "longitude": "45.51926598384529",
+  "start": "2025-11-29T09:30:00",
+  "duration": 8,
+  "address": "Sophie-Germain-Straße 12, 90443 Nürnberg", 
+  "latitude": "11.067710855189977",
+  "longitude": "49.44321323050901",
 },
-.draft = true,
 ---
 
-Description goes here (how to RSVP, etc).
+Thanks to [codecentric AG](https://www.codecentric.de) for providing the venue and catering for this event!
+We'll meet in the office of codecentric AG on the first floor of the building (ring the bell so we can let you in).
+
+Thanks to [WeStack IT GmbH](https://westack-it.eu) for their support with the organization.
+
+### Goals for the day
+
+The primary goal is learning and sharing knowledge!
+You should be able to finish the day taking away a novel concept about Zig or systems programming.
+
+This can be done in various ways, here is a non-exhaustive list:
+
+* Free-form building software collaboratively
+* Learning a fun and intriguing thing about Zig
+* Discuss the new IO interface and recent 0.15.2 release breaking changes
+* Work in pair or mob on an existing Zig project
+* Explore the documentation and read the standard library source code
+* Sharing what was built and learnt with the participants
+* And of course https://zig.day/about/
+
+All the attendees are encouraged to learn Zig if they are new to the language, or mentor newcomers if they are already proficient with the language.
+
+### What to expect
+
+A typical day might look like this:
+
+- 09:30 - 10:00: gathering and chit-chat
+- 10:00 - 10:30: explain projects, form groups, setup workstations
+- 10:30 - 12:30: build amazing stuff
+- 12:30 - 14:00: lunch break
+- 14:00 - 16:00: build amazing stuff (continued)
+- 16:00 - 17:00: show others what you built and what you learnt
+
+Pizza and drinks will be provided by codecentric AG.
+We'll make sure to accommodate any dietary requirements on that day.
+
+Bring your laptop and any other hardware required for your project, if you want to work on it together.
+There are separate areas where groups can work on their projects if needed.
+Internet connection via WiFi is available.
+
+Wheelchair access is possible via elevator.
+
+### RSVP
+
+Sign up to the event via [Meetup with Softwerkskammer Nürnberg](https://meetu.ps/e/PCKk2/FBjmS/i)
