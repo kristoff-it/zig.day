@@ -7,7 +7,7 @@ This section explains how to make changes to the website as an organizer.
 ### Overview
 Zig.day is a static website that builds with [Zine](https://zine-ssg.io).
 
-Announcing an event consists in publishing a new content page that, on top of updating
+Announcing an event consists of publishing a new content page that, on top of updating
 the website itself, will also:
 
 1. Add an entry to the RSS feed of your Zig Day location.
@@ -30,7 +30,7 @@ events in full authonomy.
 The initial setup for your Zig Day should be done by Loris, after which you should have
 a call where he shows you how everything works.
 
-The setup consists in adding you as a collaborator to this repository, creating a
+The setup consists of adding you as a collaborator to this repository, creating a
 directory in `/content` that corresponds to your city and adding your GitHub handle to
 `.github/CODEOWNERS`, plus some more backend work to setup automated emails.
 
@@ -47,7 +47,7 @@ At the beginning your Zig Day should have the following files:
 
 `.smd` files are basically markdown files with a slightly different frontmatter language (Ziggy instead of YAML). If you are using VSCode to edit those files you can install the `Ziggy` and `SuperMD` extensions from the marketplace to get syntax highlighting (and in the future also LSP features), both extensions are from Loris Cro.
 
-If you're using a different editor, see `https://zine-ssg.io` for more information about tooling support.
+If you're using a different editor, see https://zine-ssg.io for more information about tooling support.
 
 On the Zine website you will also find instructions on how to setup Zine locally, which is **highly** recommended in order to preview changes locally before committing.
 
@@ -89,17 +89,19 @@ The frontmatter contains the following important fields (everything else can be 
 
 It's highly recommended to double check any change you make by having `zine` run a local copy of the site and seeing with your own eyes that everything checks out.
 
-Once the metadata is all entered correctly, you can work on changing the event descrition by modifying the markdown contents below the frontmatter.
-
+Once the metadata is all entered correctly, you can work on changing the event descrition by modifying the markdown contents below the frontmatter. Most vanilla markdown syntax is supported and if you need to do something fancy go to https://zine-ssg.io and read the SuperMD documentation.
+ 
 The event description should explain to people how to get to the location as appropriate (which metro/train stop to take if applicable, how to find the right door, etc) and what the schedule will roughly look like (e.g. is there nearby food places or do people need to bring food from home?).
 
 Other than that you can put whatever you want in your event description but here are two important suggestions:
 
-1. Do repeat some of the information in `index.smd` also in each numbered event page. People will receive a link to the specific event and most of them will not navigate upwards to the event as a whole, meaning that they will only learn the information you put in this page. Some redundancy will help you make sure that people have all the key information.
+1. Do repeat some of the information in `index.smd` also in each numbered event page. People will receive a link to the specific event and most of them will not navigate upwards to the event as a whole, meaning that they will only learn the information you put in this page. Some redundancy will help you make sure that people have all the key information and won't mistakenly assume that a Zig Day is a conference, for example.
 2. Setup RSVPs. RSVP is a French achronym used to indicate a "ticketing system" where people can actively confirm or cancel their participation to an event. In the future zig.day will offer this feature natively but for now you can use third party systems such as https://lu.ma (but asking people to send you an email is fine too!). There are two big reasons why you will want to have a system like that in place:
    - A new Zig Day will most likely need to build up its audience and the first event you will want to know if anybody will even show up. An RSVP system will help you get some piece of mind (although be aware that sometimes people sign up for an event and still don't show up, especially if it's a free event).
    - After you start getting traction you might end up in a situation where you don't have enough capacity for everybody who wants to come and an RSVP system will allow you to have a queue of people who will be let in when an accepted participant cancels their participation.
 
+
+Every event must be numbered so your second event should be named `1.smd` and so forth.
 
 ### Pushing your changes
 
@@ -112,7 +114,15 @@ Once you do create a PR, a bot will immediately attempt to merge it.
 As soon as the PR is merged, a main branch CI job will publish the website (takes a minute or two) and your event will be live. Emails will be sent out a few minutes after that.
   
   
+### Unforseen Conditions
+If you have to reschedule an event or have any other kind of organizational issue that requires adjusting
+the information on zig.day, don't hesitate to ping Loris to get help on how to do that correctly, especially
+if it's your first time.
 
+That said, the first step is to update the event description with the new information and, if any of the contents of `.custom` in the frontmatter change, to increase `"version"`.
+
+Users who subscribe via email are told to always check the website for the latest updates about the event
+(the email template does that automatically, you don't have to do anything).
 
 
 
