@@ -96,9 +96,10 @@ The event description should explain to people how to get to the location as app
 Other than that you can put whatever you want in your event description but here are two important suggestions:
 
 1. Do repeat some of the information in `index.smd` also in each numbered event page. People will receive a link to the specific event and most of them will not navigate upwards to the event as a whole, meaning that they will only learn the information you put in this page. Some redundancy will help you make sure that people have all the key information and won't mistakenly assume that a Zig Day is a conference, for example.
-2. Setup RSVPs. RSVP is a French achronym used to indicate a "ticketing system" where people can actively confirm or cancel their participation to an event. In the future zig.day will offer this feature natively but for now you can use third party systems such as https://lu.ma (but asking people to send you an email is fine too!). There are two big reasons why you will want to have a system like that in place:
-   - A new Zig Day will most likely need to build up its audience and the first event you will want to know if anybody will even show up. An RSVP system will help you get some piece of mind (although be aware that sometimes people sign up for an event and still don't show up, especially if it's a free event).
+2. Setup RSVPs. RSVP is a French achronym used to indicate a "ticketing system" where people can actively confirm or cancel their participation to an event. In the future zig.day will offer this feature natively but for now you can use third party systems such as https://lu.ma (but asking people to send you an email is fine too!). There are three big reasons why you will want to have a system like that in place:
+   - A new Zig Day will most likely need to build up its audience and the first event you will want to know if anybody will even show up. An RSVP system will help you get some peace of mind (although be aware that sometimes people sign up for an event and still don't show up, especially if it's a free event).
    - After you start getting traction you might end up in a situation where you don't have enough capacity for everybody who wants to come and an RSVP system will allow you to have a queue of people who will be let in when an accepted participant cancels their participation.
+   - You can contact people who RSVPd via email and let them know of any changes to the event.
 
 
 Every event must be numbered so your second event should be named `1.smd` and so forth.
