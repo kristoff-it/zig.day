@@ -11,8 +11,9 @@
   "start": "2025-11-15T09:30:00",
   "duration": 7,
   "address": "3700 Willingdon Ave. Burnaby, British Columbia", 
-  "latitude": "49.25112342490936",
-  "longitude": "-123.00302278634162",
+  "longitude": "49.25112342490936",
+  "latitude": "-123.00302278634162",
+
 },
 .draft = false,
 ---
