@@ -1,16 +1,18 @@
 ---
 .title = "Vancouver",
-.date = @date("2025-11-15T09:30:00"),
+// Announcement date
+.date = @date("2025-11-6T00:00:00"),
 .author = "Matthew Knight",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
-  "version": 1,
+  "version": 0,
+  "start": "2025-11-15T09:30:00",
   "duration": 7,
   "address": "3700 Willingdon Ave. Burnaby, British Columbia", 
-  "latitude": "9.18438462674739",
-  "longitude": "45.48329239239466",
+  "latitude": "49.25112342490936",
+  "longitude": "-123.00302278634162",
 },
 .draft = false,
 ---
