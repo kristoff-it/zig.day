@@ -1,20 +1,100 @@
 ---
 .title = "",
 // Announcement date
-.date = @date("2025-07-11T22:10:00"),
+.date = @date("2025-11-06T22:10:00"),
 .author = "",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
   "version": 1,
-  "start": "2025-08-02T10:00:00",
-  "duration": 7,
-  "address": "801 SW 10th Ave, Portland, OR 97205", 
-  "latitude": "-122.68321567382061",
-  "longitude": "45.51926598384529",
+  "start": "2025-11-15T09:00:00",
+  "duration": 8,
+  "address": "3 Chome-5 Sanno, Nishinari Ward, Osaka, 557-0001", 
+  "latitude": "135.50555339862663",
+  "longitude": "34.642457929723456",
 },
-.draft = true,
 ---
+### Get your tickets here:
 
-Description goes here (how to RSVP, etc).
+👉 [Peatix](https://zigday.peatix.com/)
+
+
+Our goal is to bring together developers, makers, and newcomers alike to share projects, experiments, tools, and stories. Whether you write games, build systems tools, or are just curious about programming for the first time, you’re warmly welcome here. Expect a day with maybe lightning talks, live demos, and chances to connect and collaborate with systems programmers, creative coders, and beginners who want to learn together.
+
+
+🌏 Language: English + Japanese friendly (presentations encouraged in English if possible)
+
+🧩 Topics we love: game development, low-level programming, compilers, tools, creative coding, embedded systems, and open-source culture
+
+💡 Spirit: collaborative, experimental, and open — everyone’s welcome.
+
+🪶 Interested in giving a short talk or lightning presentation?
+
+### Register here:
+👉 [Speaker Application](https://secretshop.osaka/en/zigday-apply/)
+
+<sub><sup>Accepted speakers will receive a free event pass.</sup></sub>
+<sub><sup> We’ll get back to you soon! </sup></sub>
+
+### 📅 More info & schedule here:
+
+👉 [SecretShop.Osaka](https://secretshop.osaka/posts/en/zigday00/)
+
+
+### 💬 Coms:
+
+👉 [Discord](https://discord.gg/Sg2qBHFnDA)
+
+
+### Rough Target Agenda:
+| Time                  | Activity                                                                                                                                                                                         |
+|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `09:30 ~ 10:00__`      |   Arrival, coffee / minglepost.                                                                                                                                                                    |
+| `10:00 ~ 10:30`       |   Opening circle: intros.                                                                                                                                                                          |
+| `10:30 ~ 12:30`       |   Collaborative work / breakout groups.                                                                                                                                                            |
+| `12:30 ~ 13:30`       |   Lunch.                                                                                                                                                                                           |
+| `13:30 ~ 14:00`       |   Midday check-in / sharing in circle.                                                                                                                                                             |
+| `14:00 ~ 16:30`       |   More collaboration / group switching if desired                                                                                                                                                  |
+| `16:30 ~ 17:00`       |   Lightning talks (if any) / show & tell / optional presentations                                                                                                                                  |
+| `17:00+`              |   Hang-out and chill / continue collaborating                                                                                                                                                      |
+
+
+
+日本語 **Zig Day Osaka**（ジグ・デイ大阪） は、プログラミング言語「Zig」と、それを使って創造する人々をテーマにしたコミュニティ主導のイベントです。 Zig が掲げる理念は 「Software You Can Love（愛せるソフトウェア）」。 シンプルで高性能、そして意図をもって設計されたソフトウェアを通して、開発をもっと楽しく、誇りを持てるものにするという想いです。
+経験豊富な開発者はもちろん、プログラミング初心者や「システム系って何？」という方まで大歓迎！ プロジェクト紹介、ライトニングトーク、ライブデモ、質疑応答を通じて、知識と情熱を共有し、互いにつながり・協力して学び合いましょう。
+
+🌏 言語: 英語＋日本語対応（発表はできるだけ英語でお願いします）
+
+🧩 主なテーマ: ゲーム開発、低レイヤー技術、コンパイラ、ツール制作、クリエイティブコーディング、組込みシステム、オープンソース文化
+
+💡 雰囲気: 協力的・実験的・オープン —— どなたでも気軽にご参加ください！
+
+🪶 LT（ライトニングトーク）や短いプレゼンに興味がありますか？
+
+### こちらから登録してください：
+
+👉[Speaker Application](https://secretshop.osaka/jp/zigday-apply/)
+
+<sub><sup>採択された登壇者には、無料の参加チケットをお送りします。
+後ほどこちらからご連絡いたします！</sup></sub>
+
+### 📅 詳細・スケジュールはこちら：
+
+👉 [SecretShop.Osaka](https://secretshop.osaka/posts/ja/zigday00/)
+
+### 💬 Coms:
+
+👉[Discord](https://discord.gg/Sg2qBHFnDA)
+
+Rough agenda:
+| 時間                  | アクティビティ                                                                                                                                                                                         |
+|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `09:30 ~ 10:00__ `    |   到着、コーヒー / 交流タイム                                                                                                                                                                    |
+| `10:00 ~ 10:30  `     |   オープニングサークル：自己紹介                                                                                                                                                                          |
+| `10:30 ~ 12:30`       |   協働作業 / ブレイクアウトグループ                                                                                                                                                            |
+| `12:30 ~ 13:30`       |   昼食                                                                                                                                                                                           |
+| `13:30 ~ 14:00`       |   ミッドデイ・チェックイン / サークルでの共有                                                                                                                                                             |
+| `14:00 ~ 16:30`       |   さらなるコラボレーション / 希望者はグループチェンジ                                                                                                                                                  |
+| `16:30 ~ 17:00`       |   ライトニングトーク（希望者） / ショー＆テル / 任意の発表                                                                                                                                  |
+| `17:00+`              |   懇親・交流 / 作業の続行                                                                                                                                                      |
