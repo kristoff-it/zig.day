@@ -1,0 +1,29 @@
+---
+.title = "",
+// Announcement date
+.date = @date("2025-11-07T00:00:00"),
+.author = "",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 1,
+  "start": "2025-11-29T10:00:00",
+  "duration": 7,
+  "address": "Parallel Wireless, Prologue Works, 25 Marsh St, Bristol, BS1 4AX",
+  "latitude": "-2.5961161600641764",
+  "longitude": "51.45258601654102",
+},
+---
+
+## Parallel Wireless Hosts Zig Day #1
+
+We're back for another Zig Day, this time hosted by
+[Parallel Wireless](https://www.parallelwireless.com/)! Same format as last time -- check out the
+[Bristol Zig Day](/europe/bristol/) page for the agenda.
+
+## RSVP
+
+If you're planning to attend **you must [RSVP using Luma](https://luma.com/9p9r4m0r)**. On the day,
+someone will be by the building entrance from 10:00 to check your tickets and let you in. If you
+arrive a bit later or get locked out, call 07599918784 and someone will come down to let you in.
