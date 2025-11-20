@@ -1,0 +1,40 @@
+---
+.title = "Milano",
+// Announcement date
+.date = @date("2025-11-20T16:00:00"),
+.author = "inge4pres",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 0,
+  "start": "2025-12-06T09:30:00",
+  "duration": 7,
+  "address": "Holiday Inn Milan Garibaldi Station - Via Ugo Bassi, 1A",
+  "latitude": "9.183162510220367",
+  "longitude": "45.488915633651665",
+}
+---
+
+Thanks to [Tigerbeetle](https://tigerbeetle.com) for providing the venue for this event!
+
+Tigerbeetle is the OTLP database to power the future of financial transactions.
+Go check them out on their [blog](https://tigerbeetle.com/blog/).
+
+### Goals for the day
+
+The primary goal is learning and sharing knowledge!
+You should be able to finish the day taking away a novel concept about Zig or systems programming.
+
+This can be done in various ways, here is a non-exhaustive list:
+
+* Free-form building software collaboratively
+* Discuss the 0.15.2 release breaking changes or the improvements currently avaiable in trunk
+* Work in pair or mob on an existing Zig project
+* Explore the documentation and read the standard library source code
+
+All the attendees are encouraged to learn Zig if they are new to the language, or mentor newcomers if they are already proficient with the language.
+
+### RSVP
+
+Sign up to the event via [meetup.com](https://www.meetup.com/italia-zig-user-group/events/312096305/).
