@@ -1,0 +1,30 @@
+---
+.title = "",
+// Announcement date
+.date = @date("2025-12-15T18:00:00-05:00"),
+.author = "",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event after it went live.
+.custom = {
+  "version": 1,
+  "start": "2026-01-24T10:00:00",
+  "duration": 7,
+  "address": "4th Floor 397 Bridge St Brooklyn, NY 11201", 
+  "latitude": "40.69134",
+  "longitude": "-73.98503",
+},
+.draft = false,
+---
+
+We're grateful to [The Recurse Center](https://recurse.com) for hosting us!
+To help them out, please RSVP via Luma [here](https://luma.com/1ywvn8mp).
+
+Approximate timeline:
+
+- 10:00 – 10:30: gathering, bagels, chit-chat
+- 10:30 – 11:00: explain projects, form groups, set up workstations
+- 11:00 – 13:00: work on stuff together
+- 13:00 – 14:30: lunch break
+- 14:30 – 16:30: work on stuff together (continued)
+- 16:30 – 17:00: show others what you made and what you learned
