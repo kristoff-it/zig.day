@@ -7,10 +7,10 @@
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event after it went live.
 .custom = {
-  "version": 1,
+  "version": 2,
   "start": "2026-01-24T10:00:00",
   "duration": 7,
-  "address": "4th Floor 397 Bridge St Brooklyn, NY 11201", 
+  "address": "The Recurse Center, Downtown Brooklyn, NY", 
   "latitude": "40.69134",
   "longitude": "-73.98503",
 },
@@ -18,7 +18,7 @@
 ---
 
 We're grateful to [The Recurse Center](https://recurse.com) for hosting us!
-To help them out, please RSVP via Luma [here](https://luma.com/1ywvn8mp).
+To help them out (and for the address), please RSVP via Luma [here](https://luma.com/1ywvn8mp).
 
 Approximate timeline:
 
