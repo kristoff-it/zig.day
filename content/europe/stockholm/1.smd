@@ -1,14 +1,14 @@
 ---
 .title = "",
 // Announcement date
-.date = @date("2025-10-19T22:10:00"),
+.date = @date("2025-12-25T22:10:00"),
 .author = "",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
   "version": 1,
-  "start": "2025-11-29T10:00:00",
+  "start": "2026-01-31T10:00:00",
   "duration": 7,
   "address": "Sankt Eriksgatan 33, 112 39 Stockholm", 
   "latitude": "18.031289280996834",
@@ -17,10 +17,10 @@
 .draft = false,
 ---
 
-**Welcome to the 1st Zig Day Stockholm!**
+**Welcome to the 2nd Zig Day Stockholm!**
 
-We will meet at the [Kungsholmens Internationella Biblioteket](https://biblioteket.stockholm.se/bibliotek/kungsholmens-bibliotek-internationella-biblioteket), 
-at the Programrummet on the 2nd floor. 
+We are meeting againt at the [Kungsholmens Internationella Biblioteket](https://biblioteket.stockholm.se/bibliotek/kungsholmens-bibliotek-internationella-biblioteket), 
+in the Programrummet on the 2nd floor. 
 
 The library is located right next to the **Fridhemsplan** metro station, 
 you can take either the green line or the blue line going from T-Centralen to the northwest.
@@ -43,6 +43,6 @@ You only need to bring a laptop and yourself :).
 
 ---
 
-**Sign up** to the event in the library's [event page](https://biblioteket.stockholm.se/evenemang/zigday-a-day-for-programmers-1).
+**[Sign up](https://biblioteket.stockholm.se/evenemang/zigday-a-meetup-for-programmers-1)** to the event in the library's event page.
 
 See you then!
