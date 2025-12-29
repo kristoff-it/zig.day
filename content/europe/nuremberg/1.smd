@@ -1,14 +1,14 @@
 ---
 .title = "Nuremberg",
 // Announcement date
-.date = @date("2025-10-24T10:00:00"),
+.date = @date("2025-12-29T18:00:00"),
 .author = "Jan Beelte",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
   "version": 1,
-  "start": "2025-11-29T09:30:00",
+  "start": "2026-02-07T09:30:00",
   "duration": 8,
   "address": "Sophie-Germain-Straße 12, 90443 Nürnberg", 
   "latitude": "11.067710855189977",
@@ -20,6 +20,10 @@ Thanks to [codecentric AG](https://www.codecentric.de) for providing the venue a
 We'll meet in the office of codecentric AG on the first floor of the building (ring the bell so we can let you in).
 
 Thanks to [WeStack IT GmbH](https://westack-it.eu) for their support with the organization.
+
+### RSVP
+
+Sign up to the event via [eventbrite](https://www.eventbrite.de/e/2-zig-day-nurnberg-tickets-1979229212855)
 
 ### Goals for the day
 
@@ -42,12 +46,14 @@ All the attendees are encouraged to learn Zig if they are new to the language, o
 
 A typical day might look like this:
 
+- doors open at 09:00
 - 09:30 - 10:00: gathering and chit-chat
 - 10:00 - 10:30: explain projects, form groups, setup workstations
 - 10:30 - 12:30: build amazing stuff
 - 12:30 - 14:00: lunch break
 - 14:00 - 16:00: build amazing stuff (continued)
 - 16:00 - 17:00: show others what you built and what you learnt
+- afterwards we can order food and continue working on the projects
 
 Pizza and drinks will be provided by codecentric AG.
 We'll make sure to accommodate any dietary requirements on that day.
@@ -56,18 +62,4 @@ Bring your laptop and any other hardware required for your project, if you want 
 There are separate areas where groups can work on their projects if needed.
 Internet connection via WiFi is available.
 
-Wheelchair access is possible via elevator.
-
-### RSVP
-
-Sign up to the event via [Meetup with Softwerkskammer Nürnberg](https://meetu.ps/e/PCKk2/FBjmS/i)
-
-### Photos
-
-![Off to a good start](1.jpg "Off to a good start")
-![Introduction to Zig session](2.jpg "Introduction to Zig session")
-![Introduction to Zig session](3.jpg "Introduction to Zig session")
-![[Ashet Home Computer prototype](https://ashet.computer/)](4.jpg "Ashet Home Computer prototype")
-![Coworking](5.jpg "Coworking")
-![Feedback and learnings](6.jpg "Feedback and learnings")
-![Proposed topics for the day](7.jpg "Proposed topics for the day")
+Wheelchair access is possible via an elevator.
