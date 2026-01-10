@@ -1,0 +1,18 @@
+---
+.title = "Nuremberg",
+// Announcement date
+.date = @date("2025-10-24T10:00:00"),
+.author = "Jan Beelte",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 1,
+  "start": "2025-11-29T09:30:00",
+  "duration": 8,
+  "address": "Sophie-Germain-Straße 12, 90443 Nürnberg", 
+  "latitude": "11.067710855189977",
+  "longitude": "49.44321323050901",
+},
+.draft = true,
+---

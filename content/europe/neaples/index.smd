@@ -1,0 +1,59 @@
+---
+.title = "Napoli",
+.date = @date("2026-01-10T00:00:00"),
+.author = "",
+.layout = "location.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}, {
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
+},{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
+}],
+.custom = {
+  "locale": "en-US",
+  "nation": "IT",
+  "timezone": "Europe/Rome",
+  "latitude": "14.2504857899581",
+  "longitude": "40.840348434586448",
+}
+---
+
+# Zig Day Napoli
+
+Zig Day Napoli is an in-person event designed to bring the Zig community together in southern Italy. Like other Zig Day events, our primary focus is meeting others who are interested in Zig, low-level programming, and user-respecting software.
+
+This event is designed to be warm and welcoming for everyone, regardless of their programming expertise or knowledge of Zig. We especially want to invite Zig beginners and those curious about the language who haven't written their first line of code yet.
+
+A significant aspect of this meetup involves sharing ideas and collaborating. There are no rigid restrictions on what to work on, and other participants are free to join. This is a space to work on your own projects, brainstorm new concepts, and receive real-time suggestions from others in the community.
+
+## What to Expect:
+
+Zig Day Napoli will take place on Saturdays. Specific dates and locations will be announced based on venue availability.
+
+To prioritize what participants actually want to work on, we avoid a rigid structure. However, we follow this general flow to keep the day organized:
+
+- 10:00–10:30: Welcome and introductions
+- 10:30–11:00: Project Pitches and Workstation Setup
+- 11:00–13:00: Collaborative hacking
+- 13:00–14:30: Lunch break
+- 14:30–16:15: Project work (continued)
+- 16:15–17:15 Progress Sharing and Demos
+
+## Join the community!
+
+Beyond our local meetups, we are part of a larger network of enthusiasts. If you are interested in Zig and want to connect with the broader community in Italy, we highly recommend joining the official Zig Italia Telegram channel:
+
+- [Zig Italia on Telegram](https://t.me/ziglang_it).
+
+## Contacts:
+
+Zig Day Napoli is currently organized by:
+
+- Giuseppe Cesarano
