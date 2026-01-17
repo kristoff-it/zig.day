@@ -1,0 +1,38 @@
+---
+.title = "Milano",
+// Announcement date
+.date = @date("2065-01-23T16:00:00"),
+.author = "inge4pres",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 0,
+  "start": "2026-02-21T09:30:00",
+  "duration": 7,
+  "address": "WeDesk coworking Seregno - Via Ballerini, 54 (ingresso da Via Magenta)", 
+  "latitude": "9.20181671761784", 
+  "longitude": "45.64791565487969",
+}
+---
+
+Thanks Loris for finding the venue for this event!
+We are going to be hosted in his beloved hometown, and get a taste of Seregno's lifestyle.
+
+### Goals for the day
+
+The primary goal is learning and sharing knowledge!
+You should be able to finish the day taking away a novel concept about Zig or systems programming in general.
+
+This can be done in various ways, here is a non-exhaustive list:
+
+* Free-form building software collaboratively
+* Discuss the upcoming 0.16.0 release breaking changes and how to implement them, especially on std.Io
+* Work in pair or mob on an existing Zig project
+* Explore the documentation and read the standard library source code
+
+All the attendees are encouraged to learn Zig if they are new to the language, or mentor newcomers if they are already proficient with the language.
+
+### RSVP
+
+Sign up to the event via [meetup.com](https://www.meetup.com/italia-zig-user-group/events/312934182/).
