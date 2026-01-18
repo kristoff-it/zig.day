@@ -8,8 +8,8 @@
 // address of this event.
 .custom = {
   "version": 0,
-  "start": "2026-02-21T09:30:00",
-  "duration": 7,
+  "start": "2026-02-21T09:00:00",
+  "duration": 9,
   "address": "WeDesk coworking Seregno - Via Ballerini, 54 (ingresso da Via Magenta)", 
   "latitude": "9.20181671761784", 
   "longitude": "45.64791565487969",
@@ -25,7 +25,7 @@ you plan to come**.
 This is the first Zig event in Seregno since
 the last Software You Can Love Milan conference, where
 the day after the conference was dedicated to eating
-good pizza and tasting **the best ice cream** in nothern
+good pizza and tasting **the best ice cream** in northern
 Italy (and beyond!).
 
 This Zig Day will have the same structure as any other,
@@ -39,7 +39,7 @@ take part to.
 
 The main Zig Day starts at 9:00. For those who are able
 and willing to arrive to Seregno by 8:10 at the latest
-(more on this in the 'getting to seregno' section), you
+(more on this in the 'Getting to Seregno' section), you
 can join me at [Napoli Bakery](https://maps.app.goo.gl/PwLuW3pXqPhUa9xK7).
 
 My recommendations:
