@@ -1,6 +1,8 @@
-name: Test the website builds
+name: Deploy the website build
 
-on: pull_request
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
 
 concurrency:
   # Cancels pending runs when a PR gets updated.
@@ -23,6 +25,7 @@ jobs:
       - name: Build
         run: zine release
   codeowners-automerge:
+    if: github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     needs: zine-release-test
     steps:
