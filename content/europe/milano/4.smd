@@ -1,0 +1,141 @@
+---
+.title = "Milano",
+// Announcement date
+.date = @date("2065-01-23T16:00:00"),
+.author = "inge4pres",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 0,
+  "start": "2026-02-21T09:00:00",
+  "duration": 9,
+  "address": "WeDesk coworking Seregno - Via Ballerini, 54 (ingresso da Via Magenta)", 
+  "latitude": "9.20181671761784", 
+  "longitude": "45.64791565487969",
+}
+---
+
+Hi, Loris here with a big announcement for this event.
+Sorry for the wall of text and **don't forget to RSVP if
+you plan to come**.
+
+# Zig Day Milano in SEREGNO!
+
+This is the first Zig event in Seregno since
+the last Software You Can Love Milan conference, where
+the day after the conference was dedicated to eating
+good pizza and tasting **the best ice cream** in northern
+Italy (and beyond!).
+
+This Zig Day will have the same structure as any other,
+but there are going to be some optional activities (mainly
+geared towards eating and drinking) that you are welcome to
+take part to.
+
+## Extra activities
+
+### Breakfast @ Napoli Bakery
+
+The main Zig Day starts at 9:00. For those who are able
+and willing to arrive to Seregno by 8:10 at the latest
+(more on this in the 'Getting to Seregno' section), you
+can join me at [Napoli Bakery](https://maps.app.goo.gl/PwLuW3pXqPhUa9xK7).
+
+My recommendations:
+
+- Coda d'aragosta (crema chantilly)
+- Zeppola di san giuseppe (crema pasticcera)
+- Cornetto ischitano (ripieno a piacere)
+
+After we're done with breakfast, we'll walk to the
+event location.
+
+### Lunch @ Pane e Olio + Gelato @ Albero dei Gelati
+
+Seregno has a few other choices, but the main group will
+eat lunch at [Pane e Olio](https://maps.app.goo.gl/oWBU5XRsHffcBrb8A).
+
+After lunch, if it's good weather and we feel like it,
+we can walk to [Albero dei Gelati](https://maps.app.goo.gl/QmpGpzv34bp7joEv8)
+get an ice cream, and then we walk back.
+
+### Dinner and beyond
+
+I haven't settled on a specific restaurant yet, but
+of course we can have dinner together.
+
+Ater dinner we can stop by [Old Station Pub](https://maps.app.goo.gl/Fdrb7kU5B8tfXTBP9)
+and get a couple of beers.
+
+One nice thing about Old Station Pub is that it's right
+next to the train station so if you plan to return by
+train, you can stay until around 23:00. Same applies to
+parking spots (see the next section), both recommended
+parking locations are right next to it.
+
+And if you want to take it easy and sleep in Seregno,
+[Biffi Hotel](https://maps.app.goo.gl/vWeidrxkiKP342gSA)
+is also right next to the pub.
+
+## Getting to Seregno
+
+### Parking
+
+Recommended parking locations:
+
+- https://maps.app.goo.gl/ppiKJ4pvR2LJkoGH8 (free, outdoors)
+- https://maps.app.goo.gl/zFaSis5cU7PEMxgC6 (paid, indoors)
+
+### Trains
+
+If you're coming from Milan:
+
+- RegioExpress from Milano Centrale (recommended, every hour at :43, takes 25mins)
+- S11 from Porta Garibaldi (every hour at :08 and :38, takes 35mins)
+- S9 from Lambrate (every hour at :26 and :56, takes 35mins)
+
+Seregno is Ring 6 so you'll need a ticket that covers rings 1-6.
+
+If you take the 7:43 RE from Centrale, you'll be in Seregno
+perfectly on time for breakfast at Napoli Bakery :^)
+
+If you have any quesiton about logistics, feel free to ping me
+(@kristoff) on the [Zig Italia](https://t.me/ziglang_it) Telegram group,
+or via email (loris@zig.day).
+
+## Main Zig Day Event
+
+### Location
+
+[WeDesk](https://www.wedesk.space/) has kindly offered to host us.
+
+WeDesk is a coworking space in Seregno located close to the train
+station and all the aforementioned eating and drinking places.
+
+The main entrance is in Via Magenta and it's easy to recognize.
+
+### Schedule
+
+We would like to dedicate more time to coding, so we are aiming for 9:00 CET to be at the venue,
+starting the programming activities at 9:30 CET.
+
+A detailed agenda is in the RSVP link.
+
+### Goals for the day
+
+The primary goal is learning and sharing knowledge!
+You should be able to finish the day taking away a novel concept about Zig or systems programming in general.
+
+This can be done in various ways, here is a non-exhaustive list:
+
+- Free-form building software collaboratively
+- Discuss the upcoming 0.16.0 release breaking changes and how to implement them, especially on std.Io
+- Work in pair or mob on an existing Zig project
+- Explore the documentation and read the standard library source code
+
+All the attendees are encouraged to learn Zig if they are new to the language, or mentor newcomers if they are already proficient with the language.
+
+### RSVP
+
+Sign up to the event via [meetup.com](https://www.meetup.com/italia-zig-user-group/events/312934182/).
