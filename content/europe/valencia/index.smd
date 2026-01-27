@@ -1,0 +1,35 @@
+---
+.title = "València",
+.date = @date("2026-01-27T00:00:00"),
+.author = "",
+.layout = "location.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}, {
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
+},{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
+}],
+.custom = {
+  "locale": "en-US",
+  "nation": "ES",
+  "timezone": "Europe/Madrid",
+  "latitude": "-0.3770197899509868",
+  "longitude": "39.46980885600718",
+}, 
+---
+
+# Zig Day València
+
+**Zig Day València** is a meetup open to everyone, similar to other Zig Day events.
+
+# Organizers
+
+- Arnau Camprubí ([@arnauc](https://codeberg.org/arnauc))
+- Sami González ([@GasInfinity](https://github.com/GasInfinity))
