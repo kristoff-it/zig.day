@@ -1,0 +1,47 @@
+---
+.title = "Portland (OR)",
+.date = @date("2026-02-06T19:30:00"),
+.author = "Tristan Pemble",
+.layout = "event.shtml",
+.custom = {
+  "version": 1,
+  "start": "2026-02-28T11:00:00",
+  "duration": 7,
+  "address": "1504 NE Broadway, Portland, OR 97232",
+  "latitude": "-122.64778",
+  "longitude": "45.53556",
+},
+.draft = false,
+---
+
+I am _very sorry_ for how long this has taken, but after a long search I am thrilled
+to announce we have secured a new venue for <em>Zig Day Portland #2</em>, which will
+be held on Saturday, Februrary the 28th.
+
+We received a lot of feedback that the library space we were using was too noisy,
+making the whole thing kind of exhausting. We've been trying to find something different.
+This time, we'll be meeting in a private room at the McMenamin's Broadway Pub! This
+will give us a smaller, quieter space, and we will be able to order lunch on site.
+
+The McMenamin's does not open until 11am, so we also needed to adjust the start time to
+accomodate.
+
+[**PLEASE RSVP ON LUMA**](https://luma.com/q5i7rd34) so that we can appropriately plan
+for the number of guests.
+
+What to bring:
+* A laptop and/or other hardware
+* An idea for something to work on that is open to collaboration from others,
+  or something you want to learn together.
+
+What to expect:
+* 11:00 - 11:30: gathering and chit-chat
+* 11:30 - 12:00: explain projects, form groups, setup workstations
+* 12:00 - 05:30: work on stuff together
+* 05:30 - 06:00: show others what you built and what you learnt
+
+Since we're meeting at a restaurant that can serve us food where we're working, you will
+be able to just take a break and order lunch whenever you're hungry.
+
+[**PLEASE RSVP ON LUMA**](https://luma.com/q5i7rd34) so that we can appropriately plan
+for the number of guests.
