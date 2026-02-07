@@ -19,8 +19,8 @@
 .custom = {
   "locale": "en-US",
   "timezone": "America/Los_Angeles",
-  "latitude": "-122.67854925051799",
-  "longitude": "45.5151347554047",
+  "latitude": "-122.68321567382061",
+  "longitude": "45.51926598384529",
 }
 ---
 
@@ -48,12 +48,10 @@ This event is open to the public.
 
 A typical Zig Day in Portland runs as follows (times are approximate):
 
-- 10:00 - 10:30: gathering and chit-chat
-- 10:30 - 11:00: explain projects, form groups, setup workstations
-- 11:00 - 01:00: work on stuff together
-- 01:00 - 02:30: lunch break
-- 02:30 - 04:30: work on stuff together (continued)
-- 04:30 - 05:00: show others what you built and what you learnt
+* 11:00 - 11:30: gathering and chit-chat
+* 11:30 - 12:00: explain projects, form groups, setup workstations
+* 12:00 - 05:30: work on stuff together (with a lunch break somewhere)
+* 05:30 - 06:00: show others what you built and what you learnt
 
 We plan to host Zig Day Portland approximately every 2 months.
 
