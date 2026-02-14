@@ -1,0 +1,79 @@
+---
+.title = "Nuremberg",
+// Announcement date
+.date = @date("2026-02-14T18:00:00"),
+.author = "Jan Beelte",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 1,
+  "start": "2026-04-11T09:30:00",
+  "duration": 8,
+  "address": "Sophie-Germain-Straße 12, 90443 Nürnberg", 
+  "latitude": "11.067710855189977",
+  "longitude": "49.44321323050901",
+},
+---
+
+Thanks to [codecentric AG](https://www.codecentric.de) for providing the venue and catering for this event!
+We'll meet in the office of codecentric AG on the first floor of the building (ring the bell so we can let you in).
+
+Thanks to [WeStack IT GmbH](https://westack-it.eu) for their support with the organization.
+
+### RSVP
+
+Sign up to the event via [eventbrite](https://www.eventbrite.de/e/3-zig-day-nurnberg-tickets-1983165346938)
+
+### Pre-Meetup Warm-Up
+
+In case you arrive the day before and you'd like to hang with fellow ziguanas, we will have a warm up gathering
+on April 10th starting at 6pm.
+
+[Sign up here](https://www.eventbrite.de/e/pre-meetup-warm-up-for-3-zig-day-nurnberg-tickets-1983166272707) 
+
+### Goals for the day
+
+The primary goal is learning and sharing knowledge!
+You should be able to finish the day taking away a novel concept about Zig or systems programming.
+
+This can be done in various ways, here is a non-exhaustive list:
+
+* Free-form building software collaboratively
+* Learning a fun and intriguing thing about Zig
+* Discuss the new IO interface and recent 0.16.0 release breaking changes
+* Work in pair or mob on an existing Zig project
+* Explore the documentation and read the standard library source code
+* Sharing what was built and learnt with the participants
+* And of course https://zig.day/about/
+
+All the attendees are encouraged to learn Zig if they are new to the language, or mentor newcomers if they are already proficient with the language.
+
+#### Additional work areas
+
+Based on you feedback, this time we can provide tables and screens for smaller coworking sessions.
+
+For larger workshops, we can use the meeting room with a large monitor to share your screen.
+
+### What to expect
+
+A typical day might look like this:
+
+- doors open at 09:00
+- 09:30 - 10:00: gathering and chit-chat
+- 10:00 - 10:30: explain projects, form groups, setup workstations
+- 10:30 - 12:30: build amazing stuff
+- 12:30 - 14:00: lunch break
+- 14:00 - 16:00: build amazing stuff (continued)
+- 16:00 - 17:00: show others what you built and what you learnt
+- afterwards we can order food and continue working on the projects
+
+Pizza and drinks will be provided by codecentric AG.
+There will be vegan and vegetarian pizza, but also some with meat. In case you have special dietary needs, 
+please let us know in advance via jens.saalmueller@codecentric.de, so we can make sure to have lunch for everyone.
+
+Bring your laptop and any other hardware required for your project, if you want to work on it together.
+There are separate areas where groups can work on their projects if needed.
+Internet connection via WiFi is available.
+
+Wheelchair access is possible via an elevator.
