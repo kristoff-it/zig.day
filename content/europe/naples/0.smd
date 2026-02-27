@@ -1,18 +1,62 @@
 ---
-.title = "Nuremberg",
+.title = "",
 // Announcement date
-.date = @date("2025-10-24T10:00:00"),
-.author = "Jan Beelte",
+.date = @date("2026-02-27T10:00:00"),
+.author = "",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
   "version": 1,
-  "start": "2025-11-29T09:30:00",
+  "start": "2026-03-28T09:30:00",
   "duration": 8,
-  "address": "Sophie-Germain-Straße 12, 90443 Nürnberg", 
-  "latitude": "11.067710855189977",
-  "longitude": "49.44321323050901",
+  "address": "Via Renato Caccioppoli, 17, 80125 Napoli NA", 
+  "longitude": "40.82733466132887",
+  "latitude": "14.203150405542804",
 },
-.draft = true,
+.draft = false,
 ---
+
+Don't forget to register your partacipation on [Luma](https://luma.com/64mi76ay) it helps us organize the event!
+
+Welcome to the First Zig Day in Southern Italy!  
+In collaboration with [Study Room](https://studyroom.it/), who will be hosting the venue, we are proud to present:
+
+# Zig Day Napoli Fuorigrotta!
+
+I am thrilled to announce the first-ever Zig Day in Naples! As specified on the [main event page](https://zig.day/europe/naples/),
+the focus of this event is to bring the Neapolitan systems programming community together to experience the Zig programming language and collaborate on cool projects.
+
+The event is very beginner-friendly and will include a language presentation for anyone looking to get up to speed,
+this will be led by [Loris Cro](https://kristoff.it/), VP of Community for the [Zig Software Foundation](https://ziglang.org/zsf/).
+
+## Event Schedule
+
+- **09:30–10:00:** Venue opens to the public
+- **10:00–10:30:** Welcome and introductions
+- **10:30–11:00:** Project Pitches and Workstation Setup (or an optional language presentation)
+- **11:00–13:00:** Collaborative hacking
+- **13:00–14:30:** Lunch break
+- **14:30–16:30:** Project work (continued)
+- **16:30–17:30:** Progress sharing, demos, and closing thoughts
+
+## Venue Access
+
+The event will be held at [Study Room in Fuorigrotta](https://maps.app.goo.gl/CTUVn9mu7N5Fh9Ff9).
+
+To access the facility, the venue requires guests to be members (affiliates). The membership fee is **5€**, and you can register at the entrance when you arrive.
+If you are already a member, no further action is required and you can access the event for free.
+
+### Lunch Break
+Lunch will be at [Pizzaioli Veraci Fuorigrotta](https://share.google/vUE7H4MmSmTmvo6rH), a local pizzeria with gluten-free options and a wide selection of traditional dishes.
+
+## How to Get There
+
+### By Train
+The closest and most convenient station is [Napoli Piazza Leopardi (Trenitalia)](https://maps.app.goo.gl/bJYqVJuhSYN8aJ268). It is a 5-minute walk from the venue, and trains run approximately every 30 minutes.
+
+### Parking
+Paid parking is available immediately adjacent to the Study Room building.
+
+## RSVP
+Please sign up for the event via [Luma](https://luma.com/64mi76ay).
