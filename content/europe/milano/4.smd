@@ -142,3 +142,34 @@ All the attendees are encouraged to learn Zig if they are new to the language, o
 ### RSVP
 
 Sign up to the event via [meetup.com](https://www.meetup.com/italia-zig-user-group/events/312934182/).
+
+--- 
+
+### Spotlights
+
+Thanks to [WeDesk Seregno](https://www.wedesk.space/) for hosting us!
+
+The hottests topics discussed by the groups:
+
+* embedded development and MicroZig
+* programming BPF probes in Zig
+* graphics with Raylib
+
+### Media
+
+![Group](group.jpeg "group photo of all attendees")
+
+![Intro](intro.jpeg "Loris making an introductory to the day")
+
+![Intro 2](intro_2.jpeg "View of the intro with the Zig Day Milano logo")
+
+![Crafting Zig](craft.jpeg "People sitting at desk and developing Zig on PCs")
+
+![Ice cream](icecream.jpeg "Gelato after the pizza, yummy")
+
+
+Video of the closing talks where attendees shared their activities throughout the day.
+
+```=html
+<iframe width="700" height="350" src="https://www.youtube.com/embed/WoA1eznwH5A?si=Ki6g_6lcOm9H4p0r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
