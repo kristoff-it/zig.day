@@ -1,7 +1,7 @@
 ---
 .title = "Milano",
 // Announcement date
-.date = @date("2065-01-23T16:00:00"),
+.date = @date("2026-01-23T16:00:00"),
 .author = "inge4pres",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
