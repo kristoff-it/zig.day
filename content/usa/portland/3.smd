@@ -1,0 +1,43 @@
+---
+.title = "Portland (OR)",
+.date = @date("2026-04-07T17:00:00"),
+.author = "Tristan Pemble",
+.layout = "event.shtml",
+.custom = {
+  "version": 1,
+  "start": "2026-05-09T11:00:00",
+  "duration": 7,
+  "address": "1504 NE Broadway, Portland, OR 97232",
+  "latitude": "-122.64778",
+  "longitude": "45.53556",
+},
+.draft = false,
+---
+
+For our May 9th event, if you're looking for ideas, we'll have a theme for you: spring cleaning!
+
+Find and dust off an old project and upgrade it to the latest version of Zig. Do a code style pass,
+fix that bug you've been meaning to tackle, or write some documentation.
+
+The best thing we can do for Zig is contribute to its community. You could look for an open source
+Zig library that needs some love, and contribute to it. Maybe even upgrade it to Zig 0.16 for them.
+
+[**PLEASE RSVP ON LUMA**](https://luma.com/0e0hxeoy) so that we can appropriately plan
+for the number of guests.
+
+What to bring:
+* A laptop and/or other hardware
+* An idea for something to work on that is open to collaboration from others,
+  or something you want to learn together.
+
+What to expect:
+* 11:00 - 11:30: gathering and chit-chat
+* 11:30 - 12:00: explain projects, form groups, setup workstations
+* 12:00 - 05:30: work on stuff together
+* 05:30 - 06:00: show others what you built and what you learnt
+
+Since we're meeting at a restaurant that can serve us food where we're working, you will
+be able to just take a break and order lunch whenever you're hungry.
+
+[**PLEASE RSVP ON LUMA**](https://luma.com/0e0hxeoy) so that we can appropriately plan
+for the number of guests.
