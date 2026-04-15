@@ -1,0 +1,50 @@
+---
+.title = "Zig Day @ Systems Distributed '26",
+// Announcement date
+.date = @date("2026-06-01T00:00:00"),
+.author = "Sample Author",
+.layout = "special-event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 4,
+  "start": "2026-07-26T09:00:00",
+  "duration": 8,
+  "address": "MIT Museum - Gambrill Center, 314 Main St, Cambridge MA", 
+  "latitude": "-71.08637972955279",
+  "longitude": "42.36223861159525",
+}
+---
+
+## RSVP Link
+
+To register for this event sign up here: [https://luma.com/eloljzc0](https://luma.com/eloljzc0).
+No conference ticket required.
+
+## About
+
+This is a special one-off Zig Day event hosted at the MIT Museum in Boston!
+
+TigerBeetle has kindly offered to sponsor a Zig Day that runs the day before
+Systems Distributed 26, to give an opportunity to both locals and conference
+attendees to experience a Zig Day.
+
+**Zig Days are full-day collaborative programming events.**
+
+We meet in the morning, introduce ourselves and form small groups to work
+on learning / passion projects with the ultimate goal of learning systems
+thinking and how to make software you can love.
+
+[Here you can learn more about systems thinking and software you can love.](/about/)
+
+The event is open to the public but spaces are limited; attendance is by
+[registration](https://luma.com/eloljzc0) only.
+
+The program will run as follows (times are approximate):
+
+- 9:00 - 9:30: gathering and chit-chat
+- 9:30 - 10:00: introductions, form groups, setup workstations
+- 10:00 - 01:00: work on stuff together
+- 01:00 - 02:30: lunch break
+- 02:30 - 04:30: work on stuff together (continued)
+- 04:30 - 05:00: show others what you built and what you learnt

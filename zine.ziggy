@@ -11,5 +11,6 @@ Site {
         "images/marker-icon-2x.png",
         "images/marker-shadow.png",
         "images/zero.svg",
+        "images/special.svg",
     ],
 }
