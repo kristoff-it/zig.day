@@ -42,6 +42,27 @@
 		@view-transition {
 			navigation: auto;
 		}
+		
+		.special h2 {
+			color: yellow;
+		}
+		
+		.special h2 img {
+			vertical-align: middle;
+			width: 1rem;
+		}
+		
+		.special .cities a {
+			color: #333;
+			font-weight: bold;
+			background-color: #f5ec42;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.special .cities a:hover {
+			background-color: yellow;
+		}
 	</style>
 	<link rel="stylesheet" href="$site.asset('leaflet.css').link()">
 	<script src="$site.asset('leaflet.js').link()"></script>
@@ -56,6 +77,19 @@
 <body id="body">
 	<div :html="$page.content()"></div>
 	<div id="map"></div>
+	<ctx :if="$site.page('special').subpages().first?()">
+		<div class=special :if="$if.custom.get('start').parseDate().lt($build.generated).not()">
+			<h2>Special Events <img src="$site.asset('images/special.svg').link()"></h2>
+			<div class="cities" :loop="$site.page('special').subpagesAlphabetic()">
+				<a href="$loop.it.link()"
+				   data-latitude="$loop.it.custom.get('latitude')"
+				   data-longitude="$loop.it.custom.get('longitude')"
+				   data-special
+				   :text="$loop.it.title"
+				></a>
+			</div>
+		</div>
+	</ctx>
 	<div :loop="$site.pages('canada', 'usa', 'europe', 'japan')">
 		<h2 :text="$loop.it.title"></h2>
 		<div class="cities" :loop="$loop.it.subpagesAlphabetic()">
@@ -78,17 +112,16 @@
 		}
 		).addTo(map);
 		
-		var ZeroIcon = L.icon({
-			iconUrl:
-			"images/zero.svg",
-			iconSize: [46, 46],
-			});
-			
-			const locations = document.querySelectorAll('.cities > a');
-			for (let idx = locations.length - 1; idx >=0; idx -= 1) {
-				const e = locations[idx];
-				let marker = L.marker([e.dataset.longitude, e.dataset.latitude] ,{ icon: ZeroIcon }).addTo(map);
-				marker.bindPopup(e.outerHTML);
-			}
+		var ZeroIcon = L.icon({ iconUrl: "images/zero.svg",	iconSize: [46, 46]});
+		var SpecialIcon = L.icon({iconUrl: "images/special.svg", iconSize: [46, 46]});
+		
+		const locations = document.querySelectorAll('a[data-longitude]');
+		for (let idx = locations.length - 1; idx >=0; idx -= 1) {
+			const e = locations[idx];
+			const special = e.dataset.special != undefined;
+			let marker = L.marker([e.dataset.longitude, e.dataset.latitude] ,
+			{ icon: special ? SpecialIcon : ZeroIcon, zIndexOffset: special ? 10 : 0 }).addTo(map);
+			marker.bindPopup(e.outerHTML);
+		}
 	</script>
 </body>
