@@ -39,3 +39,30 @@ All the attendees are encouraged to learn Zig if they are new to the language, o
 ### RSVP
 
 Sign up to the event via [meetup.com](https://www.meetup.com/italia-zig-user-group/events/313957250/).
+
+---
+
+### Spotlights
+
+Major topics discussed during the day:
+
+* `std.Io` and how to read from stream
+* `packed struct` properties and their alignment versus `extern`
+* graphics with Raylib
+* fibers and how to use them to run tasks asynchronously
+
+### Media
+
+![Selfie](selfie.jpeg "selfie of Francesco with a thumbs up, group of attendees in the background")
+
+![Craft is happening](craft.jpeg "group photo of attendees developing software you can love")
+
+![Mollie Employees](employees.jpeg "Mollie people, thanks for hosting us!")
+
+![Sugar you can love](food.jpeg "Croissants offered to attendees, stuffed with various jams and creams to improve development speed")
+
+Video of the closing talks where attendees shared their activities throughout the day (in Italian).
+
+```=html
+<iframe width="700" height="350" src="https://www.youtube.com/embed/95OSqrDXRvc?si=S59L5Ta1c3xnB_3R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
