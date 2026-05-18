@@ -1,16 +1,16 @@
 ---
 .title = "Seattle Zig Day #1",
 // Announcement date
-.date = @date("2026-02-24T00:00:00"),
+.date = @date("2026-05-18T00:00:00"),
 .author = "Scott Redig",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
   "version": 1,
-  "start": "2026-03-21T11:00:00",
+  "start": "2026-06-13T11:00:00",
   "duration": 6,
-  "address": "Meeting Room 3, Bellevue Library, 1111 110th Ave NE, Bellevue, WA 98004", 
+  "address": "Meeting Room 2, Bellevue Library, 1111 110th Ave NE, Bellevue, WA 98004", 
   "longitude": "47.619932842463456",
   "latitude": "-122.19428716234691",
 },
@@ -25,7 +25,17 @@ Learning is the key: feel free to experiment on your own, asking around when in 
 
 # Location
 
-New Location!  We'll be trying out the Bellevue Library.  I have reserved Meeting Room 3, which has room for 12.
+Bellevue Library, Meeting Room 2.  (Same location, different room from last time).
+
+## Getting There
+
+### Driving
+
+Bellevue Library has an attached parking garage with ample space.  The posted time limit is 4 hours, however you can validate your parking at the main desk so that your parking is valid all day.
+
+### Public Transit
+
+The library is a 1/2 mile walk from Bellevue Transit Center and the Bellevue Downtown light rail station.  The newly expanded line 2 provides excellent connections, including to the Sounder and Amtrak train station.
 
 # Timeline
 
@@ -43,17 +53,8 @@ New Location!  We'll be trying out the Bellevue Library.  I have reserved Meetin
 
 # RSVP
 
-[Please RSVP on luma.](https://luma.com/i1gn67v5)
+[Please RSVP on luma.](https://luma.com/jov5x6fw)
 
 While you're at it, you can sign up for notifications for future events at [Get Notified]($link.page('usa/seattle')).
 
-If reservations run out and you would've liked to join, please waitlist or otherwise inform Scott so I can plan appropriately for the next event.
-
 For comments and questions, message ScottRedig on https://ziggit.dev
-
----
-
-# Retrospective:
-7 people attended!
-
-![Group photo of attendees](group.jpg "Group photo of attendees")
