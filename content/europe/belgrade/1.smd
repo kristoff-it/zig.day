@@ -1,0 +1,49 @@
+---
+.title = "Zig Day Belgrade #1",
+// Announcement date
+.date = @date("2026-06-06T23:10:00"),
+.author = "Marko",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 1,
+  "start": "2026-06-06T10:00:00",
+  "duration": 8,
+  "address": "Marka Kraljevica 4, KC Magacin, Belgrade, 11000", 
+  "latitude": "20.453303",
+  "longitude": "44.813405",
+},
+---
+
+## Introduction
+Finally we have the second iteration of the Zig day format, took us almost as much time as Zig version 0.16.0! Join a community of Zig lovers in the heart of the Balkans, whether you're a seasoned veteran, or a complete beginner. This is the time and place to share you're experiences, learn something new, and actually produce some code you can love.
+
+Get your laptops charged, coffees brewed, C++ and Rust hate comments revised, your Zig compilers compiled, and std's imported, because we start at 10:00, coding our way all the way trough 18:00.
+
+Become a part of the community on [Telegram](https://t.me/zig_day_belgrade).
+
+## Format
+We wouldn't like to keep things strict by defining a time schedule, because we agree that writing code is like making art. Sometimes it just comes out by itself, and other times not. You can't really force it.
+
+There will be a few short talks, but the emphasis of the event is on craftmanship, not passive listening.
+
+Be sure to bring your laptop. If you don't have a laptop, reach out via the Telegram chat, we can probably hook you up.
+
+The event language is going to be dictated by the participants, though English would be preferred in a multilingual crowd. Try to make other people a part of the conversation as much as possible.
+
+The event is absolutely open to everyone, and free.
+
+## Venue
+The venue is [KC Magacin](https://kcmagacin.org/), a fellow non profit organization, located at Kraljevica Marka 4.
+
+Please RSVP, and/or announce yourself in the Telegram chat, so we can plan out the food, drinks and the general logistics!
+
+## Organizers
+Alphabetically sorted, coincidentally also by height:
+- Marko
+- Nothke
+- Nikola
+- Petar
+
+If you need any help or have suggestions, feel free to reach out via our [Telegram chat](https://t.me/zig_day_belgrade).
