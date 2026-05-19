@@ -1,14 +1,14 @@
 ---
 .title = "Zig Day Belgrade #1",
 // Announcement date
-.date = @date("2026-06-06T23:10:00"),
+.date = @date("2026-05-19T23:10:00"),
 .author = "Marko",
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
-  "version": 1,
-  "start": "2026-06-06T10:00:00",
+  "version": 2,
+  "start": "2026-06-07T10:00:00",
   "duration": 8,
   "address": "Marka Kraljevica 4, KC Magacin, Belgrade, 11000", 
   "latitude": "20.453303",
@@ -37,7 +37,7 @@ The event is absolutely open to everyone, and free.
 ## Venue
 The venue is [KC Magacin](https://kcmagacin.org/), a fellow non profit organization, located at Kraljevica Marka 4.
 
-Please RSVP, and/or announce yourself in the Telegram chat, so we can plan out the food, drinks and the general logistics!
+Please [RSVP](https://www.meetup.com/zig_day_belgrade/events/314865497/?slug=zig_day_belgrade&eventId=314865497), and/or announce yourself in the Telegram chat, so we can plan out the food, drinks and the general logistics!
 
 ## Organizers
 Alphabetically sorted, coincidentally also by height:
