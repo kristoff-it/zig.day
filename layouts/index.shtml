@@ -52,12 +52,17 @@
 			width: 1rem;
 		}
 		
+		.special .cities {
+			flex-direction: column-reverse;
+		}
+		
 		.special .cities a {
 			color: #333;
 			font-weight: bold;
 			background-color: #f5ec42;
 			width: 100%;
 			text-align: center;
+			box-sizing: border-box;
 		}
 		
 		.special .cities a:hover {
@@ -109,19 +114,18 @@
 		L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			maxZoom: 10,
 			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-		}
-		).addTo(map);
-		
-		var ZeroIcon = L.icon({ iconUrl: "images/zero.svg",	iconSize: [46, 46]});
-		var SpecialIcon = L.icon({iconUrl: "images/special.svg", iconSize: [46, 46]});
-		
-		const locations = document.querySelectorAll('a[data-longitude]');
-		for (let idx = locations.length - 1; idx >=0; idx -= 1) {
-			const e = locations[idx];
-			const special = e.dataset.special != undefined;
-			let marker = L.marker([e.dataset.longitude, e.dataset.latitude] ,
+		}).addTo(map);
+
+	var ZeroIcon = L.icon({ iconUrl: "images/zero.svg",	iconSize: [46, 46]});
+	var SpecialIcon = L.icon({iconUrl: "images/special.svg", iconSize: [46, 46]});
+
+	const locations = document.querySelectorAll('a[data-longitude]');
+	for (let idx = locations.length - 1; idx >=0; idx -= 1) {
+		const e = locations[idx];
+		const special = e.dataset.special != undefined;
+		let marker = L.marker([e.dataset.longitude, e.dataset.latitude] ,
 			{ icon: special ? SpecialIcon : ZeroIcon, zIndexOffset: special ? 10 : 0 }).addTo(map);
-			marker.bindPopup(e.outerHTML);
-		}
+		marker.bindPopup(e.outerHTML);
+	}
 	</script>
 </body>

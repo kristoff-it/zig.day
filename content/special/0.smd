@@ -1,5 +1,5 @@
 ---
-.title = "Zig Day @ Systems Distributed '26",
+.title = "Zig Day Boston @ Systems Distributed '26",
 // Announcement date
 .date = @date("2026-06-01T00:00:00"),
 .author = "Sample Author",
@@ -18,8 +18,9 @@
 
 ## RSVP Link
 
-To register for this event sign up here: [https://luma.com/eloljzc0](https://luma.com/eloljzc0).
-No conference ticket required.
+To register for this event sign up here:
+[https://luma.com/eloljzc0](https://luma.com/eloljzc0). No conference ticket
+required.
 
 ## About
 
@@ -31,8 +32,8 @@ attendees to experience a Zig Day.
 
 **Zig Days are full-day collaborative programming events.**
 
-We meet in the morning, introduce ourselves and form small groups to work
-on learning / passion projects with the ultimate goal of learning systems
+We meet in the morning, introduce ourselves and form small groups to work on
+learning / passion projects with the ultimate goal of learning systems
 thinking and how to make software you can love.
 
 [Here you can learn more about systems thinking and software you can love.](/about/)

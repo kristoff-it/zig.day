@@ -64,5 +64,5 @@ Major topics discussed during the day:
 Video of the closing talks where attendees shared their activities throughout the day (in Italian).
 
 ```=html
-<iframe width="700" height="350" src="https://www.youtube.com/embed/95OSqrDXRvc?si=S59L5Ta1c3xnB_3R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="700" height="350" src="https://www.youtube.com/embed/95OSqrDXRvc?si=S59L5Ta1c3xnB_3R" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ```

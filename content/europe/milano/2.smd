@@ -73,5 +73,5 @@ The hottests topics discussed by the groups:
 Video of the closing talks where attendees shared their activities throughout the day.
 
 ```=html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l_RT1js6bkA?si=xvYuRMMAYcJOtI8f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l_RT1js6bkA?si=xvYuRMMAYcJOtI8f" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ```
