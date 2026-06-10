@@ -1,0 +1,26 @@
+---
+.title = "Zigtoberfest '26",
+// Announcement date
+.date = @date("2026-09-12T00:00:00"),
+.author = "Sample Author",
+.layout = "special-event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 1,
+  "start": "2026-09-12T09:00:00",
+  "duration": 7,
+  "address": "1205 Pinetree Wy, Coquitlam, BC V3B 7X3", 
+  "latitude": "11.5406626006466759",
+  "longitude": "48.12187971136574",
+},
+.draft = false,
+---
+
+Zigtoberfest is a mini-conference dedicated to the Zig programming language!
+
+It's the ideal place to connect and learn with other hobbyists as well as
+professionals in the Zig community. We come together to share our knowledge
+and passion for computers and programming.
+
+https://zigtoberfest.de

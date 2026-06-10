@@ -85,7 +85,7 @@
 	<ctx :if="$site.page('special').subpages().first?()">
 		<div class=special :if="$if.custom.get('start').parseDate().lt($build.generated).not()">
 			<h2>Special Events <img src="$site.asset('images/special.svg').link()"></h2>
-			<div class="cities" :loop="$site.page('special').subpagesAlphabetic()">
+			<div class="cities" :loop="$site.page('special').subpages()">
 				<a href="$loop.it.link()"
 				   data-latitude="$loop.it.custom.get('latitude')"
 				   data-longitude="$loop.it.custom.get('longitude')"
