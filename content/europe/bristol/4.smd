@@ -1,0 +1,28 @@
+---
+.title = "Bristol",
+// Announcement date
+.date = @date("2026-07-04T00:00:00"),
+.author = "Francisco Nevitt Gonçalves",
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 1,
+  "start": "2026-09-05T10:00:00",
+  "duration": 7,
+  "address": "Parallel Wireless, Prologue Works, 25 Marsh St, Bristol, BS1 4AX",
+  "latitude": "-2.5961161600641764",
+  "longitude": "51.45258601654102",
+},
+---
+
+We're back for another Zig Day hosted by [Parallel Wireless](https://www.parallelwireless.com/) in
+Bristol! See [the Bristol page](/europe/bristol) for the format.
+
+## RSVP
+
+Like last time, if you're planning to attend, **you must [RSVP using Luma][luma]**. On the day,
+someone will be by the building entrance from 10:00 to check your tickets and let you in. If you
+arrive a bit later or get locked out, call 07599918784 and someone will come down to let you in.
+
+[luma]: https://luma.com/k9n5lz69
