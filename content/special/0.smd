@@ -1,8 +1,7 @@
 ---
 .title = "Zig Day Boston @ Systems Distributed '26",
 // Announcement date
-.date = @date("2026-07-26T00:00:00"),
-.author = "Sample Author",
+.date = .date("2026-07-26T00:00:00"),
 .layout = "special-event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.

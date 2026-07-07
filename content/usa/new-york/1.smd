@@ -1,8 +1,7 @@
 ---
 .title = "",
 // Announcement date
-.date = @date("2025-12-15T18:00:00-05:00"),
-.author = "",
+.date = .date("2025-12-15T18:00:00-05:00"),
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event after it went live.
@@ -14,7 +13,6 @@
   "latitude": "40.69134",
   "longitude": "-73.98503",
 },
-.draft = false,
 ---
 
 We're grateful to [The Recurse Center](https://recurse.com) for hosting us!

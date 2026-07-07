@@ -1,7 +1,6 @@
 ---
 .title = "Portland (OR)",
-.date = @date("2026-02-06T19:30:00"),
-.author = "Tristan Pemble",
+.date = .date("2026-02-06T19:30:00"),
 .layout = "event.shtml",
 .custom = {
   "version": 1,
@@ -11,7 +10,6 @@
   "latitude": "-122.64778",
   "longitude": "45.53556",
 },
-.draft = false,
 ---
 
 I am _very sorry_ for how long this has taken, but after a long search I am thrilled

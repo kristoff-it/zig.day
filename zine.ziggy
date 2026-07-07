@@ -1,4 +1,5 @@
-Site {
+.zine_version = "0.12.0",
+.site = .simple(.{
     .title = "Zig Day",
     .host_url = "https://zig.day",
     .content_dir_path = "content",
@@ -7,10 +8,7 @@ Site {
     .static_assets = [
         "Temml.woff2",
         "leaflet.js.map",
-        "images/marker-icon.png",
-        "images/marker-icon-2x.png",
-        "images/marker-shadow.png",
-        "images/zero.svg",
-        "images/special.svg",
+        "images",
     ],
-}
+}),
+

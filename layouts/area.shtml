@@ -82,47 +82,6 @@
 <body id="body">
 	<div :html="$page.content()"></div>
 	<div id="map"></div>
-	<ctx :if="$site.page('special').subpages().first?()">
-		<div class=special :if="$if.custom.get('start').parseDate().lt($build.generated).not()">
-			<h2>Special Events <img src="$site.asset('images/special.svg').link()"></h2>
-			<div class="cities" :loop="$site.page('special').subpages()">
-				<a href="$loop.it.link()"
-				   data-latitude="$loop.it.custom.get('latitude')"
-				   data-longitude="$loop.it.custom.get('longitude')"
-				   data-special
-				   :text="$loop.it.title"
-				></a>
-			</div>
-		</div>
-	</ctx>
-	<div :loop="$page.custom.get('areas')">
-		<ctx area="$site.page($loop.it)">
-			<h2 :text="$ctx.area.title"></h2>
-			<div class="cities" :loop="$ctx.area.subpagesAlphabetic()">
-				<a href="$loop.it.link()"
-				   data-latitude="$loop.it.custom.get('latitude')"
-				   data-longitude="$loop.it.custom.get('longitude')"
-				   :text="$loop.it.title"
-				></a>
-			</div>
-		</ctx>
-	</div>
-
-	<div>
-		<h2>Latest Events</h2>
-		<ul :loop="$page.leaves(5)">
-			<li>
-				<a href="$loop.it.link()">
-					<span :text="$loop.it.custom.get('start').parseDate().format('Jan 02 (Mon)')"></span>
-					- <span :text="$loop.it.parentSection().title"></span>
-					<ctx :if="$loop.it.parentSection().link().basename().eql('special')">
-						- <span :text="$loop.it.title"></span>
-					</ctx>
-				</a>
-			</li>
-		</ul>
-	</div>
-
 	<footer>
 		No Zig Day near you?
 		<a href="$site.page('organizer').link()">Become a Zig Day Organizer</a>

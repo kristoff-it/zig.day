@@ -1,7 +1,6 @@
 ---
 .title = "Portland (OR)",
-.date = @date("2026-04-07T17:00:00"),
-.author = "Tristan Pemble",
+.date = .date("2026-04-07T17:00:00"),
 .layout = "event.shtml",
 .custom = {
   "version": 1,
@@ -11,7 +10,6 @@
   "latitude": "-122.64778",
   "longitude": "45.53556",
 },
-.draft = false,
 ---
 
 For our May 9th event, if you're looking for ideas, we'll have a theme for you: spring cleaning!

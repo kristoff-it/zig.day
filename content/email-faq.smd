@@ -1,9 +1,7 @@
 ---
 .title = "Email FAQs",
-.date = @date("1990-01-01T00:00:00"),
-.author = "Sample Author",
+.date = .date("1990-01-01T00:00:00"),
 .layout = "page.shtml",
-.draft = false,
 --- 
 
 ## Who am I giving my email address to?

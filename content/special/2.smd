@@ -1,8 +1,7 @@
 ---
 .title = "Zigtoberfest '26",
 // Announcement date
-.date = @date("2026-09-12T00:00:00"),
-.author = "Sample Author",
+.date = .date("2026-09-12T00:00:00"),
 .layout = "special-event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
@@ -14,7 +13,6 @@
   "latitude": "11.5406626006466759",
   "longitude": "48.12187971136574",
 },
-.draft = false,
 ---
 
 Zigtoberfest is a mini-conference dedicated to the Zig programming language!

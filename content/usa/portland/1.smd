@@ -1,8 +1,7 @@
 ---
 .title = "Portland (OR)",
 // Announcement date
-.date = @date("2025-08-30T22:10:00"),
-.author = "Tristan Pemble",
+.date = .date("2025-08-30T22:10:00"),
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
@@ -14,7 +13,6 @@
   "latitude": "-122.68321567382061",
   "longitude": "45.51926598384529",
 },
-.draft = false,
 ---
 
 I am thrilled to announce <em>Zig Day Portland: Off By #1</em>, which will be

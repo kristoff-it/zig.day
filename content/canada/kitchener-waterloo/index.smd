@@ -1,17 +1,16 @@
 ---
 .title = "Kitchener-Waterloo",
-.date = @date("2025-08-06T00:00:00"),
-.author = "",
+.date = .date("2025-08-06T00:00:00"),
 .layout = "location.shtml",
-.alternatives = [{
+.alternatives = [.{
     .name = "rss",
     .layout = "location.xml",
     .output = "rss.xml",
-}, {
+}, .{
     .name = "calendar",
     .layout = "calendar.shtml",
     .output = "events.ics",
-},{
+},.{
     .name = "upcoming-event",
     .layout = "upcoming-event.shtml",
     .output = "upcoming.ics",

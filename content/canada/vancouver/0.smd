@@ -1,8 +1,7 @@
 ---
 .title = "Vancouver",
 // Announcement date
-.date = @date("2025-11-06T00:00:00"),
-.author = "Matthew Knight",
+.date = .date("2025-11-06T00:00:00"),
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.

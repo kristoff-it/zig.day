@@ -1,8 +1,7 @@
 ---
 .title = "Seattle Zig Day #1",
 // Announcement date
-.date = @date("2026-02-24T00:00:00"),
-.author = "Scott Redig",
+.date = .date("2026-02-24T00:00:00"),
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
@@ -14,7 +13,6 @@
   "longitude": "47.619932842463456",
   "latitude": "-122.19428716234691",
 },
-.draft = false,
 ---
 
 Zig Day Seattle is a full day event where you can make and learn about Software You Can Love written in Zig.  The event is focused on making friends, collaborating with each other, and honing our software engineering skills. Generally, that means working in pairs or groups to write some code and sharing it at the end of the day.

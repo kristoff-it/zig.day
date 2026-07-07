@@ -1,8 +1,7 @@
 ---
 .title = "Nuremberg",
 // Announcement date
-.date = @date("2025-12-29T18:00:00"),
-.author = "Jan Beelte",
+.date = .date("2025-12-29T18:00:00"),
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.

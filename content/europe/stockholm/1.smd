@@ -1,8 +1,7 @@
 ---
 .title = "",
 // Announcement date
-.date = @date("2025-12-25T22:10:00"),
-.author = "",
+.date = .date("2025-12-25T22:10:00"),
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
@@ -14,7 +13,6 @@
   "latitude": "18.031289280996834",
   "longitude": "59.332845206655065",
 },
-.draft = false,
 ---
 
 **Welcome to the 2nd Zig Day Stockholm!**
