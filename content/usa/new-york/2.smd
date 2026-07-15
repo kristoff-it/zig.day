@@ -1,0 +1,28 @@
+---
+.title = "",
+// Announcement date
+.date = .date("2026-07-15T19:00:00-04:00"),
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event after it went live.
+.custom = {
+  "version": 2,
+  "start": "2026-08-01T10:00:00",
+  "duration": 7,
+  "address": "The Recurse Center, Downtown Brooklyn, NY", 
+  "latitude": "40.69134",
+  "longitude": "-73.98503",
+},
+---
+
+We're grateful to [The Recurse Center](https://recurse.com) for hosting us!
+To help them out (and for the address), please RSVP via Luma [here](https://luma.com/zd8ul0il).
+
+Approximate timeline:
+
+- 10:00 – 10:30: gathering, bagels + coffee, chit-chat
+- 10:30 – 11:00: explain projects, form groups, set up workstations
+- 11:00 – 13:00: work on stuff together
+- 13:00 – 14:30: lunch break
+- 14:30 – 16:30: work on stuff together (continued)
+- 16:30 – 17:00: show others what you made and what you learned
