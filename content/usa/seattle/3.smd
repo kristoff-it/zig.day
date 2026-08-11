@@ -1,19 +1,23 @@
 ---
-.title = "Seattle Zig Day #1",
+.title = "Seattle Zig Day #3",
 // Announcement date
-.date = .date("2026-05-18T00:00:00"),
+.date = .date("2026-08-10T00:00:00"),
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
   "version": 1,
-  "start": "2026-06-13T11:00:00",
+  "start": "2026-08-30T11:00:00",
   "duration": 6,
   "address": "Meeting Room 2, Bellevue Library, 1111 110th Ave NE, Bellevue, WA 98004", 
   "longitude": "47.619932842463456",
   "latitude": "-122.19428716234691",
 },
 ---
+
+Zig Day special!  Andrew Kelley, president of the Zig Software Foundation, is planning on attending. (This is why it's on a Sunday instead of the usual Saturday.)
+
+[Please RSVP on luma.](https://luma.com/xlgchgtk)
 
 Zig Day Seattle is a full day event where you can make and learn about Software You Can Love written in Zig.  The event is focused on making friends, collaborating with each other, and honing our software engineering skills. Generally, that means working in pairs or groups to write some code and sharing it at the end of the day.
 
@@ -23,17 +27,17 @@ Learning is the key: feel free to experiment on your own, asking around when in 
 
 # Location
 
-Bellevue Library, Meeting Room 2.  (Same location, different room from last time).
+Bellevue Library, Meeting Room 2.
 
 ## Getting There
 
 ### Driving
 
-Bellevue Library has an attached parking garage with ample space.  The posted time limit is 4 hours, however you can validate your parking at the main desk so that your parking is valid all day.
+Bellevue Library has an attached parking garage with ample space.  The posted time limit is 4 hours, however you can validate your parking at the main desk so that your parking is valid the whole Zig Day.
 
 ### Public Transit
 
-The library is a 1/2 mile walk from Bellevue Transit Center and the Bellevue Downtown light rail station.  The newly expanded line 2 provides excellent connections, including to the Sounder and Amtrak train station.
+The library is a 1/2 mile walk from Bellevue Transit Center and the Bellevue Downtown light rail station.  Line 2 provides excellent connections, including to line 1 and the Sounder/Amtrak train station.  To get to the library from the station, go up the escalators and take a right.  Your path will go past Plaza Center, which is visible from the station and has vertical white stripes.
 
 # Timeline
 
@@ -51,15 +55,8 @@ The library is a 1/2 mile walk from Bellevue Transit Center and the Bellevue Dow
 
 # RSVP
 
-[Please RSVP on luma.](https://luma.com/jov5x6fw)
+[Please RSVP on luma.](https://luma.com/xlgchgtk)
 
 While you're at it, you can sign up for notifications for future events at [Get Notified]($link.page('usa/seattle')).
 
 For comments and questions, message ScottRedig on https://ziggit.dev
-
----
-
-# Retrospective:
-7 people attended!
-
-![Group photo of attendees](group.jpg "Group photo of attendees")
