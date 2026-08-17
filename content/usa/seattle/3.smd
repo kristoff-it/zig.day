@@ -6,16 +6,14 @@
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
-  "version": 2,
+  "version": 1,
   "start": "2026-08-30T11:00:00",
   "duration": 6,
-  "address": "Bellevue Library, 1111 110th Ave NE, Bellevue, WA 98004", 
+  "address": "Meeting Room 2, Bellevue Library, 1111 110th Ave NE, Bellevue, WA 98004", 
   "longitude": "47.619932842463456",
   "latitude": "-122.19428716234691",
 },
 ---
-
-*Update*: Due to the high number of RSVPs, the room in the library has changed.
 
 Zig Day special!  Andrew Kelley, president of the Zig Software Foundation, is planning on attending. (This is why it's on a Sunday instead of the usual Saturday.)
 
@@ -29,12 +27,7 @@ Learning is the key: feel free to experiment on your own, asking around when in 
 
 # Location
 
-Bellevue Library.
-
-* From 11am to 1pm: Meeting Room 1.
-* From after lunch to end: Meeting Room 2 / TBD.
-
-Due to the unexpectedly large number of RSVPs, we will not spend the whole day in meeting room 2 as originally planned.  Zig Day will be in the larger meeting room 1 until lunch.  (After which it was already booked for the rest of the day.)  Specifics are TBD on the day of, but after lunch will likely involve a split between utilizing meeting room 2 and scattering around the library.  The day will end with a final group up and discussion somewhere unobtrusive.
+Bellevue Library, Meeting Room 2.
 
 ## Getting There
 
@@ -52,8 +45,8 @@ The library is a 1/2 mile walk from Bellevue Transit Center and the Bellevue Dow
 * 11:15 - 11:45: Explain projects, form groups, setup workstations
 * 11:45 - 1:00: Work on projects
 * 1:00 - 2:00: Lunch
-* 2:00 - 4:40: Work on projects
-* 4:40 - 5:15: Show others what you built and what you learned
+* 2:00 - 5:00: Work on projects
+* 5:00 - 5:30 Show others what you built and what you learned
 
 # What to Bring
 
