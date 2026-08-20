@@ -6,14 +6,16 @@
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
-  "version": 1,
+  "version": 3,
   "start": "2026-08-30T11:00:00",
   "duration": 6,
-  "address": "Meeting Room 2, Bellevue Library, 1111 110th Ave NE, Bellevue, WA 98004", 
-  "longitude": "47.619932842463456",
-  "latitude": "-122.19428716234691",
+  "address": "Bothell Library, 18215 98th Avenue NE, Bothell, WA 98011", 
+  "longitude": "47.7603892641766",
+  "latitude": "-122.21018947858656",
 },
 ---
+
+Update 2026-08-19: Moved to Bothell library, see location for more details.
 
 Zig Day special!  Andrew Kelley, president of the Zig Software Foundation, is planning on attending. (This is why it's on a Sunday instead of the usual Saturday.)
 
@@ -27,17 +29,19 @@ Learning is the key: feel free to experiment on your own, asking around when in 
 
 # Location
 
-Bellevue Library, Meeting Room 2.
+The meeting room at Bothell Library.
+
+NOT the Bellevue Library as originally scheduled.  Apologies for the late shift to a less easily accessible location.  I originally scheduled a room with enough space to accommodate more than doubling our usual attendance.   However RSVPs are currently on track for 4 to 5 times the usual crowd.  I spent multiple hours on multiple days looking for a better location, and this was the best option I could find.  The choice was between losing out on the convenience of the location, or having to turn away people who wanted to come.
 
 ## Getting There
 
 ### Driving
 
-Bellevue Library has an attached parking garage with ample space.  The posted time limit is 4 hours, however you can validate your parking at the main desk so that your parking is valid the whole Zig Day.
+Bothell Library has a parking lot which should have enough space as it opens when Zig Day starts.  The posted time limit is 4 hours, however you can validate your parking at the main desk so that your parking is valid the whole Zig Day.
 
 ### Public Transit
 
-The library is a 1/2 mile walk from Bellevue Transit Center and the Bellevue Downtown light rail station.  Line 2 provides excellent connections, including to line 1 and the Sounder/Amtrak train station.  To get to the library from the station, go up the escalators and take a right.  Your path will go past Plaza Center, which is visible from the station and has vertical white stripes.
+Bothell Library is near several frequently running bus lines.
 
 # Timeline
 
