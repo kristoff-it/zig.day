@@ -64,3 +64,10 @@ Bothell Library is near several frequently running bus lines.
 While you're at it, you can sign up for notifications for future events at [Get Notified]($link.page('usa/seattle')).
 
 For comments and questions, message ScottRedig on https://ziggit.dev
+
+---
+
+# Retrospective:
+Around 25 people attended, larger than all of the previous Zig days combined!  We had a table of people trying Zig for the first time.  Among the projects were UI systems, rendering, servers on micro controllers, and work on Zig itself.  Of course, there was great cheer and conversation throughout.  Thanks to everyone who joined.
+
+![Group photo of most of the attendees](group.jpg "Group photo of most of the attendees")
