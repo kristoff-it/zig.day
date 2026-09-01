@@ -2,6 +2,7 @@
 .title = "Bristol",
 .date = .date("2025-08-16T00:00:00"),
 .layout = "location.shtml",
+.forbid_subsections = true,
 .alternatives = [.{
     .name = "rss",
     .layout = "location.xml",
@@ -41,7 +42,7 @@ of the Zig core team), and you can just use the day as an opportunity to learn a
 if you don't know where to start. You could even come along having never done any systems
 programming just to learn the basics!
 
-### Contacts
+# Contacts
 
 This event is organised by:
 

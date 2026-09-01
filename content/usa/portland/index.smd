@@ -2,6 +2,7 @@
 .title = "Portland, OR",
 .date = .date("2025-05-17T00:00:00"),
 .layout = "location.shtml",
+.forbid_subsections = true,
 .alternatives = [.{
     .name = "rss",
     .layout = "location.xml",
@@ -43,7 +44,7 @@ including in our field of software.
 
 This event is open to the public.
 
-### What to expect
+# What to expect
 
 A typical Zig Day in Portland runs as follows (times are approximate):
 
@@ -54,7 +55,7 @@ A typical Zig Day in Portland runs as follows (times are approximate):
 
 We plan to host Zig Day Portland approximately every 2 months.
 
-### Organizers
+# Organizers
 
 - [Tristan Pemble](https://tristanpemble.com/)
 - [Andrew Kelley](https://andrewkelley.me/)

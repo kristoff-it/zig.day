@@ -2,6 +2,7 @@
 .title = "大阪市 (Ōsaka)",
 .date = .date("2025-10-06T00:00:00"),
 .layout = "location.shtml",
+.forbid_subsections = true,
 .alternatives = [.{
     .name = "rss",
     .layout = "location.xml",
@@ -21,7 +22,7 @@
   "timezone": "Japan/Tokio",
   "latitude": "135.5024994891254",
   "longitude": "34.69400121186878",
-} 
+}
 ---
  Zig Day Osaka is a welcoming, public, collaboration-first gathering for programmers and tinkerers across every stripe of nerddom.
 
@@ -36,10 +37,10 @@ explain projects → form groups → collaborate → show & tell.
 
 The event language is pretty much going to be decide by the participants, but English would be encouraged where possible. 
 
-### Get your tickets here:
+# Get your tickets here:
 - 👉 [Peatix](https://zigday.peatix.com/)
 
-### Contacts:
+# Contacts:
 
 - **Klein Grant** [@KeiTagura](https://github.com/KeiTagura)
 - **Discord** [SSO](https://discord.gg/Sg2qBHFnDA)

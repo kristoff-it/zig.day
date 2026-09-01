@@ -2,6 +2,7 @@
 .title = "Kitchener-Waterloo",
 .date = .date("2025-08-06T00:00:00"),
 .layout = "location.shtml",
+.forbid_subsections = true,
 .alternatives = [.{
     .name = "rss",
     .layout = "location.xml",
@@ -40,7 +41,7 @@ including in our field of software.
 
 This event is open to the public.
 
-### What to expect
+# What to expect
 
 Zig days in Kitchener-Waterloo are currently organized by
 [Kristófer Reykjalín](https://thorlaksson.com/).

@@ -2,6 +2,7 @@
 .title = "Nürnberg",
 .date = .date("2025-09-30T00:00:00"),
 .layout = "location.shtml",
+.forbid_subsections = true,
 .alternatives = [.{
     .name = "rss",
     .layout = "location.xml",
@@ -43,7 +44,7 @@ It’s about learning, building, and meeting people who care about technology �
 
 This event is open to the public. Bring your curiosity, your laptop, and maybe an appetite for pretzels and vegan bratwurst ( non-vegan options available on request ;-) ).  
 
-### What to build
+## What to build
 
 Anything you find exciting! Some ideas:  
 
@@ -57,7 +58,7 @@ Anything you find exciting! Some ideas:
 
 No pressure: if all you do is fix a bug, improve docs, or learn one new keyboard shortcut, that’s still a win.  
 
-### What to expect
+## What to expect
 
 A typical day might look like this (give or take a bratwurst break):  
 
@@ -70,14 +71,14 @@ A typical day might look like this (give or take a bratwurst break):
 
 If you’re in or around Nuremberg and enjoy hacking with like-minded folks on software that might just make the world a bit better, come join us — you’ll feel right at home.
 
-### Organizers
+## Organizers
 
-#### Jan Beelte (WeStack IT)
+### Jan Beelte (WeStack IT)
 
 - **Email** : jan.beelte@westack-it.eu
 - **Discord** : @janbeelte
 
-#### Jens Saalmüller (codecentric AG)
+### Jens Saalmüller (codecentric AG)
 
 - **Email** : jens.saalmueller@codecentric.de
 - **Discord** : @kaans_iot

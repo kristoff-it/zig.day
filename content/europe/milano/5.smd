@@ -21,7 +21,7 @@ Thanks [Mollie](https://www.mollie.com/) for providing the venue for this event!
 
 **Mollie is one of Europe's fastest-growing fintechs, on a mission to make payments and money management effortless for every business in Europe.**
 
-### Goals for the day
+# Goals for the day
 
 The primary goal is learning and sharing knowledge!
 You should be able to finish the day taking away a novel concept about Zig or systems programming.
@@ -35,13 +35,13 @@ This can be done in various ways, here is a non-exhaustive list:
 
 All the attendees are encouraged to learn Zig if they are new to the language, or mentor newcomers if they are already proficient with the language.
 
-### RSVP
+# RSVP
 
 Sign up to the event via [meetup.com](https://www.meetup.com/italia-zig-user-group/events/313957250/).
 
 ---
 
-### Spotlights
+# Spotlights
 
 Major topics discussed during the day:
 
@@ -50,7 +50,7 @@ Major topics discussed during the day:
 * graphics with Raylib
 * fibers and how to use them to run tasks asynchronously
 
-### Media
+# Media
 
 ![Selfie](selfie.jpeg "selfie of Francesco with a thumbs up, group of attendees in the background")
 

@@ -17,7 +17,7 @@
 
 Thanks to the [codingbunker](https://www.codingbunker.it) community for providing the venue for this event!
 
-### Goals for the day
+# Goals for the day
 
 * Free-form building software collaboratively
 * Learning a fun and intriguing thing about Zig
@@ -25,13 +25,13 @@ Thanks to the [codingbunker](https://www.codingbunker.it) community for providin
 
 All the attendees are encouraged to learn Zig if they are new to the language, or mentor newcomers if they are already proficient with the language.
 
-### RSVP
+# RSVP
 
 Sign up to the event via [meetup.com](https://www.meetup.com/it-IT/coding-bunker/events/307353023).
 
 --- 
 
-### Spotlights
+# Spotlights
 
 The hottests topics discussed by the groups:
 
@@ -39,7 +39,7 @@ The hottests topics discussed by the groups:
 * C interop and embedded development
 * using Zig's WebAssembly target for the browser
 
-### Photos
+# Photos
 
 ![Loris kicking off the day](group1.jpg "group photo 1, Loris kicking off the event purpose and goals")
 

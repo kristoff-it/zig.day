@@ -16,11 +16,11 @@
 ---
 
 
-## About:
+# About:
 
 Make friends, collaborate, and learn. Join us for the first Zig Day in LA.
 
-## What to expect:
+# What to expect:
 
 This is a low-stakes, warm-up zig day.
 The venue is fairly small with only a single large wooden table in it for 8 people.
@@ -29,7 +29,7 @@ I can change the reservation to a larger room at the library (to accommodate 35 
 or switch libraries.
 We hope to have a monthly zig day LA. Water will be provided and maybe some donuts.
 
-## Schedule:
+# Schedule:
 
 - 10:00 AM - 10:30AM - room / workstation setup / chat
 - 10:30 AM - 11:00 AM - discuss projects, form groups, begin zig
@@ -38,19 +38,19 @@ We hope to have a monthly zig day LA. Water will be provided and maybe some donu
 - 4:15 PM - 4:45 PM - discuss what you learned, show off
 - 4:45 PM - 5::00 PM - clean up
 
-## RSVP
+# RSVP
 
 To RSVP vote on this Ziggit poll: https://ziggit.dev/t/zig-day-la-0/11023
 
-## Defer Report
+# Defer Report
 
-### Attendees
+## Attendees
 
 - Jeff Anderson
 - Charlie Schoettle
 - Logan Langdon
 
-### Spotlights
+## Spotlights
 
 ⚡ Charlie Schoettle
 
@@ -80,13 +80,13 @@ Jeff also learned how to step through a zig program line-by-line in an on-chip d
 and print text to the uart by overriding the `logFn` for `std.log`.
 Jeff demo'd using the [MicroZig](https://microzig.tech/) library to control the screen over SPI, turning it on and off.
 
-### Photos
+## Photos
 
 ![Left to right: Jeff, Charlie, Logan](group-photo.jpg "group photo, 3 dudes standing in front of a library on a grass lawn")
 
 ![Jeff's mess when installing the debug probe in his PicoCalc.](jeff-picocalc.jpg "mess of cables, circuit boards, and tools on a wooden table")
 
-### Cost
+## Cost
 
 |Description                 |Cost (USD)|Contributed By|
 |:---------------------------|---------:|-------------:|

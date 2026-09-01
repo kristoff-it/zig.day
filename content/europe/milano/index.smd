@@ -2,6 +2,7 @@
 .title = "Milano",
 .date = .date("2025-05-17T00:00:00"),
 .layout = "location.shtml",
+.forbid_subsections = true,
 .alternatives = [.{
     .name = "rss",
     .layout = "location.xml",
@@ -40,7 +41,7 @@ shared with other attendees at the end of the day.
 
 We build software with the same love we cook food!
 
-### What to expect
+# What to expect
 
 We want to have a Zig Day with monthly cadence, usually around the second
 weekend of the month. It is not certain we will do it, due to the difficulty
@@ -58,7 +59,7 @@ A typical Zig Day in Milan would run as follows (times are approximate):
 - 14:00 - 16:00: build amazing stuff (continued)
 - 16:00 - 17:00: show others what you built and what you learnt
 
-### Stay tuned
+# Stay tuned
 
 Join the community in our channels to meet other ziglers in the Bel Paese:
 
@@ -66,7 +67,7 @@ Join the community in our channels to meet other ziglers in the Bel Paese:
 - [Zig User Group Italia](https://www.meetup.com/it-IT/italia-zig-user-group)
   on `meetup.com`
 
-### Contacts
+# Contacts
 
 People making Zig Day Milano possible (in alphabetical order):
 

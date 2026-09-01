@@ -2,6 +2,7 @@
 .title = "San Francisco, CA",
 .date = .date("2025-08-24T00:00:00"),
 .layout = "location.shtml",
+.forbid_subsections = true,
 .alternatives = [.{
     .name = "rss",
     .layout = "location.xml",
@@ -26,7 +27,7 @@
 
 This is a back-to-back dual event!
 
-## Zig Day
+# Zig Day
 
 📣 Calling all Bay Area Ziglings!
 
@@ -36,7 +37,7 @@ Having a project in mind is recommended but not required.
 
 Feel free to invite a +1, even if they are not a programmer.
 
-## Hype o'clock
+# Hype o'clock
 
 Immediately following Zig Day in the same venue is a game development-focused
 meetup called **Hype o'clock Game Dev & Tea Time**. We have a very friendly
@@ -47,7 +48,7 @@ to hang out.
 Anyone attending Zig Day is welcome to stay for this event. As the name
 implies, we often take a little break to have a cup of tea.
 
-## Location
+# Location
 
 At the moment, Zig Day San Francisco is actually located in Oakland, just
 across the bay, accessible by BART or car.
@@ -57,7 +58,7 @@ for exact location details. The map indicates the location's neighborhood.
 
 Email for location: **info@hypeoclock.org**
 
-## Schedule
+# Schedule
 
 Note that there is a bit of overlap between the two events.
 

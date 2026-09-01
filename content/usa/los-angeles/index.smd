@@ -2,6 +2,7 @@
 .title = "Los Angeles, CA",
 .date = .date("2025-07-21T00:00:00"),
 .layout = "location.shtml",
+.forbid_subsections = true,
 .alternatives = [.{
     .name = "rss",
     .layout = "location.xml",

@@ -1,4 +1,7 @@
-.zine_version = "0.12.0",
+.zine_version = "0.13.0",
+.supermd = .{
+    .headings_h2 = true,
+},
 .site = .simple(.{
     .title = "Zig Day",
     .host_url = "https://zig.day",

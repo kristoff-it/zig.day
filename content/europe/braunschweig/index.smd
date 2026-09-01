@@ -2,6 +2,7 @@
 .title = "Braunschweig",
 .date = .date("2025-05-17T00:00:00"),
 .layout = "location.shtml",
+.forbid_subsections = true,
 .alternatives = [.{
     .name = "rss",
     .layout = "location.xml",
@@ -43,7 +44,7 @@ share the result and what you learnt at the end of the day.
 (But you probably already [knew that is the idea](/about))
 
 
-### What to expect
+# What to expect
 
 We want to have a Zig Day with monthly or bi-monthly cadence.
 
@@ -67,7 +68,7 @@ A typical Zig Day in Braunschweig would run as follows (times are approximate):
 - 14:00 - 16:00: build some more amazing stuff
 - 16:00 - 17:00: show others what you built and what you learnt
 
-### Attending, food & drink, allergies
+# Attending, food & drink, allergies
 
 Please contact Anthon, via the [email](mailto:zigday@ruamel.eu),
 if you are interested in attending Zig Day Braunschweig.
@@ -93,7 +94,7 @@ or any sweets/snacks food you cannot do without.
 The main occupant of the location is Coco, a cat. Most people that are mildly allergic to cats 
 have little or no problems with being in the house (she is half-bengal), but prepare as needed.
 
-### Contacts
+# Contacts
 
 * Anthon van der Neut
 / zigday@ruamel.eu
@@ -104,7 +105,7 @@ have little or no problems with being in the house (she is half-bengal), but pre
 
 ----
 
-##### About the banner image
+**About the banner image**
 
 The banner image shows [Till Eulenspiegel](https://en.wikipedia.org/wiki/Till_Eulenspiegel),
 reportedly a native of the Braunschweig area. In one of the stories he bakes owls and 

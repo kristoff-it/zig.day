@@ -15,14 +15,14 @@
 },
 ---
 
-## Introduction
+# Introduction
 Finally we have the second iteration of the Zig day format, took us almost as much time as Zig version 0.16.0! Join a community of Zig lovers in the heart of the Balkans, whether you're a seasoned veteran, or a complete beginner. This is the time and place to share you're experiences, learn something new, and actually produce some code you can love.
 
 Get your laptops charged, coffees brewed, C++ and Rust hate comments revised, your Zig compilers compiled, and std's imported, because we start at 10:00, coding our way all the way trough 18:00.
 
 Become a part of the community on [Telegram](https://t.me/zig_day_belgrade).
 
-## Format
+# Format
 We wouldn't like to keep things strict by defining a time schedule, because we agree that writing code is like making art. Sometimes it just comes out by itself, and other times not. You can't really force it.
 
 There will be a few short talks, but the emphasis of the event is on craftmanship, not passive listening.
@@ -33,12 +33,12 @@ The event language is going to be dictated by the participants, though English w
 
 The event is absolutely open to everyone, and free.
 
-## Venue
+# Venue
 The venue is [KC Magacin](https://kcmagacin.org/), a fellow non profit organization, located at Kraljevica Marka 4.
 
 Please [RSVP](https://www.meetup.com/zig_day_belgrade/events/314865497/?slug=zig_day_belgrade&eventId=314865497), and/or announce yourself in the Telegram chat, so we can plan out the food, drinks and the general logistics!
 
-## Organizers
+# Organizers
 Alphabetically sorted, coincidentally also by height:
 - Marko
 - Nothke

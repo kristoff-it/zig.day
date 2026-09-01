@@ -14,7 +14,7 @@ If you have been in the Zig community for long enough to appreciate these two cu
 Here are some quick FAQs about how this works.
 
 
-## Who will own the new Zig Day? Is there any money involved?
+# Who will own the new Zig Day? Is there any money involved?
 
 The ownership of the event is entirely yours, and of any co-organizer you might have.
 
@@ -22,7 +22,7 @@ No money will exchange hands and if some day you decide to rebrand your event
 to something else, that's entirely up to you.
 
 
-## What are the requirements for branding an event Zig Day?
+# What are the requirements for branding an event Zig Day?
 For as long as your event brands itself as a Zig Day, you are
 expected to uphold the format guidelines, specifically when it comes to:
 
@@ -47,7 +47,7 @@ As another example, if you have a specific topic or theme that you want to weave
 into the event, you are welcome to do so (e.g. focus on gamedev or a 'ladies'
 Zig Day), as long as it's not in conflict with the format guidelines.
 
-## What services will zig.day provide me?
+# What services will zig.day provide me?
 
 When a Zig Day is listed on zig.day the organizers will be able to independently
 customize their event profile page and create new events.
@@ -62,7 +62,7 @@ best every few hours).
 
 In the future zig.day might introduce native support for RSVPing to events.
 
-## Am I allowed to collect attendees info externally from zig.day?
+# Am I allowed to collect attendees info externally from zig.day?
 
 Yes, you are free to create chat groups and whatnot. Note that we will **not**
 share with you email addresses of users who sign up for email updates on zig.day.
@@ -71,7 +71,7 @@ You are also free to use any RSVP service you like, although you should be
 mindful of minimizing the number of services you require your attendees to sign
 up for.
 
-## Am I allowed to collect money from attendees?
+# Am I allowed to collect money from attendees?
 
 Yes, you are allowed, as long as the amount you ask is balanced in relation to
 expenses to run the event. It's entirely up to you to setup money collection in

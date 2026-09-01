@@ -2,6 +2,7 @@
 .title = "Београд (Belgrade)",
 .date = .date("2025-09-30T00:00:00"),
 .layout = "location.shtml",
+.forbid_subsections = true,
 .alternatives = [.{
     .name = "rss",
     .layout = "location.xml",
@@ -23,14 +24,14 @@
   "longitude": "44.81059453835043",
 }
 ---
-## Introduction
+# Introduction
 Belgrade has been Zigging for a while now, the time has come to make it a day. Join a community of Zig lovers in the heart of the Balkans, whether you're a seasoned veteran, or a complete beginner. This is the time and place to share you're experiences, learn something new, and actually produce some code you can love.
 
 Get your laptops charged, coffees brewed, C++ and Rust hate comments revised, your Zig compilers compiled, and std's imported, because we start at 10:00, coding our way all the way trough 17:00.
 
 Become a part of the community on [Telegram](https://t.me/zig_day_belgrade).
 
-## Format
+# Format
 
 We wouldn't like to keep things strict by defining a time schedule, because we agree that writing code is like making art. Sometimes it just comes out by itself, and other times not. You can't really force it.
 
@@ -38,7 +39,7 @@ The event language is going to be dictated by the participants, though English w
 
 All events are absolutely open for everyone, and free.
 
-## Organizers  
+# Organizers  
 Alphabetically sorted, coincidentally also by height:
 - Marko
 - Nothke

@@ -2,6 +2,7 @@
 .title = "València",
 .date = .date("2026-01-27T00:00:00"),
 .layout = "location.shtml",
+.forbid_subsections = true,
 .alternatives = [.{
     .name = "rss",
     .layout = "location.xml",
