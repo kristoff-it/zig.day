@@ -1,6 +1,6 @@
 ---
 .title = "Portland (OR)",
-// Announcement date
+// Announcent date
 .date = .date("2025-07-11T22:10:00"),
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the

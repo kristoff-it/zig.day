@@ -1,0 +1,74 @@
+---
+.title = "Cologne",
+.date = .date("2026-09-01T00:00:00"),
+.layout = "location.shtml",
+.forbid_subsections = true,
+.alternatives = [.{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}, .{
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
+},.{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
+}],
+.custom = {
+  "locale": "en-US",
+  "nation": "DE",
+  "timezone": "Europe/Berlin",
+  "latitude": "6.959530265140128",
+  "longitude": "50.93813103563488",
+},
+---
+# Zig Day Cologne
+
+After Nürnberg and Braunschweig, Zig Day is finally making its way to NRW!
+
+Spend the day hacking on your own project, find someone to pair with, or just show up, grab a coffee, and see where the conversations go. There’s no fixed agenda beyond building things and enjoying it.
+
+Don't worry if you're new to Zig, or programming altogether. You’ll be sitting next to people who have shipped their share of questionable code and lived to tell the tale, and most of them are more than glad to point you in the right direction.
+
+More than anything, it’s a day for the people who genuinely like this stuff: figuring out how things work, making them a little better, and writing software you can actually be proud of.
+
+We’ll be hosted at the [KalkSpace](https://kalk.space), a local hackspace in Cologne Kalk. The event is open to everyone, but space is limited, so we can only fit around 17 people. Please RSVP via https://pretix.sugar-codeconnect.de/eurozig/zig-day-cologne/.
+
+## What to build
+
+Bring whatever you’re curious about. If you’re short on ideas, here are a few directions people tend to enjoy:
+
+- A small tool that scratches your own itch and makes everyday dev work less annoying.
+- A game, especially one that squeezes onto old or unusual hardware.
+- The side project that’s been sitting in a folder waiting for you to come back to it.
+- Something useful for a community you’re part of.
+- A leaner take on a piece of software you think could be done better.
+- A contribution to an open source project you already rely on.
+
+But there’s zero pressure to do anything big. Fixing one bug, tidying up some docs, or walking away with a single new trick is a perfectly good day.
+
+## What to expect
+
+Here’s roughly how the day tends to go:
+
+- 09:30 - 10:00: gathering and chit-chat
+- 10:00 - 10:30: explain projects, form groups, setup workstations
+- 10:30 - 12:30: working on cool stuff
+- 12:30 - 14:00: lunch break
+- 14:00 - 16:00: build cool stuff (continued)
+- 16:00 - 17:00: show and tell
+
+So if you’re around Cologne and a day of tinkering with good company sounds like your thing, drop by :D
+
+## Organizers
+
+### Julian Dax
+
+Email : julian@eurozig.eu
+
+### Tila
+
+Email : xqtc@heroin.trade
+

@@ -12,7 +12,8 @@
   "address": "MIT Museum - Gambrill Center, 314 Main St, Cambridge MA", 
   "latitude": "-71.08637972955279",
   "longitude": "42.36223861159525",
-}
+},
+.draft = true,
 ---
 
 # RSVP Link
