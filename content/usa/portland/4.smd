@@ -1,0 +1,40 @@
+---
+.title = "Portland (OR)",
+.date = .date("2026-09-14T19:00:00"),
+.layout = "event.shtml",
+.custom = {
+  "version": 1,
+  "start": "2026-10-11T11:00:00",
+  "duration": 7,
+  "address": "1504 NE Broadway, Portland, OR 97232",
+  "latitude": "-122.64778",
+  "longitude": "45.53556",
+},
+---
+
+Join us for Zig Day in Portland on Sunday, October 11th at the McMenamins Broadway Pub.
+
+Whether you are new to Zig or have used it since v0.4, come meet other Zig users,
+work on something together, and share what you learn.
+
+[**PLEASE RSVP ON LUMA**](https://luma.com/i7rfzqoa) so that we can appropriately plan
+for the number of guests.
+
+What to bring:
+* A laptop and/or other hardware
+* An idea for something to work on that is open to collaboration from others,
+  or something you want to learn together.
+* **OR** if you're fresh out of ideas, come with a willingness to help out a
+  stranger with theirs!
+
+What to expect:
+* 11:00am - 11:30am: gathering and chit-chat
+* 11:30am - 12:00pm: explain projects, form groups, set up workstations
+* 12:00pm - 05:30pm: work on stuff together
+* 05:30pm - 06:00pm: show others what you built and what you learned
+
+Since we're meeting at a restaurant that can serve us food where we're working, you will
+be able to just take a break and order lunch whenever you're hungry.
+
+[**PLEASE RSVP ON LUMA**](https://luma.com/i7rfzqoa) so that we can appropriately plan
+for the number of guests.
