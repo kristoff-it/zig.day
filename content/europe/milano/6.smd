@@ -1,0 +1,41 @@
+---
+.title = "Milano",
+// Announcement date
+.date = .date("2026-09-19T12:00:00"),
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 0,
+  "start": "2026-10-24T09:30:00",
+  "duration": 8,
+  "address": "Via Edoardo Bassini, 6",
+  "latitude": "9.232388924516117",
+  "longitude": "45.47918192801711",
+}
+---
+
+For the first time, we are hosted in the PoliMi space dedicated to events.
+
+It's a new venue in a very nice part of the city, let's gather and have some fun with Zig!
+
+We have limited seats because it's not meant for workshops, there's limited room for tables.
+Please manage the RSVP carefully, if you can't join, even at last minute, let us know through the event management page on meetup.com.
+
+# Goals for the day
+
+The primary goal is learning and sharing knowledge!
+You should be able to finish the day taking away a novel concept about Zig or systems programming.
+
+This can be done in various ways, here is a non-exhaustive list:
+
+* Free-form building software collaboratively
+* Discuss the Io concurrency and asynchrony model of 0.16.0
+* Work in pair or mob on an existing Zig project
+* Explore the documentation and read the standard library source code
+
+All the attendees are encouraged to learn Zig if they are new to the language, or mentor newcomers if they are already proficient with the language.
+
+# RSVP
+
+Sign up to the event via [meetup.com](https://www.meetup.com/italia-zig-user-group/events/316611598/).
