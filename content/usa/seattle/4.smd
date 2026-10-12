@@ -1,0 +1,59 @@
+---
+.title = "Seattle Zig Day #4",
+// Announcement date
+.date = .date("2026-10-12T00:00:00"),
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 1,
+  "start": "2026-11-08T11:00:00",
+  "duration": 6,
+  "address": "Meeting Room 1, Bellevue Library, 1111 110th Ave NE, Bellevue, WA 98004", 
+  "longitude": "47.619932842463456",
+  "latitude": "-122.19428716234691",
+},
+---
+
+Zig Day Seattle is a full day event where you can make and learn about Software You Can Love written in Zig.  The event is focused on making friends, collaborating with each other, and honing our software engineering skills. Generally, that means working in pairs or groups to write some code and sharing it at the end of the day.
+
+Learning is the key: feel free to experiment on your own, asking around when in doubt; or sit down with someone else and contribute to an existing Zig project.
+
+[**Learn more about this event format.**](/about/)
+
+# Location
+
+Bellevue Library, Meeting Room 1.
+
+## Getting There
+
+### Driving
+
+Bellevue Library has an attached parking garage with ample space.  The posted time limit is 4 hours, however you can validate your parking at the main desk so that your parking is valid the whole Zig Day.
+
+### Public Transit
+
+The library is a 1/2 mile walk from Bellevue Transit Center and the Bellevue Downtown light rail station.  Line 2 provides excellent connections, including to line 1 and the Sounder/Amtrak train station.  To get to the library from the station, go up the escalators and take a right.  Your path will go past Plaza Center, which is visible from the station's street corner and has vertical white stripes.
+
+# Timeline
+
+* 11:00 - 11:15: Gathering and chit-chat
+* 11:15 - 11:45: Explain projects, form groups, setup workstations
+* 11:45 - 1:00: Work on projects
+* 1:00 - 2:00: Lunch
+* 2:00 - 4:45: Work on projects
+* 4:45 - 5:00 Show others what you built and what you learned
+* 5:00 - 5:30 Clean up room, chit-chat, and head out
+
+# What to Bring
+
+* Charged laptop.
+* An idea for something to work on that is open to collaboration from others, or something you want to learn together.
+
+# RSVP
+
+[Please RSVP on luma.](https://luma.com/titskrkz)
+
+While you're at it, you can sign up for notifications for future events at [Get Notified]($link.page('usa/seattle')).
+
+For comments and questions, message ScottRedig on https://ziggit.dev
