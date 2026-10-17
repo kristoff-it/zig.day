@@ -1,19 +1,60 @@
 ---
-.title = "",
+.title = "Zig Day Aalborg 0",
 // Announcement date
-.date = .date("2025-10-24T10:00:00"),
+.date = .date("2026-10-14T10:00:00"),
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
   "version": 1,
-  "start": "2025-11-29T09:30:00",
+  "start": "2026-10-24T09:30:00",
   "duration": 8,
-  "address": "Sophie-Germain-Straße 12, 90443 Nürnberg", 
-  "longitude": "49.44321323050901",
-  "latitude": "11.067710855189977",
+  "address": "Gasværksvej 46, 9000 Aalborg", 
+  "longitude": "57.052568519208826",
+  "latitude": "9.95883715443894",
 },
-.draft = true,
 ---
 
-Information about the event, how to RSVP.
+Join the first ever Danish Zig Day taking place in "nordens paris" Aalborg!
+The main focus of the event is to hack on projects together with like-minded enthusiasts. 
+Bring your own project or idea, or pair up with someone to work with them for the day.
+
+Anyone is welcome, beginners and long-time ziguanas alike.
+
+# What to expect
+
+Here's the outline:
+
+- *09:30 - 10:00*: Show up, say hi, setup workstations
+- *10:00 - 10:30*: present projects or ideas, form groups
+- *10:30 - 12:30*: build amazing stuff
+- *12:30 - 14:00*: lunch break
+- *14:00 - 16:00*: build amazing stuff (continued)
+- *16:00 - 17:00*: show others what you made or learned
+
+Please note that you will have to bring/get your own food. (we will probably go get something together).
+
+Bring your own laptop and as we say in denmark "Kom glad!".
+
+# What to work on
+Here are some ideas to get your mind going:
+- Make your own version of a tool you use
+- Make a small game (WASM4 anyone?)
+- Make progress on that enourmous side project you have
+- Install Zig and run your first program
+- Work on software that can benefit your local community
+- Contribute to an open source project you care about
+
+# Where is it?
+
+We will meet at **Gasværksvej 46, 9000 Aalborg**. It's a shared office space called "Gassen" and we have the common area for the day.
+From Aalborg central station you can take buses 11, 17 or 18 to *Østerport*. From there it is a fresh 15 min. walk.
+
+When you arrive, the door should be open. If not, send me an email. I will let you in.
+
+# How to sign up
+
+Please sign up for the event via email to: herlufba@proton.me
+
+If you can't make the date (or location), but would be interested in participating in a Danish zig day, consider letting me know over email regardless.
+I want to make this event work for as many people as possible!

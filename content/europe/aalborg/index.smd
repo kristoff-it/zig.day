@@ -27,8 +27,35 @@
 
 # Zig Day Aalborg
 
-A new Zig Day is born!
+Join the first Danish Zig community based in "nordens paris" Aalborg.
+The main focus of the event is to hack on projects together with like-minded enthusiasts. 
+Bring your own project or idea, or pair up with someone to work with them for the day.
+
+The event is free and for beginners and long-time ziguanas alike.
+Anyone who is interested in making software you can love in Zig is welcome!
+
+# A typical Zig day
+- *09:30 - 10:00*: Show up, say hi, setup workstations
+- *10:00 - 10:30*: present projects or ideas, form groups
+- *10:30 - 12:30*: build amazing stuff
+- *12:30 - 14:00*: lunch break
+- *14:00 - 16:00*: build amazing stuff (continued)
+- *16:00 - 17:00*: show others what you made or learned
+
+# What to work on
+
+Here are some ideas to get your mind going:
+- Make your own version of a tool you use
+- Make a small game (WASM4 anyone?)
+- Make progress on that enormous side project you have
+- Install Zig and run your first program
+- Work on software that can benefit your local community
+- Contribute to an open source project you care about
 
 # Organizers
 
-TODO
+## Herluf Baggesen
+
+**Email**: herlufba@proton.me
+
+**Discord**: @herlufb
