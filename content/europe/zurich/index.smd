@@ -1,0 +1,32 @@
+---
+.title = "Zürich",
+.date = .date("2026-10-27T00:00:00"),
+.layout = "location.shtml",
+.forbid_subsections = true,
+.alternatives = [.{
+    .name = "rss",
+    .layout = "location.xml",
+    .output = "rss.xml",
+}, .{
+    .name = "calendar",
+    .layout = "calendar.shtml",
+    .output = "events.ics",
+},.{
+    .name = "upcoming-event",
+    .layout = "upcoming-event.shtml",
+    .output = "upcoming.ics",
+}],
+.custom = {
+  "locale": "en-US",
+  "nation": "CH",
+  "timezone": "Europe/Zurich",
+  "latitude": "-0.3770197899509868",
+  "longitude": "39.46980885600718",
+},
+---
+
+# Zig Day Zürich
+TODO
+
+# Organizers
+TODO
