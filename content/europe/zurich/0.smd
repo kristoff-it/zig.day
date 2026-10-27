@@ -7,13 +7,38 @@
 // address of this event.
 .custom = {
   "version": 1,
-  "start": "2025-11-29T09:30:00",
+  "start": "2026-11-14T09:30:00",
   "duration": 8,
-  "address": "Sophie-Germain-Straße 12, 90443 Nürnberg", 
-  "longitude": "49.44321323050901",
-  "latitude": "11.067710855189977",
+  "address": "Lagerstrasse 41, 8021 Zürich",
+  "longitude": "47.377639",
+  "latitude": "8.532861",
 },
 .draft = true,
 ---
 
-Information about the event, how to RSVP.
+Join us for our very first Zig Day in Zurich on Saturday, November 14th at ZHAW Europaallee.
+
+No matter if you are new to Zig or are already experienced, the goal is to come and meet other Zig users, work on something together, and share what you learn.
+
+PLEASE RSVP ON [Luma](https://luma.com/azc64bip) because seats are limited.
+
+What to bring:
+
+ * A laptop and/or other hardware
+ * An idea for something to work on that is open to collaboration from others,
+ * or something you want to learn together.
+ * OR if you’re fresh out of ideas, come with a willingness to help out a stranger with theirs!
+
+ What to expect:
+
+| time          | activity                                  |
+| ------------- | ----------------------------------------- |
+| 09:30 - 10:00 | gathering & chat                          |
+| 10:00 - 10:30 | explain projects, form groups, get set up |
+| 10:30 - 12:30 | coding & learning                         |
+| 12:30 - 14:00 | lunch break                               |
+| 14:00 - 14:30 | reconvene & status update                 |
+| 14:30 - 16:30 | coding & learning                         |
+| 16:30 - 17:00 | show & tell                               |
+
+PLEASE RSVP ON [Luma](https://luma.com/azc64bip) because seats are limited.
