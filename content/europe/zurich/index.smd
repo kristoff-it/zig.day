@@ -1,6 +1,6 @@
 ---
 .title = "Zürich",
-.date = .date("2026-10-27T00:00:00"),
+.date = .date("2026-10-27T12:00:00"),
 .layout = "location.shtml",
 .forbid_subsections = true,
 .alternatives = [.{
@@ -22,11 +22,23 @@
   "timezone": "Europe/Zurich",
   "latitude": "8.542781357362891",
   "longitude": "47.371570223065795",
-}, 
+},
 ---
 
 # Zig Day Zürich
-TODO
+Let's bring the Swiss Zig Community together in Zurich!
+
+*PLEASE ALWAYS RSVP ON LUMA (see specific event for link).*
+
+No matter if you are new to Zig or are already experienced, the goal is to come and meet other Zig users, work on something together, and share what you learn.
+
+What to bring:
+
+ * A laptop and/or other hardware
+ * An idea for something to work on that is open to collaboration from others,
+ * or something you want to learn together.
+ * OR if you’re fresh out of ideas, come with a willingness to help out a stranger with theirs!
 
 # Organizers
-TODO
+ * [Michael Rieder](https://github.com/miried)
+ * [Elena Gavagnin](https://github.com/gavagnin)
