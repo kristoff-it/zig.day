@@ -6,12 +6,12 @@
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
-  "version": 1,
+  "version": 2,
   "start": "2026-11-14T09:30:00",
-  "duration": 8,
-  "address": "Lagerstrasse 41, 8021 Zürich",
-  "longitude": "47.377639",
-  "latitude": "8.532861",
+  "duration": 7,
+  "address": "Lagerstrasse 45, 8021 Zürich",
+  "longitude": "47.377920",
+  "latitude": "8.532429",
 },
 ---
 
