@@ -186,7 +186,9 @@
   <div>
     <h2>Past Events</h2>
     <ul :loop="$page.subpages()">
-      <li><a href="$loop.it.link()" :text="$loop.it.custom.get('start').parseDate().format('2006-01-02')"></a></li>
+      <ctx :if="$loop.it.custom.get('start').parseDate().lt($build.generated)">
+        <li><a href="$loop.it.link()" :text="$loop.it.custom.get('start').parseDate().format('2006-01-02')"></a></li>
+      </ctx>
     </ul>
   </div>
 </body>
