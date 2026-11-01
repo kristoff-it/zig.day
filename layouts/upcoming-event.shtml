@@ -8,7 +8,7 @@ DTSTAMP:<ctx :text="$build.generated.format('20060102T150405Z')"></ctx>
 DTSTART:<ctx :text="$if.custom.get('start').parseDate().format('20060102T150405')"></ctx>
 DTEND:<ctx :text="$if.custom.get('start').parseDate().add($if.custom.get('duration'), 'hour').format('20060102T150405')"></ctx>
 SUMMARY:Zig Day <ctx :text="$if.title"></ctx> #<ctx :text="$page.link().basename()"></ctx>
-DESCRIPTION:https://zig.day/<ctx :text="$if.link()"></ctx>
+DESCRIPTION:<ctx :text="$site.host_url.addPath($if.link())"></ctx>
 LOCATION:<ctx :text="$if.custom.get('address')"></ctx>
 SEQUENCE:<ctx :text="$if.custom.get('version')"></ctx>                      
 LAST-MODIFIED:<ctx :text="$build.generated.format('20060102T150405Z')"></ctx>

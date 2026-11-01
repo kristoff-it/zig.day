@@ -43,6 +43,18 @@
 			navigation: auto;
 		}
 		
+		.events {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		.events th,
+		.events td {
+			text-align: left;
+			padding: 5px 10px;
+			border-bottom: 1px solid #444;
+		}
+
 		.special h2 {
 			color: yellow;
 		}
@@ -80,29 +92,62 @@
 	</noscript>
 </head>
 <body id="body">
+	<h1 :text="$page.title"></h1>
 	<div :html="$page.content()"></div>
 	<div id="map"></div>
+	<div id="locations" hidden data-area="$page.link()" :loop="$page.subpages()">
+		<a href="$loop.it.link()"
+		   data-latitude="$loop.it.custom.get('latitude')"
+		   data-longitude="$loop.it.custom.get('longitude')"
+		   :text="$loop.it.title"
+		></a>
+	</div>
+	<p :if="$page.link().basename().eql('special').not()">
+		You can <a href="$page.link().suffix('events.ics').prefix('webcal://zig.day')">subscribe to the calendar</a> of all events in this region.
+	</p>
+	<h2>Upcoming Zig Days</h2>
+	<table class="events">
+		<thead>
+			<tr><th>Date</th><th>City</th><th>Event</th></tr>
+		</thead>
+		<tbody :loop="$page.leaves()">
+			<ctx :if="$loop.it.custom.get('start').parseDate().lt($build.generated).not()">
+				<tr>
+					<td :text="$loop.it.custom.get('start').parseDate().format('2006-01-02')"></td>
+					<td><a href="$loop.it.parentSection().link()" :text="$loop.it.parentSection().title"></a></td>
+					<td><a href="$loop.it.link()" :text="$loop.it.link().basename().prefix('#')"></a></td>
+				</tr>
+			</ctx>
+		</tbody>
+	</table>
+
 	<footer>
 		No Zig Day near you?
 		<a href="$site.page('organizer').link()">Become a Zig Day Organizer</a>
 	</footer>
 	<script>
-		var map = L.map('map').setView([35, 0], 1);
+		var map = L.map('map', { zoomSnap: 0.25 }).setView([35, 0], 1);
 		L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			maxZoom: 10,
 			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 		}).addTo(map);
 
-	var ZeroIcon = L.icon({ iconUrl: "images/zero.svg",	iconSize: [46, 46]});
-	var SpecialIcon = L.icon({iconUrl: "images/special.svg", iconSize: [46, 46]});
+	var ZeroIcon = L.icon({ iconUrl: "/images/zero.svg",	iconSize: [46, 46]});
+	var SpecialIcon = L.icon({iconUrl: "/images/special.svg", iconSize: [46, 46]});
 
 	const locations = document.querySelectorAll('a[data-longitude]');
+	const areaSpecial = document.getElementById('locations').dataset.area == '/special/';
+	const bounds = [];
 	for (let idx = locations.length - 1; idx >=0; idx -= 1) {
 		const e = locations[idx];
-		const special = e.dataset.special != undefined;
+		const special = areaSpecial || e.dataset.special != undefined;
+		bounds.push([+e.dataset.longitude, +e.dataset.latitude]);
 		let marker = L.marker([e.dataset.longitude, e.dataset.latitude] ,
 			{ icon: special ? SpecialIcon : ZeroIcon, zIndexOffset: special ? 10 : 0 }).addTo(map);
 		marker.bindPopup(e.outerHTML);
+	}
+	if (bounds.length > 0) {
+		map.fitBounds(bounds, { padding: [30, 30], maxZoom: 8, animate: false });
 	}
 	</script>
 </body>
