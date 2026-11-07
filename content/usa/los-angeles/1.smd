@@ -1,15 +1,15 @@
 ---
 .title = "",
 // Announcement date (NOT the event start date)
-.date = .date("2026-11-7T09:30:00"),
+.date = .date("2026-11-07T09:30:00"),
 .layout = "event.shtml",
 // You **MUST** increase 'version' if you edit the date, the duration or the
 // address of this event.
 .custom = {
     "version": 0,
-    "start": "2026-12-5T10:00:00",
+    "start": "2026-12-05T10:00:00",
     "duration": 7,
-    "address": "Peninsula Center Library, Conference Room 701 Silver Spur Rd #3603, Rolling Hills Estates, CA 90274",
+    "address": "Peninsula Center Library, Conference Room, 701 Silver Spur Rd #3603, Rolling Hills Estates, CA 90274",
     "longitude": "33.770720595310486",
     "latitude": "-118.3707861020169",
 },
