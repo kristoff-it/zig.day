@@ -1,0 +1,50 @@
+---
+.title = "",
+// Announcement date (NOT the event start date)
+.date = .date("2026-11-7T09:30:00"),
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+    "version": 0,
+    "start": "2026-12-5T10:00:00",
+    "duration": 7,
+    "address": "Peninsula Center Library, Conference Room 701 Silver Spur Rd #3603, Rolling Hills Estates, CA 90274",
+    "longitude": "33.770720595310486",
+    "latitude": "-118.3707861020169",
+},
+---
+
+
+# About:
+
+Make friends, collaborate, and learn. Welcome to the second ever Zig Day LA.
+
+# What to expect:
+
+This Zig Day is still fairly small and the expected attendance is < 10 people.
+It is held in a conference room in the Peninsula Center Library in RPV. The location was selected because it
+is close to me, low rental cost, fits up to 21 people, and is within walking distance of a shopping center with
+a few restaurants for lunch.
+
+- wheelchair accessible
+- air conditioned
+- power outlets, internet
+- chairs, table,
+- restrooms with water fountains
+- parking on-site (recommended to go to the rear of library to park at the top of parking structure)
+- electric car charger (paid)
+
+Two PCB badges (beta badge and final version) from SYCL 2026 will be loaned out to community members until the next Zig Day LA.
+
+# Schedule:
+- 10:00 AM - 10:30AM - room / workstation setup / chat
+- 10:30 AM - 1:00 PM - discuss projects, form groups, begin zig
+- 1:00 PM - 2:00 PM - go to local restaurant for bite to eat
+- 2:00 PM - 4:15 PM - continue zig
+- 4:15 PM - 4:45 PM - discuss what you learned, show off
+- 4:45 PM - 5:00 PM - clean up
+
+# RSVP
+
+To RSVP vote on this Ziggit poll: TODO
