@@ -1,0 +1,46 @@
+---
+.title = "Vancouver",
+// Announcement date
+.date = .date("2026-11-07T00:00:00"),
+.layout = "event.shtml",
+// You **MUST** increase 'version' if you edit the date, the duration or the
+// address of this event.
+.custom = {
+  "version": 0,
+  "start": "2026-12-12T09:30:00",
+  "duration": 7,
+  "address": "220 Cambie St, Vancouver BC", 
+  "longitude": "49.284038668292375",
+  "latitude": "-123.10892138200788",
+},
+.draft = false,
+---
+
+Bring your ugly sweaters and be prepared to ingest an ungodly amount of hot
+cocoa. Global Relay is hosting us!
+
+The primary goal of Zig Day is to make friends, collaborate with each other, and
+hone our software (and hardware!) engineering skills. Generally, that means
+working in pairs or groups to write some code and share it at the end of the
+day.
+
+Learning is the key: feel free to experiment on your own, asking around when in
+doubt; or sit down with someone else and contribute to an existing Zig project.
+
+There are no constraints for what to do during the Zig Day. If you’re looking
+for inspiration, try to come up with ideas to strengthen our local community.
+Volunteer organizations and nonprofits often can use all the help they can get,
+including in our field of software.
+
+# RSVP
+
+There is limited space. Please RSVP using this [Luma Link](https://luma.com/6xq9ui9d).
+
+# Agenda
+
+- 09:30 - 10:00: Gathering and chit-chat
+- 10:00 - 10:30: Explain projects, form groups, setup workstations
+- 10:30 - 12:30: Work on stuff together
+- 12:30 - 02:00: Lunch break
+- 02:00 - 04:00: Timmies run and work on stuff together (continued)
+- 04:00 - 04:30: Show others what you built and what you learned
