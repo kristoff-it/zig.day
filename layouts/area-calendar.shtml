@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zig Day//Events Calendar//EN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+<ctx url="$page.link().suffix('events.ics')">SOURCE;VALUE=URI:<ctx :text="$site.host_url.addPath($ctx.url)"></ctx>
+URL:<ctx :text="$site.host_url.addPath($ctx.url)"></ctx></ctx><ctx :loop="$page.leaves()">
+BEGIN:VEVENT
+UID:<ctx :text="$loop.it.custom.get('start').parseDate().format('2006_01_02').suffix('_', $page.title, '_', $loop.it.parentSection().title)"></ctx>@zig.day
+DTSTAMP:<ctx :text="$build.generated.format('20060102T150405Z')"></ctx>
+DTSTART:<ctx :text="$loop.it.custom.get('start').parseDate().format('20060102T150405')"></ctx>
+DTEND:<ctx :text="$loop.it.custom.get('start').parseDate().add($loop.it.custom.get('duration'), 'hour').format('20060102T150405')"></ctx>
+SUMMARY:Zig Day <ctx :text="$loop.it.parentSection().title"></ctx> #<ctx :text="$loop.it.link().basename()"></ctx>
+DESCRIPTION:<ctx :text="$site.host_url.addPath($loop.it.link())"></ctx>
+LOCATION:<ctx :text="$loop.it.custom.get('address')"></ctx>
+SEQUENCE:<ctx :text="$loop.it.custom.get('version')"></ctx>
+LAST-MODIFIED:<ctx :text="$build.generated.format('20060102T150405Z')"></ctx>
+END:VEVENT</ctx>
+END:VCALENDAR
