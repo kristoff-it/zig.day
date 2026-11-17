@@ -17,6 +17,10 @@
 			border-bottom: 2px solid;
 			padding: 5px 0;
 		}
+
+		h2 a {
+			text-decoration: none;
+		}
 		.cities > a {
 			display:block;
 			background-color: #333;
@@ -97,7 +101,7 @@
 	</ctx>
 	<div :loop="$page.custom.get('areas')">
 		<ctx area="$site.page($loop.it)">
-			<h2 :text="$ctx.area.title"></h2>
+			<h2><a href="$ctx.area.link()" :text="$ctx.area.title"></a></h2>
 			<div class="cities" :loop="$ctx.area.subpagesAlphabetic()">
 				<a href="$loop.it.link()"
 				   data-latitude="$loop.it.custom.get('latitude')"
